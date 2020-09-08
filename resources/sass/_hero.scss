@@ -1,0 +1,45 @@
+// Hero section
+.hero-section {
+
+    .hero-img {
+        background-image: url(/img/hero-image.JPG);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: auto;
+
+        .hero-overlay {
+
+            @include for-desktop-up {
+                height: 105vh;
+            }
+
+            background-color: $dark-overlay;
+            font-size: 25px;
+            height: 100vh;
+            line-height: 42px;            
+            text-align: center;         
+
+            @include for-desktop-up {
+        
+                .title-container {               
+                    max-width: 580px;
+                    align-items: center;
+                    justify-content: center;
+                    margin: 0 auto;
+                    padding: 6% 0;
+                }
+            }
+        
+            h1 {
+                padding: 20% 1%;
+
+                @include for-desktop-up { 
+
+                    padding: 20% 5% 5% 5%;
+                }
+            }                
+                                
+        }
+    }
+}    

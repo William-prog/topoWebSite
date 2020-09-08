@@ -1,0 +1,42 @@
+footer {    
+
+    .dirt-background {
+        background-image: url(/img/dirt.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 13rem;
+        margin-top: 55rem;
+    }
+
+    .footer-elements {
+        background-color: $black-color;
+        color: $white-color;
+
+        p {
+            padding: 3rem 1.5rem;
+        }
+
+        .site-map {
+
+            a {
+                color: $white-color;
+                display: block;
+                padding: .8rem 0;
+                text-decoration: none;
+            }
+        }
+
+        .social {
+
+            display: flex;
+            justify-content: center;
+            padding-top: 1.2rem;
+
+            img {
+                padding: 0 2rem;
+                width: 2.5rem;
+            }
+        }
+    }
+}

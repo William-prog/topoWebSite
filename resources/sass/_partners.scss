@@ -1,0 +1,84 @@
+.partners-section {
+    
+    .partners-img {
+        background-image: url(/img/hero-image.JPG);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: auto;
+
+        .partners-overlay {
+            background-image: $orange-gradient-transparent;
+            font-size: 1.5rem;
+            height: 70vh;
+            line-height: 42px;  
+            
+            @include for-desktop-up {
+                
+                h1 {
+                    font-size: 48px;
+                    margin-left: 3rem;                    
+                    text-align: left;
+                }
+            }            
+        }
+
+        .container {            
+            margin-left: auto;
+            margin-right: auto;
+            width: 90%;            
+
+            .map-img {
+                width: 20rem;
+            }
+            
+            .state-name {
+                font-size: 1.5rem;
+
+                @include for-desktop-up {
+                    font-size: 1.75rem;
+                    margin: 0 auto;
+                    width: 50%;
+                }
+            }
+        }
+
+
+        @include for-desktop-up {
+
+            .map-container {
+                position: relative;
+                right: 0;
+                top: -13rem;
+                left: 13rem;
+
+                align-items: center;
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                width: 50%;
+    
+                img {
+                    position: relative;
+                    left: 3rem;
+                    top: -2rem;
+                }
+
+                .state-info {
+                    margin-bottom: 4rem;
+                    margin-left: -5rem;
+                }
+            }            
+        }
+
+        .partners-box {
+            position: relative;
+            top: -2.5rem;
+
+            @include for-desktop-up {
+                top: -10.5rem;
+                width: 65%;
+
+            }
+        }
+    }
+}

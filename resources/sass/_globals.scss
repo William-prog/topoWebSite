@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html {
+    background-color: $pale-color;
+    box-sizing: border-box;
+    font-size: 100%;
+    font-family: 'Roboto', sans-serif;        
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    width: 100%;
+
+    @include for-desktop-up {
+
+        .wrapper {
+            margin: 0 auto;
+            width: 85%;
+        }
+    }
+}
+
+@include for-desktop-up {
+
+    .service-button {
+        margin-right: 3rem;
+    }
+}
+
+.text-center {
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+    
+    &-jc-sp {
+        justify-content: space-between;
+    }
+
+    &-ai-c {
+        align-items: center;
+    }
+
+    &-jc-sa {
+        justify-content: space-around;
+    }
+}
+
+// grids
+.col-4 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.col-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+// marign top
+.mt-lg {
+    margin-top: 15rem;
+}
+
+.mt-m {
+    margin-top: 10rem;
+}
+
+.mt-s {
+    margin-top: 5rem;
+}
+
+.mt-xs {
+    margin-top: 3rem;
+}
+
+// marign right
+.mr-lg {
+    margin-right: 15rem;
+}
+
+.mr-m {
+    margin-right: 10rem;
+}
+
+.mr-s {
+    margin-right: 5rem;
+}
+
+.mr-xs {
+    margin-right: 3rem;
+}
+// marign bottom
+.mb-lg {
+    margin-bottom: 15rem;
+}
+
+.mb-m {
+    margin-bottom: 10rem;
+}
+
+.mb-s {
+    margin-bottom: 5rem;
+}
+
+.mb-xs {
+    margin-bottom: 3rem;
+}
+
+// padding top
+.pt-lg {
+    padding-top: 15rem;
+}
+
+.pt-m {
+    padding-top: 10rem;
+}
+
+.pt-s {
+    padding-top: 5rem;
+}
+
+.pt-xs {
+    padding-top: 3rem;
+}
+
+// padding bottom
+.pb-lg {
+    padding-bottom: 15rem;
+}
+
+// padding top
+.pb-m {
+    padding-bottom: 10rem;
+}
+
+.pb-s {
+    padding-bottom: 5rem;
+}
+
+.pb-xs {
+    padding-bottom: 3rem;
+}
+
+.pb-xxs {
+    padding-bottom: 1.5rem;
+}
+
+.radius-20 {
+    border-radius: 20px;
+}
+
+.orange-text {
+    color: $orange-text;
+}
+
+.white-text {
+    color: $white-color;
+}
+
+.black-text {
+    color: $black-color;
+}
+
+.gray-text {
+    color: $gray-text;
+}
+
+.white-bg {
+    background-color: $white-color;
+}
+
+.black-bg {
+    background-color: $black-color;
+}
+
+.button-gradient {
+    background: linear-gradient(180deg, #FF781F 12.33%, #EC8F52 93.15%);
+    border-radius: 20px;
+    color: $white-color;
+    font-weight: 900;
+    text-align: center;
+    text-decoration: none;
+    padding: 13px 25px;    
+}
+
+.shadow {
+    box-shadow: 0px 4px 3px 1px rgba(0, 0, 0, 0.25);
+}

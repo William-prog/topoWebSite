@@ -1,0 +1,86 @@
+// History section
+.history-section {
+
+    .history-frame {
+
+        @include for-desktop-up {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+
+            .history-container {
+                align-self: center;
+                height: min-content;
+                position: initial;
+            }
+        }
+
+        margin: 0 auto;
+        position: relative;
+        width: 95%;
+        
+        img {
+            width: 100%;
+
+            @include for-desktop-up {
+                margin: 10% 0% 0% 10%;
+                width: 125%;
+            }
+        }
+
+        .orange-square {
+            background-image: $orange-gradient-color;
+            bottom: 20rem;
+            height: 11rem;
+            margin: 0 auto;
+            position: absolute;
+            width: 85%;            
+            z-index: -1;
+
+            @include for-desktop-up {
+                height: 75%;   
+                left: 0;
+                position: absolute;
+                top: 0;
+                width: 60%;
+                z-index: -3;
+            }
+        }
+
+        .history-container {
+            background-color: $black-color;
+            bottom: 3rem;
+            color: $white-color;
+            position: relative;
+            z-index: -2;
+
+            @include for-desktop-up {
+                bottom: 0;
+                padding-left: 15rem;
+            }
+
+            h4 {
+                font-size: 1.4rem;
+                padding: 4rem 2rem 2rem 2rem;
+
+                @include for-desktop-up {
+                    font-size: 1.75rem;      
+                    max-width: 325px;              
+                    padding: 2.5rem 0rem 2.5rem 0rem;       
+                    text-align: left;
+
+                }
+            }
+
+            p {
+                padding: 0rem 1rem 2rem 1rem;
+
+                @include for-desktop-up {
+                    font-size: 1.25rem;
+                    max-width: 290px;
+                    padding: 0rem 0rem 2.5rem 0rem;
+                    text-align: left;
+                }
+            }
+        }
+    }
+}

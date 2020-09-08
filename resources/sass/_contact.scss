@@ -1,0 +1,91 @@
+// contact section
+.contact-section {
+
+    .contact-img {
+        background-image: url(/img/hero-image.JPG);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: auto;
+
+        .contact-overlay {
+            background-image: $orange-gradient-transparent;
+            font-size: 1.5rem;
+            height: 100vh;
+            line-height: 42px;         
+            
+            @include for-desktop-up {
+
+                h1 {
+                    font-size: 48px;
+                    margin-left: 3rem;                    
+                    text-align: left;
+                }
+            }
+        }
+
+        .container {            
+            margin-left: auto;
+            margin-right: auto;
+            width: 90%;            
+
+            .form-container {
+                input {
+                    background-color: $gray-input-color;
+                    border: 1px solid $gray-input-color;
+                    border-radius: 15px;    
+                    color: $white-color;                                
+                    margin: 0 0 .75rem 0; 
+                    padding: .75rem 0;
+                    width: 90%;
+                }
+
+                input[type='text']::placeholder {                       
+                    font-weight: 900;
+                }
+
+                .form-button-container {
+                    margin-top: 1rem;
+                    padding-bottom: 2.5rem;
+                }
+            }
+        }
+
+        @include for-desktop-up {
+
+            .form-position {
+                position: relative;
+                top: 0;
+                left: 18%;
+                top: -40%;
+                width: 42%;
+            }
+        }        
+
+        .contact-info-container {
+            align-items: center;
+            display: flex;
+            font-size: 1.2rem;
+            justify-content: flex-start;
+
+            img {
+                font-size: 3.5rem;
+            }
+        }
+
+        .extra-info-position {
+            position: relative; 
+            top: -12rem;
+            width: 80%;
+
+            .contact-info-container {
+
+                img {
+                    margin-left: 1rem;
+                    margin-right: 1.25rem;
+                    width: 45px;
+                }
+            }
+        }
+    }    
+}
