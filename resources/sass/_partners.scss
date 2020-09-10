@@ -10,11 +10,13 @@
         .partners-overlay {
             background-image: $orange-gradient-transparent;
             font-size: 1.5rem;
-            height: 70vh;
+            height: 100vh;
             line-height: 42px;  
             
             @include for-desktop-up {
                 
+                height: 85vh;
+
                 h1 {
                     font-size: 48px;
                     margin-left: 3rem;                    

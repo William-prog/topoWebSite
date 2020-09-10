@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/app.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Servicios y Equipos TOPO S.A. de C.V.</title>
 </head>
 <body>
@@ -83,7 +84,7 @@
 
             <section class="history-section text-center pt-s pb-s">
                 <div class="history-frame">                                                   
-                    <img src="img/history-image.jpg" alt="" class="radius-20">                    
+                    <img data-aos="fade-right" data-aos-duration="750" src="img/history-image.jpg" alt="" class="radius-20">                    
                     <div class="history-container radius-20">
                         <h4>Más de <span class="orange-text">25 años</span>  de experiencia en la industria minera</h4>
                         <p>
@@ -111,7 +112,7 @@
                     <div class="partners-img radius-20">
                         <div class="partners-overlay radius-20">
                             <h1 class=" white-text pt-xs pb-xs">Clientes y socios</h1>                                
-                            <div class="black-bg container map-container radius-20  white-text">                                                                
+                            <div  data-aos="fade-down" data-aos-duration="750" class="black-bg container map-container radius-20  white-text">                                                                
                                 <img src="img/map.png" alt="mapa de la república mexicana" class="pt-xs map-img">
                                 <div class="state-info">
                                     <h2>Hemos <span class="orange-text"> visitado: </span> </h2>                                                    
@@ -132,7 +133,7 @@
                                 </div>
                             </div>
 
-                            <div class="gray-text  white-bg container mt-s radius-20 partners-box shadow">                    
+                            <div data-aos="fade-right" data-aos-duration="750" class="gray-text white-bg container mt-s radius-20 partners-box shadow">                    
                                 <h2 class="pt-xs pb-xs">Socios</h2>
                                 <div class="customer-logos">
                                     <img class="slide" src="img/partners/penoles-logo.png" alt="peñoles" class="partner-img" style="width: 10rem;">
@@ -152,7 +153,7 @@
                 <div class="contact-img radius-20">
                     <div class="contact-overlay radius-20">
                         <h1 class=" white-text pt-xs pb-xs">Contácto</h1>                                
-                        <div class="black-bg container form-position radius-20  white-text">
+                        <div data-aos="fade-right" data-aos-duration="750" class="black-bg container form-position radius-20  white-text">
                             <h2 class="pt-xs pb-xs"> <span class="orange-text">Comunícate</span> con nosotros</h2>                    
                             <div class="form-container">
                                 <form action="">
@@ -168,9 +169,9 @@
                             </div>
                         </div>
 
-                        <div class="gray-text  white-bg container extra-info-position shadow radius-20 pb-xs">                                                
+                        <div data-aos="fade-right" data-aos-duration="750" class="gray-text  white-bg container extra-info-position shadow radius-20 pb-xs mt-s">                                                
                             <h2 class="pt-xs pb-xs">Información adicional de contácto</h2>
-                            <div class="col-2">
+                            <div class="extra-info-column">
                                 <div class="map-container radius-20">                                                  
                                     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1834.1830784091885!2d-102.8918168!3d23.1568326!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86830be391db3911%3A0xbe388955ea1b0ef6!2sServicios%20y%20Equipos%20Topo%20S.A.%20DE%20C.V.!5e0!3m2!1ses-419!2smx!4v1575931759306!5m2!1ses-419!2smx" 
                                         class="radius-20"
@@ -235,3 +236,8 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
 <!-- slider -->
 <script src="js/slider.js"></script>
+<!-- AOS fade animation library -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>

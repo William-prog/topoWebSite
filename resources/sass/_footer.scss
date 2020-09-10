@@ -5,8 +5,13 @@ footer {
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-        height: 13rem;
+        height: 15rem;
         margin-top: 55rem;
+
+        @include for-desktop-up {
+            margin-top: 464px;
+            width: 100%;
+        }
     }
 
     .footer-elements {

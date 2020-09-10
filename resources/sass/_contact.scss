@@ -11,10 +11,12 @@
         .contact-overlay {
             background-image: $orange-gradient-transparent;
             font-size: 1.5rem;
-            height: 100vh;
+            height: 120vh;
             line-height: 42px;         
             
             @include for-desktop-up {
+
+                height: 100vh;
 
                 h1 {
                     font-size: 48px;
@@ -69,21 +71,30 @@
             justify-content: flex-start;
 
             img {
-                font-size: 3.5rem;
+                width: 2.5rem;                
+                margin: 0 .25rem 0 1.25rem;
             }
         }
 
-        .extra-info-position {
-            position: relative; 
-            top: -12rem;
-            width: 80%;
+        @include for-desktop-up {
+        
+            .extra-info-position {
+                position: relative; 
+                top: -12rem;
+                width: 80%;
 
-            .contact-info-container {
+                .contact-info-container {
 
-                img {
-                    margin-left: 1rem;
-                    margin-right: 1.25rem;
-                    width: 45px;
+                    img {
+                        margin-left: 1rem;
+                        margin-right: 1.25rem;
+                        width: 45px;
+                    }
+                }
+
+                .extra-info-column {
+                    display: grid;
+                    grid-template-columns: repeat(2, 1fr);
                 }
             }
         }
