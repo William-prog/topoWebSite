@@ -7,7 +7,7 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Servicios y Equipos TOPO S.A. de C.V.</title>
 </head>
-<body>
+<body onload="SmoothScroll(document,120,12)">
     <header>
         <nav class="flex flex-jc-sb flex-ai-c hide-desktop">
             <a href="/">
@@ -241,3 +241,5 @@
 <script>
   AOS.init();
 </script>
+<!-- Smooth scroll -->
+<script src="js/smoothScroll.js"></script>
