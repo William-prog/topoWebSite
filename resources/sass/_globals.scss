@@ -189,6 +189,14 @@ main {
     padding: 13px 25px;    
 }
 
+.button-gradient:hover {
+    background-color:#ffa56a;
+    background-image:linear-gradient(to right, #ffa56a 0%, #ffb27e 40%, #ffc097 100%);
+    background-repeat:no-repeat;
+    background-size: 200% 100%; 
+    transition:background-size 1s, background-color 3s;
+}
+
 .shadow {
     box-shadow: 0px 4px 3px 1px rgba(0, 0, 0, 0.25);
 }

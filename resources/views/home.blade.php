@@ -163,7 +163,7 @@
                                     <input type="text" placeholder="Departamento al que se dirige" class="mt-xs">
                                     <input type="text" placeholder="Mensaje" class="mt-xs">
                                     <div class="form-button-container">
-                                        <a href="#" class="button-gradient">Contácto</a>      
+                                        <a href="#" class="button-gradient">Enviar</a>      
                                     </div>
                                 </form>                                                                                               
                             </div>
@@ -232,6 +232,8 @@
 </html>
 <!-- jQuery CDN -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- Smooth scroll -->
+<script src="js/smoothScroll.js"></script>
 <!-- slick carousel CDN -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
 <!-- slider -->
@@ -241,5 +243,3 @@
 <script>
   AOS.init();
 </script>
-<!-- Smooth scroll -->
-<script src="js/smoothScroll.js"></script>

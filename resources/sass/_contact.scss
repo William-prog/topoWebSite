@@ -1,6 +1,17 @@
 // contact section
 .contact-section {
 
+    input:focus {
+        outline: none !important;
+        border:1px solid $orange-text;
+        box-shadow: 0 0 2px $orange-text;
+    }
+
+    ::placeholder {
+        color: rgba(255, 255, 255, 0.500);
+        font-size: 1.15rem;
+    }
+
     .contact-img {
         background-image: url(/img/hero-image.JPG);
         background-position: center;
@@ -40,10 +51,14 @@
                     margin: 0 0 .75rem 0; 
                     padding: .75rem 0;
                     width: 90%;
+                    box-sizing: border-box;
+                    font-weight: 900;                    
+                    padding-left: 25px;
+                    padding-right: 25px;
                 }
 
                 input[type='text']::placeholder {                       
-                    font-weight: 900;
+                    font-weight: 900;   
                 }
 
                 .form-button-container {
