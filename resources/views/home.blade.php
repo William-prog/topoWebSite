@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="img/favicon.png"/>
     <link rel="stylesheet" href="css/app.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Servicios y Equipos TOPO S.A. de C.V.</title>
@@ -156,11 +157,17 @@
                         <div data-aos="fade-right" data-aos-duration="750" class="black-bg container form-position radius-20  white-text">
                             <h2 class="pt-xs pb-xs"> <span class="orange-text">Comunícate</span> con nosotros</h2>                    
                             <div class="form-container">
-                                <form action="">
+                                <form action="">                                    
                                     <input type="text" placeholder="Nombre completo">
                                     <input type="text" placeholder="Correo electrónico" class="mt-xs">
                                     <input type="text" placeholder="Asunto" class="mt-xs">
-                                    <input type="text" placeholder="Departamento al que se dirige" class="mt-xs">
+                                    <select name="" id="">
+                                        <option value="" disabled selected>Departamento al que dirige</option>
+                                        <option value="Recursos humanos">Recursos humanos</option>
+                                        <option value="Servicio a clientes">Servicio a clientes</option>
+                                        <option value="Compras">Compras</option>
+                                        <option value="Gerencia">Gerencia</option>
+                                    </select>
                                     <input type="text" placeholder="Mensaje" class="mt-xs">
                                     <div class="form-button-container">
                                         <a href="#" class="button-gradient">Enviar</a>      

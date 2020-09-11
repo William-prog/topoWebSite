@@ -1,9 +1,14 @@
 // Mobile menu
 header {
+
+    .hide-mobile {
+        display: none;
+    }
     
     nav {
         background-color: $white-color;
         border: 1px solid $black-color;
+        padding: 10px;
 
         a {
             color: $black-color;
@@ -11,7 +16,7 @@ header {
             text-transform: uppercase;
 
             .logo {
-                width: 55%;
+                width: 35%;
             }
         }
     }

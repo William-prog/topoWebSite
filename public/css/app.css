@@ -233,9 +233,14 @@ main {
   box-shadow: 0px 4px 3px 1px rgba(0, 0, 0, 0.25);
 }
 
+header .hide-mobile {
+  display: none;
+}
+
 header nav {
   background-color: #fff;
   border: 1px solid #333;
+  padding: 10px;
 }
 
 header nav a {
@@ -245,7 +250,7 @@ header nav a {
 }
 
 header nav a .logo {
-  width: 55%;
+  width: 35%;
 }
 
 @media (max-width: 599px) {
@@ -579,10 +584,11 @@ section .service-container .service-item p {
   }
 }
 
-.contact-section input:focus {
+.contact-section input:focus,
+.contact-section select {
   outline: none !important;
-  border: 1px solid #FF781F;
-  box-shadow: 0 0 2px #FF781F;
+  margin: 0;
+  padding: 0;
 }
 
 .contact-section ::-moz-placeholder {
@@ -600,7 +606,8 @@ section .service-container .service-item p {
   font-size: 1.15rem;
 }
 
-.contact-section ::placeholder {
+.contact-section ::placeholder,
+.contact-section select {
   color: rgba(255, 255, 255, 0.5);
   font-size: 1.15rem;
 }
@@ -638,16 +645,16 @@ section .service-container .service-item p {
   width: 90%;
 }
 
-.contact-section .contact-img .container .form-container input {
+.contact-section .contact-img .container .form-container input,
+.contact-section .contact-img .container .form-container select {
   background-color: #6F6D6D;
-  border: 1px solid #6F6D6D;
+  border: select1px solid #6F6D6D;
   border-radius: 15px;
   color: #fff;
   margin: 0 0 0.75rem 0;
   padding: 0.75rem 0;
   width: 90%;
   box-sizing: border-box;
-  font-weight: 900;
   padding-left: 25px;
   padding-right: 25px;
 }
@@ -664,7 +671,8 @@ section .service-container .service-item p {
   font-weight: 900;
 }
 
-.contact-section .contact-img .container .form-container input[type=text]::placeholder {
+.contact-section .contact-img .container .form-container input[type=text]::placeholder,
+.contact-section .contact-img .container .form-container select {
   font-weight: 900;
 }
 
@@ -679,7 +687,7 @@ section .service-container .service-item p {
     top: 0;
     left: 18%;
     top: -40%;
-    width: 42%;
+    width: 25rem;
   }
 }
 
