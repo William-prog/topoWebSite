@@ -51,6 +51,7 @@
                 </div>            
             </div>
         </section>
+
         <div class="wrapper">
             <section class="service-section text-center">
                 <div class="service-container pb-xxs">
@@ -117,19 +118,17 @@
                                 <img src="img/map.png" alt="mapa de la república mexicana" class="pt-xs map-img">
                                 <div class="state-info">
                                     <h2>Hemos <span class="orange-text"> visitado: </span> </h2>                                                    
-                                    <div class="slide-maps state-name">                                    
-                                        <h4 class="pb-xs">Aguascalientes</h4>
-                                        <!--
-                                        <h6 class="pb-xs">Coahuila</h6>
-                                        <h6 class="pb-xs">Durango</h6>
-                                        <h6 class="pb-xs">Edo de México</h6> 
-                                        <h6 class="pb-xs">Guanajuato</h6>
-                                        <h6 class="pb-xs">Guerrero</h6>
-                                        <h6 class="pb-xs">Hidalgo</h6> 
-                                        <h6 class="pb-xs">San Luis Potosi</h6> 
-                                        <h6 class="pb-xs">Sonora</h6> 
-                                        <h6 class="pb-xs">Zacatecas</h6>                                                                                               
-                                        -->
+                                    <div class="slide-maps state-name slide-wrapper">                                    
+                                        <div class="slider">
+                                            <div class="slider-text1">Aguascalientes</div>
+                                            <div class="slider-text2">Coahuila</div>
+                                            <div class="slider-text3">Durango</div>
+                                            <div class="slider-text4">D.F.</div>
+                                            <div class="slider-text5">Guanajuato</div>
+                                            <div class="slider-text6">Hidalgo</div>
+                                            <div class="slider-text7">S.L.P.</div>
+                                            <div class="slider-text8">Zacatecas</div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>

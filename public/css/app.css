@@ -233,10 +233,6 @@ main {
   box-shadow: 0px 4px 3px 1px rgba(0, 0, 0, 0.25);
 }
 
-header .hide-mobile {
-  display: none;
-}
-
 header nav {
   background-color: #fff;
   border: 1px solid #333;
@@ -544,7 +540,7 @@ section .service-container .service-item p {
   .partners-section .partners-img .container .state-name {
     font-size: 1.75rem;
     margin: 0 auto;
-    width: 50%;
+    width: 80%;
   }
 }
 
@@ -871,519 +867,224 @@ footer .footer-elements .social img {
   display: none;
 }
 
-.content-slider {
-  width: 100%;
-  height: 360px;
+.slider-wrapper {
+  font-size: 40px;
+  color: #aaa;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .slider {
-  height: 320px;
-  width: 680px;
-  margin: 40px auto 0;
-  overflow: visible;
-  position: relative;
-}
-
-.mask {
+  height: 50px;
   overflow: hidden;
-  height: 320px;
 }
 
-.slider ul {
-  margin: 0;
-  padding: 0;
-  position: relative;
+.slider div {
+  color: #fff;
+  height: 50px;
+  margin-bottom: 50px;
+  width: 100%;
+  text-align: center;
+  box-sizing: border-box;
 }
 
-.slider li {
-  width: 680px;
-  height: 320px;
-  position: absolute;
-  top: -325px;
-  list-style: none;
+.slider-text1 {
+  -webkit-animation: slide 9.5s linear infinite;
+          animation: slide 9.5s linear infinite;
 }
 
-.slider .quote {
-  font-size: 40px;
-  font-style: italic;
-}
-
-.slider .source {
-  font-size: 20px;
-  text-align: right;
-}
-
-.slider li.anim1 {
-  -webkit-animation: cycle 15s linear infinite;
-          animation: cycle 15s linear infinite;
-}
-
-.slider li.anim2 {
-  -webkit-animation: cycle2 15s linear infinite;
-          animation: cycle2 15s linear infinite;
-}
-
-.slider li.anim3 {
-  -webkit-animation: cycle3 15s linear infinite;
-          animation: cycle3 15s linear infinite;
-}
-
-.slider li.anim4 {
-  -webkit-animation: cycle4 15s linear infinite;
-          animation: cycle4 15s linear infinite;
-}
-
-.slider li.anim5 {
-  -webkit-animation: cycle5 15s linear infinite;
-          animation: cycle5 15s linear infinite;
-}
-
-.slider:hover li {
-  -webkit-animation-play-state: paused;
-          animation-play-state: paused;
-}
-
-@-webkit-keyframes cycle {
+@-webkit-keyframes slide {
   0% {
-    top: 0px;
+    margin-top: -900px;
   }
 
-  4% {
-    top: 0px;
+  5% {
+    margin-top: -900px;
   }
 
-  16% {
-    top: 0px;
-    opacity: 1;
-    z-index: 0;
+  10% {
+    margin-top: -800px;
+  }
+
+  15% {
+    margin-top: -800px;
   }
 
   20% {
-    top: 325px;
-    opacity: 0;
-    z-index: 0;
+    margin-top: -700px;
   }
 
-  21% {
-    top: -325px;
-    opacity: 0;
-    z-index: -1;
+  25% {
+    margin-top: -700px;
+  }
+
+  30% {
+    margin-top: -600px;
+  }
+
+  35% {
+    margin-top: -600px;
+  }
+
+  40% {
+    margin-top: -500px;
+  }
+
+  45% {
+    margin-top: -500px;
   }
 
   50% {
-    top: -325px;
-    opacity: 0;
-    z-index: -1;
+    margin-top: -400px;
   }
 
-  92% {
-    top: -325px;
-    opacity: 0;
-    z-index: 0;
+  55% {
+    margin-top: -400px;
   }
 
-  96% {
-    top: -325px;
-    opacity: 0;
+  60% {
+    margin-top: -300px;
+  }
+
+  65% {
+    margin-top: -300px;
+  }
+
+  70% {
+    margin-top: -200px;
+  }
+
+  75% {
+    margin-top: -200px;
+  }
+
+  80% {
+    margin-top: -100px;
+  }
+
+  85% {
+    margin-top: -100px;
+  }
+
+  90% {
+    margin-top: 0px;
+  }
+
+  95% {
+    margin-top: 0px;
   }
 
   100% {
-    top: 0px;
-    opacity: 1;
+    margin-top: 0px;
   }
 }
 
-@keyframes cycle {
+@keyframes slide {
   0% {
-    top: 0px;
+    margin-top: -900px;
   }
 
-  4% {
-    top: 0px;
+  5% {
+    margin-top: -900px;
   }
 
-  16% {
-    top: 0px;
-    opacity: 1;
-    z-index: 0;
+  10% {
+    margin-top: -800px;
+  }
+
+  15% {
+    margin-top: -800px;
   }
 
   20% {
-    top: 325px;
-    opacity: 0;
-    z-index: 0;
+    margin-top: -700px;
   }
 
-  21% {
-    top: -325px;
-    opacity: 0;
-    z-index: -1;
+  25% {
+    margin-top: -700px;
+  }
+
+  30% {
+    margin-top: -600px;
+  }
+
+  35% {
+    margin-top: -600px;
+  }
+
+  40% {
+    margin-top: -500px;
+  }
+
+  45% {
+    margin-top: -500px;
   }
 
   50% {
-    top: -325px;
-    opacity: 0;
-    z-index: -1;
+    margin-top: -400px;
   }
 
-  92% {
-    top: -325px;
-    opacity: 0;
-    z-index: 0;
-  }
-
-  96% {
-    top: -325px;
-    opacity: 0;
-  }
-
-  100% {
-    top: 0px;
-    opacity: 1;
-  }
-}
-
-@-webkit-keyframes cycle2 {
-  0% {
-    top: -325px;
-    opacity: 0;
-  }
-
-  16% {
-    top: -325px;
-    opacity: 0;
-  }
-
-  20% {
-    top: 0px;
-    opacity: 1;
-  }
-
-  24% {
-    top: 0px;
-    opacity: 1;
-  }
-
-  36% {
-    top: 0px;
-    opacity: 1;
-    z-index: 0;
-  }
-
-  40% {
-    top: 325px;
-    opacity: 0;
-    z-index: 0;
-  }
-
-  41% {
-    top: -325px;
-    opacity: 0;
-    z-index: -1;
-  }
-
-  100% {
-    top: -325px;
-    opacity: 0;
-    z-index: -1;
-  }
-}
-
-@keyframes cycle2 {
-  0% {
-    top: -325px;
-    opacity: 0;
-  }
-
-  16% {
-    top: -325px;
-    opacity: 0;
-  }
-
-  20% {
-    top: 0px;
-    opacity: 1;
-  }
-
-  24% {
-    top: 0px;
-    opacity: 1;
-  }
-
-  36% {
-    top: 0px;
-    opacity: 1;
-    z-index: 0;
-  }
-
-  40% {
-    top: 325px;
-    opacity: 0;
-    z-index: 0;
-  }
-
-  41% {
-    top: -325px;
-    opacity: 0;
-    z-index: -1;
-  }
-
-  100% {
-    top: -325px;
-    opacity: 0;
-    z-index: -1;
-  }
-}
-
-@-webkit-keyframes cycle3 {
-  0% {
-    top: -325px;
-    opacity: 0;
-  }
-
-  36% {
-    top: -325px;
-    opacity: 0;
-  }
-
-  40% {
-    top: 0px;
-    opacity: 1;
-  }
-
-  44% {
-    top: 0px;
-    opacity: 1;
-  }
-
-  56% {
-    top: 0px;
-    opacity: 1;
-    z-index: 0;
+  55% {
+    margin-top: -400px;
   }
 
   60% {
-    top: 325px;
-    opacity: 0;
-    z-index: 0;
+    margin-top: -300px;
   }
 
-  61% {
-    top: -325px;
-    opacity: 0;
-    z-index: -1;
+  65% {
+    margin-top: -300px;
   }
 
-  100% {
-    top: -325px;
-    opacity: 0;
-    z-index: -1;
-  }
-}
-
-@keyframes cycle3 {
-  0% {
-    top: -325px;
-    opacity: 0;
+  70% {
+    margin-top: -200px;
   }
 
-  36% {
-    top: -325px;
-    opacity: 0;
-  }
-
-  40% {
-    top: 0px;
-    opacity: 1;
-  }
-
-  44% {
-    top: 0px;
-    opacity: 1;
-  }
-
-  56% {
-    top: 0px;
-    opacity: 1;
-    z-index: 0;
-  }
-
-  60% {
-    top: 325px;
-    opacity: 0;
-    z-index: 0;
-  }
-
-  61% {
-    top: -325px;
-    opacity: 0;
-    z-index: -1;
-  }
-
-  100% {
-    top: -325px;
-    opacity: 0;
-    z-index: -1;
-  }
-}
-
-@-webkit-keyframes cycle4 {
-  0% {
-    top: -325px;
-    opacity: 0;
-  }
-
-  56% {
-    top: -325px;
-    opacity: 0;
-  }
-
-  60% {
-    top: 0px;
-    opacity: 1;
-  }
-
-  64% {
-    top: 0px;
-    opacity: 1;
-  }
-
-  76% {
-    top: 0px;
-    opacity: 1;
-    z-index: 0;
+  75% {
+    margin-top: -200px;
   }
 
   80% {
-    top: 325px;
-    opacity: 0;
-    z-index: 0;
+    margin-top: -100px;
   }
 
-  81% {
-    top: -325px;
-    opacity: 0;
-    z-index: -1;
+  85% {
+    margin-top: -100px;
   }
 
-  100% {
-    top: -325px;
-    opacity: 0;
-    z-index: -1;
-  }
-}
-
-@keyframes cycle4 {
-  0% {
-    top: -325px;
-    opacity: 0;
+  90% {
+    margin-top: 0px;
   }
 
-  56% {
-    top: -325px;
-    opacity: 0;
-  }
-
-  60% {
-    top: 0px;
-    opacity: 1;
-  }
-
-  64% {
-    top: 0px;
-    opacity: 1;
-  }
-
-  76% {
-    top: 0px;
-    opacity: 1;
-    z-index: 0;
-  }
-
-  80% {
-    top: 325px;
-    opacity: 0;
-    z-index: 0;
-  }
-
-  81% {
-    top: -325px;
-    opacity: 0;
-    z-index: -1;
+  95% {
+    margin-top: 0px;
   }
 
   100% {
-    top: -325px;
-    opacity: 0;
-    z-index: -1;
+    margin-top: 0px;
   }
 }
 
-@-webkit-keyframes cycle5 {
-  0% {
-    top: -325px;
-    opacity: 0;
-  }
+/*
+0% {}
+12.5% {}
+25% {}
+37.5% {}
+50% {}
+62.5% {}
+75% {}
+87.5% {}
+100% {}
 
-  76% {
-    top: -325px;
-    opacity: 0;
-  }
-
-  80% {
-    top: 0px;
-    opacity: 1;
-  }
-
-  84% {
-    top: 0px;
-    opacity: 1;
-  }
-
-  96% {
-    top: 0px;
-    opacity: 1;
-    z-index: 0;
-  }
-
-  100% {
-    top: 325px;
-    opacity: 0;
-    z-index: 0;
-  }
-}
-
-@keyframes cycle5 {
-  0% {
-    top: -325px;
-    opacity: 0;
-  }
-
-  76% {
-    top: -325px;
-    opacity: 0;
-  }
-
-  80% {
-    top: 0px;
-    opacity: 1;
-  }
-
-  84% {
-    top: 0px;
-    opacity: 1;
-  }
-
-  96% {
-    top: 0px;
-    opacity: 1;
-    z-index: 0;
-  }
-
-  100% {
-    top: 325px;
-    opacity: 0;
-    z-index: 0;
-  }
-}
+  0% {margin-top:-300px;}
+  5% {margin-top:-200px;}
+  33% {margin-top:-200px;}
+  38% {margin-top:-100px;}
+  66% {margin-top:-100px;}
+  71% {margin-top:0px;}
+  100% {margin-top:0px;}
+*/
 
