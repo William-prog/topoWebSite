@@ -17,6 +17,10 @@ Route::get('/', function () {
     return view('hometopo');
 });
 
+Route::get('/home', function () {
+    return view('home');
+});
+
 Route::get('careers', function () {
     return view('careers');
 });
