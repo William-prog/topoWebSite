@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="img/favicon.png"/>
-    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/appCustomStyles.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Servicios y Equipos TOPO S.A. de C.V.</title>
 </head>

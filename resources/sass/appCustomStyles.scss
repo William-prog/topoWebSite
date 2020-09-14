@@ -1,0 +1,19 @@
+// media queries
+@import "mixins";
+// custon colors
+@import "customVariables";
+// animations
+@import "animations";
+// global styles (i.e. spacing and sizes)
+@import "globals";
+// web page sections
+@import "header";
+@import "hero";
+@import "service";
+@import "history";
+@import "partners";
+@import "contact";
+@import "footer";
+// components
+@import "slider";
+@import "textslider";
