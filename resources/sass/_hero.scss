@@ -40,8 +40,8 @@
             padding: 20% 1%;
 
             @include for-desktop-up { 
-
-                padding: 20% 5% 5% 5%;
+                line-height: 1.5;
+                padding: 20% 5% 7% 5%;
             }
         }                                       
     }

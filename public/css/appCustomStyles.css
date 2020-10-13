@@ -344,7 +344,8 @@ header nav a .logo {
 
 @media (min-width: 1200px) {
   .hero-section .hero-overlay h1 {
-    padding: 20% 5% 5% 5%;
+    line-height: 1.5;
+    padding: 20% 5% 7% 5%;
   }
 }
 

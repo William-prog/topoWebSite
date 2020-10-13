@@ -43,7 +43,7 @@
                                
             <div class="hero-overlay">
                 <div class="title-container">                    
-                    <h1 class="white-text">Srevivcios y equipos <span class="orange-text">mineros</span> a toda la república mexicana</h1>                
+                    <h1 class="white-text">Servicios y equipos <span class="orange-text">mineros</span> a toda la república mexicana</h1>                
                     <a href="#" class="button-gradient service-button mt-lg">Servicios</a>
                     <a href="#" class="button-gradient mt-lg">Contácto</a>                              
                 </div>  
