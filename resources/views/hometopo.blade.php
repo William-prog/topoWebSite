@@ -41,15 +41,19 @@
 
     <main>
         <section class="hero-section">
-            <div class="hero-img">
-                <div class="hero-overlay">
-                    <div class="title-container">
+                               
+            <div class="hero-overlay">
+            <div class="title-container">                    
                         <h1 class="white-text">Srevivcios y equipos <span class="orange-text">mineros</span> a toda la república mexicana</h1>                
                         <a href="#" class="button-gradient service-button mt-lg">Servicios</a>
-                        <a href="#" class="button-gradient mt-lg">Contácto</a>          
-                    </div>
-                </div>            
-            </div>
+                        <a href="#" class="button-gradient mt-lg">Contácto</a>                              
+                    </div>  
+                <video src="video/video-topo.mp4" autoplay muted loop width="100%"  >
+                    
+                </video>   
+                 
+            </div>                                
+         
         </section>
 
         <div class="wrapper">

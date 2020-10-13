@@ -257,8 +257,6 @@ header nav a .logo {
 
 @media (min-width: 1200px) {
   header {
-    left: -0.4rem;
-    padding-top: 1rem;
     position: absolute;
     text-align: center;
     width: 100%;
@@ -306,15 +304,11 @@ header nav a .logo {
   }
 }
 
-.hero-section .hero-img {
-  background-image: url(/img/hero-image.JPG);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
+.hero-section {
   height: auto;
 }
 
-.hero-section .hero-img .hero-overlay {
+.hero-section .hero-overlay {
   background-color: rgba(0, 0, 0, 0.6);
   font-size: 25px;
   height: 100vh;
@@ -323,27 +317,37 @@ header nav a .logo {
 }
 
 @media (min-width: 1200px) {
-  .hero-section .hero-img .hero-overlay {
-    height: 105vh;
+  .hero-section .hero-overlay {
+    height: auto;
   }
 }
 
+.hero-section .hero-overlay video {
+  display: block;
+  position: relative;
+  z-index: -100;
+}
+
 @media (min-width: 1200px) {
-  .hero-section .hero-img .hero-overlay .title-container {
+  .hero-section .hero-overlay .title-container {
     max-width: 580px;
     align-items: center;
     justify-content: center;
     margin: 0 auto;
     padding: 6% 0;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    left: 50%;
+    top: 45%;
   }
 }
 
-.hero-section .hero-img .hero-overlay h1 {
+.hero-section .hero-overlay h1 {
   padding: 20% 1%;
 }
 
 @media (min-width: 1200px) {
-  .hero-section .hero-img .hero-overlay h1 {
+  .hero-section .hero-overlay h1 {
     padding: 20% 5% 5% 5%;
   }
 }
