@@ -19,21 +19,21 @@
             </a>
         </nav>
 
-        <nav class="col-4 flex-jc-sb flex-ai-c flex-jc-sa hide-mobile">
+        <nav id="desktop-nav" class="col-4 flex-jc-sb flex-ai-c flex-jc-sa hide-mobile">
             <div class="logo-desktop hide-mobile">
-                <a href="#"><img src="img/logo.png" alt="" class="hide-mobile"></a>
+                <a href="#"><img id="desktop-logo" src="img/logo.png" alt="" class="hide-mobile"></a>
             </div>
             <div>
-                <a href="#">Inicio</a>
+                <a class="nav-anchor" href="#">Inicio</a>
             </div>
             <div>
-                <a href="#">Servicios</a>
+                <a class="nav-anchor" href="#">Servicios</a>
             </div>            
             <div>
-                <a href="#">Contácto</a>
+                <a class="nav-anchor" href="#">Contácto</a>
             </div>
             <div>
-                <a href="careers">Empleos</a>
+                <a class="nav-anchor" href="careers">Empleos</a>
             </div>
         </nav>
     </header>
@@ -242,6 +242,8 @@
 <script src="js/smoothScroll.js"></script>
 <!-- slick carousel CDN -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+<!-- Y-axis Scroll -->
+<script src="js/scroll.js"></script>
 <!-- slider -->
 <script src="js/slider.js"></script>
 <!-- AOS fade animation library -->

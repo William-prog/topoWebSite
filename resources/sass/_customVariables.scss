@@ -9,3 +9,11 @@ $dark-overlay: rgba(0, 0, 0, 0.75);
 $gray-text: #606060;
 $gray-input-color: #6F6D6D;
 $transparent: rgba(255, 255, 255, 0);
+// Event classes
+.scrolled {
+    background-color: $white-color;
+}
+
+.scrolled-anchor {
+    color: $black-color;
+}

@@ -26,9 +26,10 @@ header {
     @include for-desktop-up { 
         
         // header
-        position: absolute;
-        text-align: center;
+        position: fixed;
+        text-align: center;        
         width: 100%;
+        z-index: 100;
         
         .hide-desktop {
             display: none;            
@@ -37,6 +38,7 @@ header {
         nav {
             background-color: $transparent;
             border: none;
+            transition: all .75s ease-in-out;
             
             .logo-background {
                 background-color: white;
