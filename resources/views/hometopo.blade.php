@@ -20,16 +20,15 @@
         </nav>
 
         <nav class="col-4 flex-jc-sb flex-ai-c flex-jc-sa hide-mobile">
-            
+            <div class="logo-desktop hide-mobile">
+                <a href="#"><img src="img/logo.png" alt="" class="hide-mobile"></a>
+            </div>
             <div>
                 <a href="#">Inicio</a>
             </div>
             <div>
                 <a href="#">Servicios</a>
-            </div>
-            <div class="logo-desktop hide-mobile">
-                <a href="#"><img src="img/logo.png" alt="" class="hide-mobile"></a>
-            </div>
+            </div>            
             <div>
                 <a href="#">Contácto</a>
             </div>
@@ -43,15 +42,12 @@
         <section class="hero-section">
                                
             <div class="hero-overlay">
-            <div class="title-container">                    
-                        <h1 class="white-text">Srevivcios y equipos <span class="orange-text">mineros</span> a toda la república mexicana</h1>                
-                        <a href="#" class="button-gradient service-button mt-lg">Servicios</a>
-                        <a href="#" class="button-gradient mt-lg">Contácto</a>                              
-                    </div>  
-                <video src="video/video-topo.mp4" autoplay muted loop width="100%"  >
-                    
-                </video>   
-                 
+                <div class="title-container">                    
+                    <h1 class="white-text">Srevivcios y equipos <span class="orange-text">mineros</span> a toda la república mexicana</h1>                
+                    <a href="#" class="button-gradient service-button mt-lg">Servicios</a>
+                    <a href="#" class="button-gradient mt-lg">Contácto</a>                              
+                </div>  
+                <video src="video/video-topo.mp4" autoplay muted loop width="100%"></video>                    
             </div>                                
          
         </section>

@@ -282,9 +282,8 @@ header nav a .logo {
   }
 
   header nav a {
-    align-items: center;
     color: #fff;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     font-weight: 900;
   }
 
@@ -297,10 +296,7 @@ header nav a .logo {
   }
 
   header nav .logo-desktop img {
-    background-color: #fff;
-    border-radius: 20px;
-    padding: 5% 3%;
-    width: 10rem;
+    width: 75%;
   }
 }
 
@@ -309,7 +305,7 @@ header nav a .logo {
 }
 
 .hero-section .hero-overlay {
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.75);
   font-size: 25px;
   height: 100vh;
   line-height: 42px;
