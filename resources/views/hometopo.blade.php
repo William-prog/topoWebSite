@@ -47,7 +47,7 @@
                     <a href="#" class="button-gradient service-button mt-lg">Servicios</a>
                     <a href="#" class="button-gradient mt-lg">Contácto</a>                              
                 </div>  
-                <video src="video/compressed.mp4" poster="img/hero-image.JPG" autoplay muted loop width="100%"></video>                    
+                <video src="video/compressed.m4v" poster="img/hero-image.JPG" autoplay muted loop width="100%"></video>                    
             </div>                                
          
         </section>
