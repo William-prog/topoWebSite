@@ -1,5 +1,6 @@
 @import url(https://fonts.googleapis.com/css2?family=Roboto&display=swap);.scrolled {
   background-color: #fff;
+  border-bottom: 0.5px solid #333;
 }
 
 .scrolled-anchor {
@@ -293,7 +294,6 @@ header nav a .logo {
 
   header nav a {
     color: #fff;
-    font-size: 1.15rem;
     font-weight: 900;
   }
 
@@ -306,7 +306,7 @@ header nav a .logo {
   }
 
   header nav .logo-desktop img {
-    width: 70%;
+    width: 57.5%;
   }
 }
 
