@@ -2,7 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use App\Mail\MessageRecieved;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
+
 
 class HomeController extends Controller
 {
@@ -24,5 +27,9 @@ class HomeController extends Controller
     public function index()
     {
         return view('home');
+    }
+
+    public function sendMail() {
+        Mail::to('sistemas.it@topo-int.com')->send(new MessageRecieved);
     }
 }

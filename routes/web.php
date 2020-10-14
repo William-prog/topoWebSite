@@ -25,6 +25,9 @@ Route::get('careers', function () {
     return view('careers');
 });
 
+//Send email
+Route::get('mail', 'HomeController@sendMail');
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
