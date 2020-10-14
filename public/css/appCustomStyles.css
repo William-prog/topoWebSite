@@ -293,7 +293,7 @@ header nav a .logo {
 
   header nav a {
     color: #fff;
-    font-size: 1.25rem;
+    font-size: 1.15rem;
     font-weight: 900;
   }
 
@@ -306,7 +306,7 @@ header nav a .logo {
   }
 
   header nav .logo-desktop img {
-    width: 75%;
+    width: 70%;
   }
 }
 
