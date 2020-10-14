@@ -9,7 +9,6 @@ header {
         a {
             color: $black-color;
             text-decoration: none;
-            text-transform: uppercase;
 
             .logo {
                 width: 35%;
@@ -52,6 +51,7 @@ header {
 
             a {                
                 color: $white-color;
+                font-size: 1.25rem;
                 font-weight: 900;
 
                 &:hover {
@@ -64,7 +64,7 @@ header {
                 z-index: 2;
 
                 img {                                        
-                    width: 57.5%;                    
+                    width: 55%;                    
                 }
             }
         }
