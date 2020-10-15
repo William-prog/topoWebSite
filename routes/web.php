@@ -1,5 +1,6 @@
 <?php
 
+use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -25,8 +26,25 @@ Route::get('careers', function () {
     return view('careers');
 });
 
-//Send email
+// Send email
 Route::get('mail', 'HomeController@sendMail');
+/*
+Route::get('mail', function() {
+    $data=[
+        "title"=>"Hello Laravel World",
+        "content"=>"This is the e-mail´s body"
+    ];
+
+    Mail::send('emails.message', $data, function($message) {
+        $message->to('nimayoh623@deselling.com', 'Laravel developer')->subject('Message from a lone Laravel developer');
+    });
+});
+*/
+
+// e-mail view
+Route::get('m', function() {
+    return view('emails.message');
+});
 
 Auth::routes();
 

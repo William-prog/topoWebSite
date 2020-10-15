@@ -39,8 +39,8 @@ return [
             'host' => env('MAIL_HOST', 'smtp.mailgun.org'),
             'port' => env('MAIL_PORT', 587),
             'encryption' => env('MAIL_ENCRYPTION', 'tls'),
-            'username' => env('postmaster@sandboxb26c5438aac74d18b1fdf002bc1d6abc.mailgun.org'),
-            'password' => env('19b02b2086882d9b9731f0aa2f92a7b4-87c34c41-2f8d8143'),
+            'username' => env('MAIL_USERNAME'),
+            'password' => env('MAIL_PASSWORD'),
             'timeout' => null,
             'auth_mode' => null,
         ],
@@ -84,8 +84,8 @@ return [
     */
 
     'from' => [
-        'address' => env('MAIL_FROM_ADDRESS', 'sistemas.it@topo-int.com'),
-        'name' => env('MAIL_FROM_NAME', 'Sistemas TOPO'),
+        'address' => env('MAIL_FROM_ADDRESS', 'joe@joe.com'),
+        'name' => env('MAIL_FROM_NAME', 'Alberto Ruiz Castro'),
     ],
 
     /*

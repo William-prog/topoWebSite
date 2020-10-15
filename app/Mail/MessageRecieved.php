@@ -27,9 +27,10 @@ class MessageRecieved extends Mailable
      * @return $this
      */
     public function build()
-    {
-        return $this->to('sistemas.it@topo-int.com')
-                    ->view('emails.message');
+    {        
+        return $this->from('doe@doe.com')
+                    ->to('nimayoh623@deselling.com')                    
+                    ->markdown('emails.message');
                     
     }
 }

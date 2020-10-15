@@ -30,6 +30,6 @@ class HomeController extends Controller
     }
 
     public function sendMail() {
-        Mail::to('sistemas.it@topo-int.com')->send(new MessageRecieved);
+        Mail::send(new MessageRecieved());
     }
 }
