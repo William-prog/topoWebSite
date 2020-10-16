@@ -28,7 +28,7 @@ class MessageRecieved extends Mailable
      */
     public function build()
     {        
-        return $this->from('doe@doe.com')
+        return $this->from('laravel@topo-int.com')
                     ->to('nimayoh623@deselling.com')                    
                     ->markdown('emails.message');
                     

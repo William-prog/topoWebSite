@@ -45,7 +45,7 @@
             .form-container {
                 input, select {
                     background-color: $gray-input-color;
-                    border: select1px solid $gray-input-color;
+                    border: none;
                     border-radius: 15px;    
                     color: $white-color;                                
                     margin: 0 0 .75rem 0; 

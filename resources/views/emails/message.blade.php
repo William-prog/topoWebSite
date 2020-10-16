@@ -1,12 +1,12 @@
 @component('mail::message')
-# Order Shipped
+# Reporte enviado (esto es una prueba)
 
-Your order has been shipped!
+La alerta de reportes IPER ha sido enviada
 
 @component('mail::button')
-View Order
+Ver reporte
 @endcomponent
 
-Thanks,<br>
+Gracias,<br>
 {{ config('app.name') }}
 @endcomponent

@@ -156,20 +156,21 @@
                         <div data-aos="fade-right" data-aos-duration="750" class="black-bg container form-position radius-20  white-text">
                             <h2 class="pt-xs pb-xs"> <span class="orange-text">Comunícate</span> con nosotros</h2>                    
                             <div class="form-container">
-                                <form action="">                                    
-                                    <input type="text" placeholder="Nombre completo">
-                                    <input type="text" placeholder="Correo electrónico" class="mt-xs">
-                                    <input type="text" placeholder="Asunto" class="mt-xs">
-                                    <select name="" id="">
+                                <form method="POST" action="/send-message">                                    
+                                    @csrf
+                                    <input required name="full-name" type="text" placeholder="Nombre completo">
+                                    <input required name="sender" type="text" placeholder="Correo electrónico" class="mt-xs">
+                                    <input required name="subject" type="text" placeholder="Asunto" class="mt-xs">
+                                    <select required name="to-contact" id="">
                                         <option value="" disabled selected>Departamento al que dirige</option>
                                         <option value="Recursos humanos">Recursos humanos</option>
                                         <option value="Servicio a clientes">Servicio a clientes</option>
                                         <option value="Compras">Compras</option>
                                         <option value="Gerencia">Gerencia</option>
                                     </select>
-                                    <input type="text" placeholder="Mensaje" class="mt-xs">
-                                    <div class="form-button-container">
-                                        <a href="#" class="button-gradient">Enviar</a>      
+                                    <input required name="message" type="text" placeholder="Mensaje" class="mt-xs">
+                                    <div class="form-button-container">                                        
+                                        <button type="submit" class="button-gradient">Enviar</button>   
                                     </div>
                                 </form>                                                                                               
                             </div>
@@ -239,7 +240,7 @@
 <!-- jQuery CDN -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <!-- Smooth scroll -->
-<script src="js/smoothScroll.js"></script>
+<!-- <script src="js/smoothScroll.js"></script> -->
 <!-- slick carousel CDN -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
 <!-- Y-axis Scroll -->

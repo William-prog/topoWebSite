@@ -222,8 +222,10 @@ main {
 
 .button-gradient {
   background: linear-gradient(180deg, #FF781F 12.33%, #EC8F52 93.15%);
+  border: none;
   border-radius: 20px;
   color: #fff;
+  font-size: 1.25rem;
   font-weight: 900;
   text-align: center;
   text-decoration: none;
@@ -655,7 +657,7 @@ section .service-container .service-item p {
 .contact-section .contact-img .container .form-container input,
 .contact-section .contact-img .container .form-container select {
   background-color: #6F6D6D;
-  border: select1px solid #6F6D6D;
+  border: none;
   border-radius: 15px;
   color: #fff;
   margin: 0 0 0.75rem 0;

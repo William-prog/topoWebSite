@@ -49,3 +49,6 @@ Route::get('m', function() {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+// Sends e-mail message from contact form to recipient
+Route::post('send-message', 'HomeController@sendMessage')->name('send-message');

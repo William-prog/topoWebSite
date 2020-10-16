@@ -181,8 +181,10 @@ main {
 
 .button-gradient {
     background: linear-gradient(180deg, #FF781F 12.33%, #EC8F52 93.15%);
+    border: none;
     border-radius: 20px;
     color: $white-color;
+    font-size: 1.25rem;
     font-weight: 900;
     text-align: center;
     text-decoration: none;

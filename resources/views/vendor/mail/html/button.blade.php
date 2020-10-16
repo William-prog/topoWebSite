@@ -7,7 +7,7 @@
 <table border="0" cellpadding="0" cellspacing="0" role="presentation">
 <tr>
 <td>
-<a href="" class="button button-{{ $color ?? 'primary' }}" target="_blank" rel="noopener"></a>
+<a href="" class="button button-{{ $color ?? 'primary' }}" target="_blank" rel="noopener">Ver reporte</a>
 </td>
 </tr>
 </table>
