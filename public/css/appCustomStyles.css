@@ -781,7 +781,7 @@ footer .footer-elements .social img {
   }
 
   100% {
-    transform: translateX(calc(-250px * 7));
+    transform: translateX(calc(-250px * 6));
   }
 }
 
@@ -791,7 +791,7 @@ footer .footer-elements .social img {
   }
 
   100% {
-    transform: translateX(calc(-250px * 7));
+    transform: translateX(calc(-250px * 6));
   }
 }
 
@@ -804,15 +804,14 @@ footer .footer-elements .social img {
 }
 
 .slider .slide-track {
-  -webkit-animation: scroll 40s linear infinite;
-          animation: scroll 40s linear infinite;
+  -webkit-animation: scroll 38s linear infinite;
+          animation: scroll 38s linear infinite;
   display: flex;
-  width: calc(250px * 14);
+  width: calc(250px * 12);
 }
 
 .slider .slide {
-  height: 100px;
-  width: 250px;
+  margin: 0 30px;
 }
 
 .slider-city-wrapper {
