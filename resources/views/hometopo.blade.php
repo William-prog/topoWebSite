@@ -86,7 +86,7 @@
 
             <section class="history-section text-center pt-s pb-s">
                 <div class="history-frame">                                                   
-                    <img data-aos="fade-right" data-aos-duration="750" src="img/history-image.jpg" alt="" class="radius-20">                    
+                    <img data-aos="fade-right" data-aos-duration="750" src="img/history-image.JPG" alt="" class="radius-20">                    
                     <div class="history-container radius-20">
                         <h4>Más de <span class="orange-text">25 años</span>  de experiencia en la industria minera</h4>
                         <p>
