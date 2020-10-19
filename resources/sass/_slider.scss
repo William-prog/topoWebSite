@@ -14,12 +14,10 @@ $animationSpeed: 40s;
 // Styling
 .slider {
 	background: white;
-	box-shadow: 0 10px 20px -5px rgba(0, 0, 0, .125);
-	height: 250px;
 	margin: auto;
 	overflow:hidden;
 	position: relative;
-	width: 100%;
+	width: 95%;
 
 	
 	.slide-track {
@@ -29,7 +27,7 @@ $animationSpeed: 40s;
 	}
 	
 	.slide {
-		height: 250px;
+		height: 100px;
 		width: 250px;
 	}
 }
