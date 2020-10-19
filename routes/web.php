@@ -46,7 +46,7 @@ Route::get('m', function() {
     return view('emails.message');
 });
 
-Auth::routes();
+//Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
