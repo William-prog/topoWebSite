@@ -119,15 +119,15 @@
                                 <div class="state-info">
                                     <h2>Hemos <span class="orange-text"> visitado: </span> </h2>                                                    
                                     <div class="slide-maps state-name slide-wrapper">                                    
-                                        <div class="slider">
-                                            <div class="slider-text1">Aguascalientes</div>
-                                            <div class="slider-text2">Coahuila</div>
-                                            <div class="slider-text3">Durango</div>
-                                            <div class="slider-text4">D.F.</div>
-                                            <div class="slider-text5">Guanajuato</div>
-                                            <div class="slider-text6">Hidalgo</div>
-                                            <div class="slider-text7">S.L.P.</div>
-                                            <div class="slider-text8">Zacatecas</div>
+                                        <div class="slider-city">
+                                            <div class="slider-city-text1">Aguascalientes</div>
+                                            <div class="slider-city-text2">Coahuila</div>
+                                            <div class="slider-city-text3">Durango</div>
+                                            <div class="slider-city-text4">D.F.</div>
+                                            <div class="slider-city-text5">Guanajuato</div>
+                                            <div class="slider-city-text6">Hidalgo</div>
+                                            <div class="slider-city-text7">S.L.P.</div>
+                                            <div class="slider-city-text8">Zacatecas</div>
                                         </div>
                                     </div>
                                 </div>
@@ -135,6 +135,53 @@
 
                             <div data-aos="fade-right" data-aos-duration="750" class="gray-text white-bg container mt-s radius-20 partners-box shadow">                    
                                 <h2 class="pt-xs pb-xs">Socios</h2>
+                                <div class="slider">
+	<div class="slide-track">
+		<div class="slide">
+			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png" height="100" width="250" alt="" />
+		</div>
+		<div class="slide">
+			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" height="100" width="250" alt="" />
+		</div>
+		<div class="slide">
+			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" height="100" width="250" alt="" />
+		</div>
+		<div class="slide">
+			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png" height="100" width="250" alt="" />
+		</div>
+		<div class="slide">
+			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png" height="100" width="250" alt="" />
+		</div>
+		<div class="slide">
+			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" height="100" width="250" alt="" />
+		</div>
+		<div class="slide">
+			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" height="100" width="250" alt="" />
+		</div>
+		<div class="slide">
+			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png" height="100" width="250" alt="" />
+		</div>
+		<div class="slide">
+			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" height="100" width="250" alt="" />
+		</div>
+		<div class="slide">
+			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" height="100" width="250" alt="" />
+		</div>
+		<div class="slide">
+			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png" height="100" width="250" alt="" />
+		</div>
+		<div class="slide">
+			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png" height="100" width="250" alt="" />
+		</div>
+		<div class="slide">
+			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" height="100" width="250" alt="" />
+		</div>
+		<div class="slide">
+			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" height="100" width="250" alt="" />
+		</div>
+	</div>
+</div>
+                                <!-- 
                                 <div class="customer-logos">
                                     <img class="slide" src="img/partners/penoles-logo.png" alt="peñoles" class="partner-img" style="width: 10rem;">
                                     <img class="slide" src="img/partners/minerafresnillo-logo.png" alt="minera fresnillo" class="partner-img" style="width: 15rem;">
@@ -143,6 +190,7 @@
                                     <img class="slide" src="img/partners/micon-logo.png" alt="micon drilling" class="partner-img" style="width: 15rem;">
                                     <img class="slide" src="img/partners/genco-logo.png" alt="genco mine service" class="partner-img">
                                 </div>
+                                -->
                             </div>
                         </div>            
                     </div>    

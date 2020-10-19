@@ -43,7 +43,7 @@ class HomeController extends Controller
         $customSender = $request->input('sender');
         $customSubject = $request->input('subject');
         
-        Mail::to($customSender)                
+        Mail::to($customSender)                  
                 ->send(new ContactFormMessage($customSubject, $customSender));
     }
 }
