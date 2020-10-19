@@ -198,7 +198,7 @@
                         <div data-aos="fade-right" data-aos-duration="750" class="black-bg container form-position radius-20  white-text">
                             <h2 class="pt-xs pb-xs"> <span class="orange-text">Comunícate</span> con nosotros</h2>                    
                             <div class="form-container">
-                                <form method="POST" action="/send-message">                                    
+                                <form method="POST" action="{{ route('send-message') }}">                                    
                                     @csrf
                                     <input required name="full-name" type="text" placeholder="Nombre completo">
                                     <input required name="sender" type="text" placeholder="Correo electrónico" class="mt-xs">

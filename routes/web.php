@@ -14,6 +14,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Auth::routes();
+
 Route::get('/', function () {
     return view('hometopo');
 });
@@ -26,29 +28,5 @@ Route::get('careers', function () {
     return view('careers');
 });
 
-// Send email
-Route::get('mail', 'HomeController@sendMail');
-/*
-Route::get('mail', function() {
-    $data=[
-        "title"=>"Hello Laravel World",
-        "content"=>"This is the e-mail´s body"
-    ];
-
-    Mail::send('emails.message', $data, function($message) {
-        $message->to('nimayoh623@deselling.com', 'Laravel developer')->subject('Message from a lone Laravel developer');
-    });
-});
-*/
-
-// e-mail view
-Route::get('m', function() {
-    return view('emails.message');
-});
-
-//Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');
-
 // Sends e-mail message from contact form to recipient
-Route::post('send-message', 'HomeController@sendMessage')->name('send-message');
+Route::post('send-message', 'LandingController@sendMessage')->name('send-message');
