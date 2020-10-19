@@ -95,8 +95,8 @@ class LandingController extends Controller
         
         // Recieves: full-name, sender, subject, recipient and message
         
-        $customSender = 'dummy@topo-int.com';
-        $customSubject = 'subject';
+        $customSender = $request->input('sender');
+        $customSubject = $request->input('subject');
         
         Mail::to('dummy@topo-int.com')                
                 ->send(new ContactFormMessage($customSender, $customSubject));
