@@ -331,9 +331,20 @@ header nav a .logo {
 }
 
 .hero-section .hero-overlay video {
-  display: block;
-  position: relative;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  right: 0;
+  top: 0;
   z-index: -100;
+}
+
+@media (min-width: 1200px) {
+  .hero-section .hero-overlay video {
+    display: block;
+    position: relative;
+  }
 }
 
 @media (min-width: 1200px) {

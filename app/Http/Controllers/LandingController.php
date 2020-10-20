@@ -7,6 +7,7 @@ use App\Mail\ContactFormMessage;
 use Illuminate\Http\Request;
 use App\Mail\MessageRecieved;
 use Illuminate\Support\Facades\Mail;
+use RealRashid\SweetAlert\Facades\Alert;
 
 class LandingController extends Controller
 {
@@ -92,13 +93,14 @@ class LandingController extends Controller
     */
     public function sendMessage(Request $request) {
 
-        
-        // Recieves: full-name, sender, subject, recipient and message
-        
         $customSender = $request->input('sender');
         $customSubject = $request->input('subject');
         
         Mail::to($customSender)                
                 ->send(new ContactFormMessage($customSender, $customSubject));
+
+                Alert::alert('Title', 'Message', 'Type');
+
+        return view('message_successful');
     }
 }

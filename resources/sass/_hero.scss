@@ -16,9 +16,18 @@
         text-align: center;         
 
         video {
-            display: block;
-            position: relative;
+
+            height: 100%;
+            object-fit: cover;
+            position: absolute;
+            right: 0;
+            top: 0;            
             z-index: -100;
+
+            @include for-desktop-up {
+                display: block;
+                position: relative;                
+            }            
         }
 
         @include for-desktop-up {
