@@ -1,5 +1,6 @@
 @import url(https://fonts.googleapis.com/css2?family=Roboto&display=swap);.scrolled {
   background-color: #F5F5F5;
+  box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
 }
 
 .scrolled-anchor {
@@ -259,6 +260,10 @@ header nav a {
 
 header nav a .logo {
   width: 42.5%;
+}
+
+header nav a .burger-menu {
+  width: 1.75rem;
 }
 
 @media (max-width: 599px) {
