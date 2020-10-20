@@ -325,6 +325,10 @@ header nav a .logo {
   }
 }
 
+.hero-section .hero-overlay .title-container {
+  padding-top: 6.5rem;
+}
+
 .hero-section .hero-overlay video {
   height: 100%;
   -o-object-fit: cover;
