@@ -31,7 +31,7 @@ function removeClassOnScroll() {
 window.addEventListener('scroll', function() {
     scrollPosition = window.scrollY;
 
-    if (scrollPosition >= 110) {
+    if (scrollPosition >= 95) {        
         addClassOnScroll(navigation);        
         logo.src = 'img/logo2.png';
         mobileLogo.src = 'img/logo2.png';

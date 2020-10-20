@@ -9,7 +9,7 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Servicios y Equipos TOPO S.A. de C.V.</title>
 </head>
-<body onload="SmoothScroll(document,120,12)">
+<body>
     <header>
         <nav id="mobile-nav" class="flex flex-jc-sb flex-ai-c hide-desktop">
             <a href="/">
@@ -285,8 +285,6 @@
 <!-- jQuery CDN -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <!-- Smooth scroll -->
-<!-- <script src="js/smoothScroll.js"></script> -->
-<!-- slick carousel CDN -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
 <!-- Y-axis Scroll -->
 <script src="js/scroll.js"></script>
