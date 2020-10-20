@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#FF781F" />
     <link rel="icon" type="image/png" href="img/favicon.png"/>
     <link rel="stylesheet" href="css/appCustomStyles.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -10,9 +11,9 @@
 </head>
 <body onload="SmoothScroll(document,120,12)">
     <header>
-        <nav class="flex flex-jc-sb flex-ai-c hide-desktop">
+        <nav id="mobile-nav" class="flex flex-jc-sb flex-ai-c hide-desktop">
             <a href="/">
-                <img src="img/logo.png" alt="Servicios y Equipos Topo S.A. de C.V." class="logo">
+                <img id="mobile-logo" src="img/logo.png" alt="Servicios y Equipos Topo S.A. de C.V." class="logo">
             </a>
             <a href="#">
                 <img src="img/menu.png" alt="menu" class="menu">
@@ -21,7 +22,9 @@
 
         <nav id="desktop-nav" class="col-4 flex-jc-sb flex-ai-c flex-jc-sa hide-mobile">
             <div class="logo-desktop hide-mobile">
-                <a href="#"><img id="desktop-logo" src="img/logo.png" alt="" class="hide-mobile"></a>
+                <a href="#">
+                    <img id="desktop-logo" src="img/logo.png" alt="" class="hide-mobile">
+                </a>
             </div>
             <div>
                 <a class="nav-anchor" href="#">Inicio</a>

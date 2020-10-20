@@ -245,9 +245,12 @@ main {
 }
 
 header nav {
-  background-color: #fff;
-  border: 1px solid #333;
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+  transition: all 0.75s ease-in-out;
   padding: 10px;
+  position: fixed;
+  z-index: 100;
 }
 
 header nav a {
@@ -256,7 +259,7 @@ header nav a {
 }
 
 header nav a .logo {
-  width: 35%;
+  width: 42.5%;
 }
 
 @media (max-width: 599px) {
@@ -267,20 +270,12 @@ header nav a .logo {
 
 @media (min-width: 1200px) {
   header {
-    position: fixed;
     text-align: center;
     width: 100%;
-    z-index: 100;
   }
 
   header .hide-desktop {
     display: none;
-  }
-
-  header nav {
-    background-color: rgba(255, 255, 255, 0);
-    border: none;
-    transition: all 0.75s ease-in-out;
   }
 
   header nav .logo-background {
