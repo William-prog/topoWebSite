@@ -312,7 +312,7 @@ header nav a .logo {
 }
 
 .hero-section .hero-overlay {
-  background-color: rgba(0, 0, 0, 0.75);
+  background-color: rgba(0, 0, 0, 0.6);
   font-size: 25px;
   height: 100vh;
   line-height: 42px;
