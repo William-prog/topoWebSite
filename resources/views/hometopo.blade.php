@@ -16,7 +16,7 @@
                 <img id="mobile-logo" src="img/logo.png" alt="Servicios y Equipos Topo S.A. de C.V." class="logo">
             </a>
             <a href="#">
-                <img src="img/menu.png" alt="menu" class="menu">
+                <img id="mobile-menu" src="img/menu-white.png" alt="menu" class="menu">
             </a>
         </nav>
 

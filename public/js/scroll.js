@@ -5,6 +5,8 @@ const logo = document.getElementById('desktop-logo');
 // Mobile elements
 const mobileNavigation = document.getElementById('mobile-nav');
 const mobileLogo = document.getElementById('mobile-logo');
+const mobileMenu = document.getElementById('mobile-menu');
+// Anchors
 const anchorElement = document.getElementsByClassName('nav-anchor');
 
 
@@ -33,10 +35,11 @@ window.addEventListener('scroll', function() {
         addClassOnScroll(navigation);        
         logo.src = 'img/logo2.png';
         mobileLogo.src = 'img/logo2.png';
-        
+        mobileMenu.src = 'img/menu.png';        
     } else {
         removeClassOnScroll(navigation);        
         logo.src = 'img/logo.png';
-        mobileLogo.src = 'img/logo.png';
+        mobileLogo.src = 'img/logo.png';        
+        mobileMenu.src = 'img/menu-white.png';
     }
 })
