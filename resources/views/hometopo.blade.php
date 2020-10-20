@@ -27,13 +27,13 @@
                 </a>
             </div>
             <div>
-                <a class="nav-anchor" href="#">Inicio</a>
+                <a class="nav-anchor" href="/">Inicio</a>
             </div>
             <div>
-                <a class="nav-anchor" href="#">Servicios</a>
+                <a class="nav-anchor" href="#service-section">Servicios</a>
             </div>            
             <div>
-                <a class="nav-anchor" href="#">Contácto</a>
+                <a class="nav-anchor" href="#contact-section">Contácto</a>
             </div>
             <div>
                 <a class="nav-anchor" href="careers">Empleos</a>
@@ -42,7 +42,7 @@
     </header>
 
     <main>
-        <section class="hero-section">
+        <section id="hero-section" class="hero-section">
                                
             <div class="hero-overlay">
                 <div class="title-container">                    
@@ -56,7 +56,7 @@
         </section>
 
         <div class="wrapper">
-            <section class="service-section text-center">
+            <section id="service-section" class="service-section text-center">
                 <div class="service-container pb-xxs">
                     <h2 class="hi">
                         Nuestros servicios
@@ -87,7 +87,7 @@
                 </div>
             </section>
 
-            <section class="history-section text-center pt-s pb-s">
+            <section id="history-section" class="history-section text-center pt-s pb-s">
                 <div class="history-frame">                                                   
                     <img data-aos="fade-right" data-aos-duration="750" src="img/history-image.JPG" alt="" class="radius-20">                    
                     <div class="history-container radius-20">
@@ -112,7 +112,7 @@
                 -->
             </section>
 
-            <section class="partners-section pt-m pb-s text-center">
+            <section id="partners-section" class="partners-section pt-m pb-s text-center">
                 <div class="partners-container">
                     <div class="partners-img radius-20">
                         <div class="partners-overlay radius-20">
@@ -139,62 +139,52 @@
                             <div data-aos="fade-right" data-aos-duration="750" class="gray-text white-bg container mt-s radius-20 partners-box shadow">                    
                                 <h2 class="pt-xs pb-xs">Socios</h2>
                                 <div class="slider">
-	<div class="slide-track">
-		<div class="slide">
-			<img src="img/partners/penoles-logo.png"  alt="peñoles" alt="" />
-		</div>
-		<div class="slide">
-			<img src="img/partners/minerafresnillo-logo.png" alt="" />
-		</div>
-		<div class="slide">
-			<img src="img/partners/robbins-logo.png"  alt="" />
-        </div>
-        <div class="slide">
-			<img src="img/partners/coeurmining-logo.png"  alt="" />
-        </div>        
-        <div class="slide">
-			<img src="img/partners/genco-logo.png" alt="" />
-        </div>
-        <div class="slide">
-			<img src="img/partners/micon-logo.png" width="195px" alt="" />
-        </div>
-        <div class="slide">
-			<img src="img/partners/penoles-logo.png" alt="peñoles" alt="" />
-		</div>
-		<div class="slide">
-			<img src="img/partners/minerafresnillo-logo.png"  alt="" />
-		</div>
-		<div class="slide">
-			<img src="img/partners/robbins-logo.png" alt="" />
-        </div>
-        <div class="slide">
-			<img src="img/partners/coeurmining-logo.png"  alt="" />
-        </div>
-        <div class="slide">
-			<img src="img/partners/genco-logo.png"  alt="" />
-		</div>
-        <div class="slide">
-			<img src="img/partners/micon-logo.png" width="195px" alt="" />
-        </div>        
-	</div>
-</div>
-                                <!-- 
-                                <div class="customer-logos">
-                                    <img class="slide" src="img/partners/penoles-logo.png" alt="peñoles" class="partner-img" style="width: 10rem;">
-                                    <img class="slide" src="img/partners/minerafresnillo-logo.png" alt="minera fresnillo" class="partner-img" style="width: 15rem;">
-                                    <img class="slide" src="img/partners/robbins-logo.png" alt="the robbins company" class="partner-img" style="width: 20rem;">
-                                    <img class="slide" src="img/partners/coeurmining-logo.png" alt="coeur mining" class="partner-img" style="width: 20rem;">
-                                    <img class="slide" src="img/partners/micon-logo.png" alt="micon drilling" class="partner-img" style="width: 15rem;">
-                                    <img class="slide" src="img/partners/genco-logo.png" alt="genco mine service" class="partner-img">
+                                    <div class="slide-track">
+                                        <div class="slide">
+                                            <img src="img/partners/penoles-logo.png"  alt="peñoles" alt="" />
+                                        </div>
+                                        <div class="slide">
+                                            <img src="img/partners/minerafresnillo-logo.png" alt="" />
+                                        </div>
+                                        <div class="slide">
+                                            <img src="img/partners/robbins-logo.png"  alt="" />
+                                        </div>
+                                        <div class="slide">
+                                            <img src="img/partners/coeurmining-logo.png"  alt="" />
+                                        </div>        
+                                        <div class="slide">
+                                            <img src="img/partners/genco-logo.png" alt="" />
+                                        </div>
+                                        <div class="slide">
+                                            <img src="img/partners/micon-logo.png" width="195px" alt="" />
+                                        </div>
+                                        <div class="slide">
+                                            <img src="img/partners/penoles-logo.png" alt="peñoles" alt="" />
+                                        </div>
+                                        <div class="slide">
+                                            <img src="img/partners/minerafresnillo-logo.png"  alt="" />
+                                        </div>
+                                        <div class="slide">
+                                            <img src="img/partners/robbins-logo.png" alt="" />
+                                        </div>
+                                        <div class="slide">
+                                            <img src="img/partners/coeurmining-logo.png"  alt="" />
+                                        </div>
+                                        <div class="slide">
+                                            <img src="img/partners/genco-logo.png"  alt="" />
+                                        </div>
+                                        <div class="slide">
+                                            <img src="img/partners/micon-logo.png" width="195px" alt="" />
+                                        </div>        
+                                    </div>
                                 </div>
-                                -->
                             </div>
                         </div>            
                     </div>    
                 </div>
             </section>
 
-            <section class="contact-section mt-lg text-center pt-m">
+            <section id="contact-section" class="contact-section mt-lg text-center pt-m">
                 <div class="contact-img radius-20">
                     <div class="contact-overlay radius-20">
                         <h1 class=" white-text pt-xs pb-xs">Contácto</h1>                                
@@ -282,14 +272,10 @@
     </footer>
 </body>
 </html>
-<!-- jQuery CDN -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<!-- Smooth scroll -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
-<!-- Y-axis Scroll -->
+<!-- Change header style when scrolling -->
 <script src="js/scroll.js"></script>
-<!-- slider -->
-<script src="js/slider.js"></script>
+<!-- Jump to section when clicking anchor -->
+<script src="js/jump-section.js"></script>
 <!-- AOS fade animation library -->
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
