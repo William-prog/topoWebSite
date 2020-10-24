@@ -238,7 +238,7 @@
                                     </iframe>
                                 </div>
                                 <div class="extra-contact">
-                                    <h5>Servicios y Equipos TOPO Fresnillo Zac.</h5>
+                                    <h5></h5>
                                     <div class="contact-info-container">
                                         <img src="img/phone.png" alt="teléfono servicios y equipos TOPO">
                                         <h5>555 555 555 555</h5>
