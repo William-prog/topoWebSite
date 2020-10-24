@@ -241,15 +241,15 @@
                                     <h5>Servicios y Equipos TOPO Fresnillo Zac.</h5>
                                     <div class="contact-info-container">
                                         <img src="img/phone.png" alt="teléfono servicios y equipos TOPO">
-                                        <h5>492 134 02 53</h5>
+                                        <h5>555 555 555 555</h5>
                                     </div>
                                     <div class="contact-info-container">
                                         <img src="img/mail.png" alt="teléfono servicios y equipos TOPO">
-                                        <h5>recursos.humanos@topo-int.com</h5>
+                                        <h5>doe@topo-int.com</h5>
                                     </div>
                                     <div class="contact-info-container">
                                         <img src="img/mail.png" alt="teléfono servicios y equipos TOPO">
-                                        <h5>customerservice@topo-int.com</h5>
+                                        <h5>doe@topo-int.com</h5>
                                     </div>
                                     <div class="contact-info-container">
                                         <img src="img/clock.png" alt="teléfono servicios y equipos TOPO">
