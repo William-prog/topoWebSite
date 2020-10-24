@@ -276,7 +276,7 @@
                                     </div>
                                     <div class="contact-info-container">
                                         <img src="img/mail.png" alt="teléfono servicios y equipos TOPO">
-                                        <h5>customerservice@topo-int.com</h5>
+                                        <h5>customerservices@topo-int.com</h5>
                                     </div>
                                     <div class="contact-info-container">
                                         <img src="img/clock.png" alt="teléfono servicios y equipos TOPO">
