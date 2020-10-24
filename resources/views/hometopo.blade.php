@@ -245,11 +245,11 @@
                                     </div>
                                     <div class="contact-info-container">
                                         <img src="img/mail.png" alt="teléfono servicios y equipos TOPO">
-                                        <h5>doe@topo-int.com</h5>
+                                        <h5>doe@doe.com</h5>
                                     </div>
                                     <div class="contact-info-container">
                                         <img src="img/mail.png" alt="teléfono servicios y equipos TOPO">
-                                        <h5>doe@topo-int.com</h5>
+                                        <h5>doe@doe.com</h5>
                                     </div>
                                     <div class="contact-info-container">
                                         <img src="img/clock.png" alt="teléfono servicios y equipos TOPO">
