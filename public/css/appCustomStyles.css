@@ -52,8 +52,16 @@
 html {
   background-color: #E5E5E5;
   box-sizing: border-box;
-  font-size: 100%;
+  font-size: 1rem;
   font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-size: 1.6em;
+}
+
+p {
+  font-size: 1em;
 }
 
 * {
@@ -455,7 +463,7 @@ section .service-container .service-item p {
 @media (min-width: 1200px) {
   .history-section .history-frame img {
     margin: 10% 0% 0% 10%;
-    width: 125%;
+    max-width: 100%;
   }
 }
 

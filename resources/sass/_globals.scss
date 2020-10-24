@@ -3,8 +3,16 @@
 html {
     background-color: $pale-color;
     box-sizing: border-box;
-    font-size: 100%;
+    font-size: 1rem;
     font-family: 'Roboto', sans-serif;        
+}
+
+h1 {
+    font-size: 1.6em;
+}
+
+p {
+    font-size: 1em;
 }
 
 * {

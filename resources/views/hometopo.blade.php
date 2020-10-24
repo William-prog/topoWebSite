@@ -14,6 +14,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#FF781F" />
+    <meta name="description" content="Servicios y equipos de mineria con más de 30 años de experiencia. Reparación y mantenimiento, contamos con cabina de pintura, shotblast, mano de obra minera.">
+    <meta http-equiv="ScreenOrientation" content="autoRotate:disabled">
     <!-- Link tags -->
     <link rel="icon" type="image/png" href="img/favicon.png"/>
     <link rel="stylesheet" href="css/appCustomStyles.css">
@@ -263,7 +265,9 @@
     </main>
 
     <footer class="text-center">
-        <div class="dirt-background"></div>
+        <div class="dirt-background">
+            
+        </div>
         <div class="footer-elements">
             <h3>Mapa del sitio</h3>
             <div class="site-map">                

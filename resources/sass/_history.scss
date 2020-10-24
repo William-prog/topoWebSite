@@ -21,9 +21,10 @@
         img {
             width: 100%;
 
+            // img
             @include for-desktop-up {
                 margin: 10% 0% 0% 10%;
-                width: 125%;
+                max-width: 100%;
             }
         }
 
