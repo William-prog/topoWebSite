@@ -157,65 +157,38 @@
                                             <img src="img/partners/penoles-logo.png"  alt="peñoles" alt="" />
                                         </div>
                                         <div class="slide">
-                                            <a href="http://www.fresnilloplc.com/" target="_blank">
-                                                <img src="img/partners/minerafresnillo-logo.png" alt="" />
-                                            </a>                                            
+                                            <img src="img/partners/minerafresnillo-logo.png" alt="" />
                                         </div>
                                         <div class="slide">
-                                            <a href="https://www.therobbinscompany.com/es/" target="_blank">
-                                                <img src="img/partners/robbins-logo.png"  alt="" />
-                                            </a>                                            
+                                            <img src="img/partners/robbins-logo.png"  alt="" />
                                         </div>
                                         <div class="slide">
-                                            <a href="https://www.coeur.com/" target="_blank">
-                                                <img src="img/partners/coeurmining-logo.png"  alt="" />
-                                            </a>                                            
+                                            <img src="img/partners/coeurmining-logo.png"  alt="" />
                                         </div>        
                                         <div class="slide">
-                                            <a href="https://gencomineservice.com/" target="_blanks">
-                                                <img src="img/partners/genco-logo.png" alt="" />
-                                            </a>                                            
+                                            <img src="img/partners/genco-logo.png" alt="" />
                                         </div>
                                         <div class="slide">
-                                            <a href="https://www.micon-drilling.de/MD/en/index.php">
-                                                <img src="img/partners/micon-logo.png" width="195px" alt="" />
-                                            </a>                                            
+                                            <img src="img/partners/micon-logo.png" width="195px" alt="" />
                                         </div>
                                         <div class="slide">
-                                            <a href="https://www.penoles.com.mx/" target="_blank">
-                                                <img src="img/partners/penoles-logo.png" alt="peñoles" alt="" />
-                                            </a>                                            
+                                            <img src="img/partners/penoles-logo.png" alt="peñoles" alt="" />
                                         </div>
                                         <div class="slide">
-                                            <a href="http://www.fresnilloplc.com/" target="_blank">
-                                                <img src="img/partners/minerafresnillo-logo.png" alt="" />
-                                            </a>
+                                            <img src="img/partners/minerafresnillo-logo.png"  alt="" />
                                         </div>
                                         <div class="slide">
-                                            <a href="https://www.therobbinscompany.com/es/" target="_blank">
-                                                <img src="img/partners/robbins-logo.png"  alt="" />
-                                            </a>  
+                                            <img src="img/partners/robbins-logo.png" alt="" />
                                         </div>
                                         <div class="slide">
-                                            <a href="https://www.coeur.com/" target="_blank">
-                                                <img src="img/partners/coeurmining-logo.png"  alt="" />
-                                            </a>
+                                            <img src="img/partners/coeurmining-logo.png"  alt="" />
                                         </div>
                                         <div class="slide">
-                                            <a href="https://gencomineservice.com/" target="_blanks">
-                                                <img src="img/partners/genco-logo.png" alt="" />
-                                            </a>
+                                            <img src="img/partners/genco-logo.png"  alt="" />
                                         </div>
                                         <div class="slide">
-                                            <a href="https://www.micon-drilling.de/MD/en/index.php">
-                                                <img src="img/partners/micon-logo.png" width="195px" alt="" />
-                                            </a>
-                                        </div>  
-                                        <div class="slide">
-                                            <a href="https://www.penoles.com.mx/" target="_blank">
-                                                <img src="img/partners/penoles-logo.png" alt="peñoles" alt="" />
-                                            </a>                                            
-                                        </div>      
+                                            <img src="img/partners/micon-logo.png" width="195px" alt="" />
+                                        </div>        
                                     </div>
                                 </div>
                             </div>
