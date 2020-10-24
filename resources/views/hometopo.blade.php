@@ -34,9 +34,9 @@
         </nav>
 
         <nav id="desktop-nav" class="col-4 flex-jc-sb flex-ai-c flex-jc-sa hide-mobile">
-            <div class="logo-desktop hide-mobile">
+            <div class="logo-desktop">
                 <a href="#">
-                    <img id="desktop-logo" src="img/logo.png" alt="" class="hide-mobile">
+                    <img id="desktop-logo" src="img/logo.png" alt="" class="">
                 </a>
             </div>
             <div>
@@ -157,65 +157,38 @@
                                             <img src="img/partners/penoles-logo.png"  alt="peñoles" alt="" />
                                         </div>
                                         <div class="slide">
-                                            <a href="http://www.fresnilloplc.com/" target="_blank">
-                                                <img src="img/partners/minerafresnillo-logo.png" alt="" />
-                                            </a>                                            
+                                            <img src="img/partners/minerafresnillo-logo.png" alt="" />
                                         </div>
                                         <div class="slide">
-                                            <a href="https://www.therobbinscompany.com/es/" target="_blank">
-                                                <img src="img/partners/robbins-logo.png"  alt="" />
-                                            </a>                                            
+                                            <img src="img/partners/robbins-logo.png"  alt="" />
                                         </div>
                                         <div class="slide">
-                                            <a href="https://www.coeur.com/" target="_blank">
-                                                <img src="img/partners/coeurmining-logo.png"  alt="" />
-                                            </a>                                            
+                                            <img src="img/partners/coeurmining-logo.png"  alt="" />
                                         </div>        
                                         <div class="slide">
-                                            <a href="https://gencomineservice.com/" target="_blanks">
-                                                <img src="img/partners/genco-logo.png" alt="" />
-                                            </a>                                            
+                                            <img src="img/partners/genco-logo.png" alt="" />
                                         </div>
                                         <div class="slide">
-                                            <a href="https://www.micon-drilling.de/MD/en/index.php">
-                                                <img src="img/partners/micon-logo.png" width="195px" alt="" />
-                                            </a>                                            
+                                            <img src="img/partners/micon-logo.png" width="195px" alt="" />
                                         </div>
                                         <div class="slide">
-                                            <a href="https://www.penoles.com.mx/" target="_blank">
-                                                <img src="img/partners/penoles-logo.png" alt="peñoles" alt="" />
-                                            </a>                                            
+                                            <img src="img/partners/penoles-logo.png" alt="peñoles" alt="" />
                                         </div>
                                         <div class="slide">
-                                            <a href="http://www.fresnilloplc.com/" target="_blank">
-                                                <img src="img/partners/minerafresnillo-logo.png" alt="" />
-                                            </a>
+                                            <img src="img/partners/minerafresnillo-logo.png"  alt="" />
                                         </div>
                                         <div class="slide">
-                                            <a href="https://www.therobbinscompany.com/es/" target="_blank">
-                                                <img src="img/partners/robbins-logo.png"  alt="" />
-                                            </a>  
+                                            <img src="img/partners/robbins-logo.png" alt="" />
                                         </div>
                                         <div class="slide">
-                                            <a href="https://www.coeur.com/" target="_blank">
-                                                <img src="img/partners/coeurmining-logo.png"  alt="" />
-                                            </a>
+                                            <img src="img/partners/coeurmining-logo.png"  alt="" />
                                         </div>
                                         <div class="slide">
-                                            <a href="https://gencomineservice.com/" target="_blanks">
-                                                <img src="img/partners/genco-logo.png" alt="" />
-                                            </a>
+                                            <img src="img/partners/genco-logo.png"  alt="" />
                                         </div>
                                         <div class="slide">
-                                            <a href="https://www.micon-drilling.de/MD/en/index.php">
-                                                <img src="img/partners/micon-logo.png" width="195px" alt="" />
-                                            </a>
-                                        </div>  
-                                        <div class="slide">
-                                            <a href="https://www.penoles.com.mx/" target="_blank">
-                                                <img src="img/partners/penoles-logo.png" alt="peñoles" alt="" />
-                                            </a>                                            
-                                        </div>      
+                                            <img src="img/partners/micon-logo.png" width="195px" alt="" />
+                                        </div>        
                                     </div>
                                 </div>
                             </div>
@@ -265,18 +238,18 @@
                                     </iframe>
                                 </div>
                                 <div class="extra-contact">
-                                    <h5>Servicios y Equipos TOPO Fresnillo Zac.</h5>
+                                    <h5></h5>
                                     <div class="contact-info-container">
                                         <img src="img/phone.png" alt="teléfono servicios y equipos TOPO">
-                                        <h5>492 134 02 53</h5>
+                                        <h5>555 555 555 555</h5>
                                     </div>
                                     <div class="contact-info-container">
                                         <img src="img/mail.png" alt="teléfono servicios y equipos TOPO">
-                                        <h5>recursos.humanos@topo-int.com</h5>
+                                        <h5>doe@doe.com</h5>
                                     </div>
                                     <div class="contact-info-container">
                                         <img src="img/mail.png" alt="teléfono servicios y equipos TOPO">
-                                        <h5>customerservice@topo-int.com</h5>
+                                        <h5>doe@doe.com</h5>
                                     </div>
                                     <div class="contact-info-container">
                                         <img src="img/clock.png" alt="teléfono servicios y equipos TOPO">
