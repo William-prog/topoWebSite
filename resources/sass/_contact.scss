@@ -42,6 +42,11 @@
             width: 90%;            
 
             .form-container {
+
+                form {
+                    width: 85%;
+                }
+
                 input, select {
                     background-color: $gray-input-color;
                     border: none;
@@ -49,9 +54,7 @@
                     color: $white-color;                                
                     margin: 0 0 .75rem 0; 
                     padding: .75rem 0;
-                    width: 90%;
-                    padding-left: 25px;
-                    padding-right: 25px;
+                    width: 100%;
                 }                          
 
                 .form-button-container {

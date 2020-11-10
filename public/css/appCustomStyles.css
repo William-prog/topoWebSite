@@ -663,6 +663,10 @@ section .service-container .service-item p {
   width: 90%;
 }
 
+.contact-section .contact-img .container .form-container form {
+  width: 85%;
+}
+
 .contact-section .contact-img .container .form-container input,
 .contact-section .contact-img .container .form-container select {
   background-color: #6F6D6D;
@@ -671,9 +675,7 @@ section .service-container .service-item p {
   color: #fff;
   margin: 0 0 0.75rem 0;
   padding: 0.75rem 0;
-  width: 90%;
-  padding-left: 25px;
-  padding-right: 25px;
+  width: 100%;
 }
 
 .contact-section .contact-img .container .form-container .form-button-container {
