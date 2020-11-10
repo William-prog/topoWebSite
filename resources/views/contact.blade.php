@@ -20,10 +20,10 @@
 <body>
     @include('header')
 
-    <section id="contact-section" class="contact-section text-center pt-lg">
+    <section id="contact-section" class="contact-section pt-lg">
         <div class="contact-img radius-20">
             <div class="contact-overlay radius-20">                
-                <div class="gray-text white-bg container extra-info-position shadow radius-20 pb-xs mt-s">                                                
+                <div class="gray-text white-bg container text-center extra-info-position shadow radius-20 pb-xs">                                                
                     <h2 class="pt-xs pb-xs">Información adicional de contácto</h2>
                     <div class="extra-info-column">
                         <div class="map-container radius-20">                                                  
@@ -59,20 +59,25 @@
                 </div>
 
                 <div class="black-bg container form-position radius-20 white-text">
-                    <h2 class="pt-xs pb-xs"> <span class="orange-text">Comunícate</span> con nosotros</h2>                    
+                    <h2 class="pt-xs pb-xs text-center"> <span class="orange-text">Comunícate</span> con nosotros</h2>                    
                     <div class="form-container">
-                        <form method="POST" action="{{ route('send-message') }}">                                    
+                        <form class="content-center" method="POST" action="{{ route('send-message') }}">                                    
                             @csrf
-                            <input required name="full-name" type="text" placeholder="Nombre completo">
-                            <input required name="sender" type="text" placeholder="Correo electrónico" class="mt-xs">
-                            <input required name="subject" type="text" placeholder="Asunto" class="mt-xs">
-                            <select required name="to-contact" id="">
+                            <label for="full-name">Nombre completo</label>
+                            <input required name="full-name" id="full-name" type="text" placeholder="Nombre completo">
+                            <label for="e-mail">Correo electrónico</label>
+                            <input required name="sender" id="e-mail" type="text" placeholder="Correo electrónico" class="mt-xs">
+                            <label for="subject">Asunto del mensaje</label>
+                            <input required name="subject" id="subject" type="text" placeholder="Asunto" class="mt-xs">
+                            <label for="department">Departamento al que se dirige</label>
+                            <select required name="to-contact" id="department">
                                 <option value="" disabled selected>Departamento al que dirige</option>
                                 <option value="Recursos humanos">Recursos humanos</option>
                                 <option value="Servicio a clientes">Servicio a clientes</option>
                                 <option value="Compras">Compras</option>
                             </select>
-                            <input required name="message" type="text" placeholder="Mensaje" class="mt-xs">
+                            <label for="message">¿En qué te podemos servir?</label>
+                            <input required name="message" id="message" type="text" placeholder="Mensaje" class="mt-xs">
                             <div class="form-button-container">                                        
                                 <button type="submit" class="button-gradient">Enviar</button>   
                             </div>

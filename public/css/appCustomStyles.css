@@ -86,6 +86,10 @@ main {
   }
 }
 
+.content-center {
+  margin: 0 auto;
+}
+
 .text-center {
   text-align: center;
 }
@@ -716,18 +720,7 @@ section .service-container .service-item p {
   padding-bottom: 2.5rem;
 }
 
-@media (min-width: 1200px) {
-  .contact-section .contact-img .form-position {
-    position: relative;
-    top: 0;
-    left: 18%;
-    top: -40%;
-    width: 25rem;
-  }
-}
-
 .contact-section .contact-img .contact-info-container {
-  align-items: center;
   display: flex;
   font-size: 1.2rem;
   justify-content: flex-start;
@@ -739,12 +732,6 @@ section .service-container .service-item p {
 }
 
 @media (min-width: 1200px) {
-  .contact-section .contact-img .extra-info-position {
-    position: relative;
-    top: -12rem;
-    width: 80%;
-  }
-
   .contact-section .contact-img .extra-info-position .contact-info-container img {
     margin-left: 1rem;
     margin-right: 1.25rem;
