@@ -627,27 +627,6 @@ section .service-container .service-item p {
   padding: 0;
 }
 
-.contact-section ::-moz-placeholder {
-  color: rgba(255, 255, 255, 0.5);
-  font-size: 1.15rem;
-}
-
-.contact-section :-ms-input-placeholder {
-  color: rgba(255, 255, 255, 0.5);
-  font-size: 1.15rem;
-}
-
-.contact-section ::-ms-input-placeholder {
-  color: rgba(255, 255, 255, 0.5);
-  font-size: 1.15rem;
-}
-
-.contact-section ::placeholder,
-.contact-section select {
-  color: rgba(255, 255, 255, 0.5);
-  font-size: 1.15rem;
-}
-
 .contact-section .contact-img {
   background-image: url(/img/hero-image.JPG);
   background-position: center;
@@ -693,26 +672,8 @@ section .service-container .service-item p {
   margin: 0 0 0.75rem 0;
   padding: 0.75rem 0;
   width: 90%;
-  box-sizing: border-box;
   padding-left: 25px;
   padding-right: 25px;
-}
-
-.contact-section .contact-img .container .form-container input[type=text]::-moz-placeholder {
-  font-weight: 900;
-}
-
-.contact-section .contact-img .container .form-container input[type=text]:-ms-input-placeholder {
-  font-weight: 900;
-}
-
-.contact-section .contact-img .container .form-container input[type=text]::-ms-input-placeholder {
-  font-weight: 900;
-}
-
-.contact-section .contact-img .container .form-container input[type=text]::placeholder,
-.contact-section .contact-img .container .form-container select {
-  font-weight: 900;
 }
 
 .contact-section .contact-img .container .form-container .form-button-container {

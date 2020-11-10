@@ -76,7 +76,7 @@
                                 <option value="Servicio a clientes">Servicio a clientes</option>
                                 <option value="Compras">Compras</option>
                             </select>
-                            <label for="message">¿En qué te podemos servir?</label>
+                            <label for="message">Mensaje</label>
                             <input required name="message" id="message" type="text" placeholder="Mensaje" class="mt-xs">
                             <div class="form-button-container">                                        
                                 <button type="submit" class="button-gradient">Enviar</button>   
