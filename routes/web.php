@@ -35,6 +35,11 @@ Route::post('send-message', 'LandingController@sendMessage')->name('send-message
 // Contact form message has been sent successfuly
 Route::get('message-successful', function() {
 
-    
     return view('message_successful');
+    
 })->name('message-successful');
+
+// Contact form and information view
+Route::get('contact', function() {
+    return view('contact');
+});
