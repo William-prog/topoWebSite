@@ -22,32 +22,8 @@
 
     <section id="contact-section" class="contact-section text-center pt-lg">
         <div class="contact-img radius-20">
-            <div class="contact-overlay radius-20">
-                <h1 class=" white-text pt-xs pb-xs">Contácto</h1>                                
-                <div data-aos="fade-right" data-aos-duration="750" class="black-bg container form-position radius-20  white-text">
-                    <h2 class="pt-xs pb-xs"> <span class="orange-text">Comunícate</span> con nosotros</h2>                    
-                    <div class="form-container">
-                        <form method="POST" action="{{ route('send-message') }}">                                    
-                            @csrf
-                            <input required name="full-name" type="text" placeholder="Nombre completo">
-                            <input required name="sender" type="text" placeholder="Correo electrónico" class="mt-xs">
-                            <input required name="subject" type="text" placeholder="Asunto" class="mt-xs">
-                            <select required name="to-contact" id="">
-                                <option value="" disabled selected>Departamento al que dirige</option>
-                                <option value="Recursos humanos">Recursos humanos</option>
-                                <option value="Servicio a clientes">Servicio a clientes</option>
-                                <option value="Compras">Compras</option>
-                                <option value="Gerencia">Gerencia</option>
-                            </select>
-                            <input required name="message" type="text" placeholder="Mensaje" class="mt-xs">
-                            <div class="form-button-container">                                        
-                                <button type="submit" class="button-gradient">Enviar</button>   
-                            </div>
-                        </form>                                                                                               
-                    </div>
-                </div>
-
-                <div data-aos="fade-right" data-aos-duration="750" class="gray-text  white-bg container extra-info-position shadow radius-20 pb-xs mt-s">                                                
+            <div class="contact-overlay radius-20">                
+                <div class="gray-text white-bg container extra-info-position shadow radius-20 pb-xs mt-s">                                                
                     <h2 class="pt-xs pb-xs">Información adicional de contácto</h2>
                     <div class="extra-info-column">
                         <div class="map-container radius-20">                                                  
@@ -79,6 +55,28 @@
                                 <h5>Lun-Vie: 08:00am-06:00pm</h5>                        
                             </div>
                         </div>
+                    </div>
+                </div>
+
+                <div class="black-bg container form-position radius-20 white-text">
+                    <h2 class="pt-xs pb-xs"> <span class="orange-text">Comunícate</span> con nosotros</h2>                    
+                    <div class="form-container">
+                        <form method="POST" action="{{ route('send-message') }}">                                    
+                            @csrf
+                            <input required name="full-name" type="text" placeholder="Nombre completo">
+                            <input required name="sender" type="text" placeholder="Correo electrónico" class="mt-xs">
+                            <input required name="subject" type="text" placeholder="Asunto" class="mt-xs">
+                            <select required name="to-contact" id="">
+                                <option value="" disabled selected>Departamento al que dirige</option>
+                                <option value="Recursos humanos">Recursos humanos</option>
+                                <option value="Servicio a clientes">Servicio a clientes</option>
+                                <option value="Compras">Compras</option>
+                            </select>
+                            <input required name="message" type="text" placeholder="Mensaje" class="mt-xs">
+                            <div class="form-button-container">                                        
+                                <button type="submit" class="button-gradient">Enviar</button>   
+                            </div>
+                        </form>                                                                                               
                     </div>
                 </div>
             </div>            

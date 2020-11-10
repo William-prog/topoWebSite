@@ -49889,9 +49889,9 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\zaidg\desktop\topowebsite\resources\js\app.js */"./resources/js/app.js");
-__webpack_require__(/*! C:\Users\zaidg\desktop\topowebsite\resources\sass\app.scss */"./resources/sass/app.scss");
-module.exports = __webpack_require__(/*! C:\Users\zaidg\desktop\topowebsite\resources\sass\appCustomStyles.scss */"./resources/sass/appCustomStyles.scss");
+__webpack_require__(/*! C:\Users\zaidg\desktop\laravel-apps\topowebsite\resources\js\app.js */"./resources/js/app.js");
+__webpack_require__(/*! C:\Users\zaidg\desktop\laravel-apps\topowebsite\resources\sass\app.scss */"./resources/sass/app.scss");
+module.exports = __webpack_require__(/*! C:\Users\zaidg\desktop\laravel-apps\topowebsite\resources\sass\appCustomStyles.scss */"./resources/sass/appCustomStyles.scss");
 
 
 /***/ })
