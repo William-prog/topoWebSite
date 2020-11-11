@@ -28,7 +28,7 @@
                 <div>
                     <!-- Mexico contact info -->
                     <div class="gray-text white-bg container text-center extra-info-position shadow radius-20 pb-xs">                                                
-                        <h2 class="pt-xs pb-xxs"><img src="img/mexicanflag.png" alt="¡Viva México!" width="10%"></h2>    
+                        <h2 class="pt-xs pb-xxs"><img src="img/mexicanflag.png" alt="¡Viva México!" width="15%"></h2>    
                         <div class="extra-info-column">
                             <div class="map-container radius-20">                                                  
                                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1834.1830784091885!2d-102.8918168!3d23.1568326!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86830be391db3911%3A0xbe388955ea1b0ef6!2sServicios%20y%20Equipos%20Topo%20S.A.%20DE%20C.V.!5e0!3m2!1ses-419!2smx!4v1575931759306!5m2!1ses-419!2smx" 
@@ -44,11 +44,15 @@
                                 <h5></h5>
                                 <div class="contact-info-container">
                                     <img src="img/phone.png" alt="teléfono servicios y equipos TOPO">
-                                    <h5>555 555 555 555</h5>
+                                    <h5>492 134 0253</h5>                                    
                                 </div>
                                 <div class="contact-info-container">
                                     <img src="img/mail.png" alt="teléfono servicios y equipos TOPO">
                                     <h5>doe@topo-int.com</h5>
+                                </div>
+                                <div class="contact-info-container">
+                                    <img src="img/pin.png" alt="teléfono servicios y equipos TOPO">
+                                    <h5>Carretera de Valdecañas</h5>                        
                                 </div>
                                 <div class="contact-info-container">
                                     <img src="img/clock.png" alt="teléfono servicios y equipos TOPO">
@@ -60,10 +64,10 @@
                     <!-- USA contact info -->
                     <div class="pt-xs">
                         <div class="gray-text white-bg container text-center extra-info-position shadow radius-20 pb-xxs">                                                
-                            <h2 class="pt-xs pb-xxs"><img src="img/usflag.png" alt="God bless America" width="10%"></h2>                            
+                            <h2 class="pt-xs pb-xxs"><img src="img/usflag.png" alt="God bless America" width="15%"></h2>                            
                             <div class="extra-info-column">
-                                <div class="map-container radius-20">                                                  
-                                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1834.1830784091885!2d-102.8918168!3d23.1568326!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86830be391db3911%3A0xbe388955ea1b0ef6!2sServicios%20y%20Equipos%20Topo%20S.A.%20DE%20C.V.!5e0!3m2!1ses-419!2smx!4v1575931759306!5m2!1ses-419!2smx" 
+                                <div class="map-container radius-20">  
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8259844.543699297!2d-106.7142324284875!3d31.785695818446012!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87185a481f9ffb87%3A0x88bf4ac0c4596ad2!2sTopo%20Machinery!5e0!3m2!1ses!2smx!4v1605119932376!5m2!1ses!2smx"                                    
                                         class="radius-20"
                                         width="90%" 
                                         height="100%"
@@ -76,15 +80,15 @@
                                     <h5></h5>
                                     <div class="contact-info-container">
                                         <img src="img/phone.png" alt="teléfono servicios y equipos TOPO">
-                                        <h5>555 555 555 555</h5>
+                                        <h5>+1 505 424 0908</h5>
                                     </div>
                                     <div class="contact-info-container">
                                         <img src="img/mail.png" alt="teléfono servicios y equipos TOPO">
                                         <h5>doe@topo-int.com</h5>
                                     </div>
                                     <div class="contact-info-container">
-                                        <img src="img/clock.png" alt="teléfono servicios y equipos TOPO">
-                                        <h5>Lun-Vie: 08:00am-06:00pm</h5>                        
+                                        <img src="img/pin.png" alt="teléfono servicios y equipos TOPO">
+                                        <h5>Rodeo Ln STE D4, Santa Fe</h5>                        
                                     </div>
                                 </div>
                             </div>
@@ -141,3 +145,6 @@
     </section>
 </body>
 </html>
+
+<!-- Change header style based on page title -->
+<script src="js/change-header-style.js"></script>

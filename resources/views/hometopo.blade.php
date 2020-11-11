@@ -283,6 +283,8 @@
 </html>
 <!-- Jump to section when clicking anchor -->
 <script src="js/jump-section.js"></script>
+<!-- Change header style when scrolling -->
+<script src="js/scroll.js"></script>
 <!-- AOS fade animation library -->
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>

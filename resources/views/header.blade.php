@@ -8,7 +8,7 @@
         </a>
     </nav>
 
-    <nav id="desktop-nav" class="col-4 flex-jc-sb flex-ai-c flex-jc-sa hide-mobile">
+    <nav id="desktop-nav" class="col-4 flex-jc-sb flex-ai-c flex-jc-sa hide-mobile scrolled">
         <div class="logo-desktop">
             <a href="#">
                 <img id="desktop-logo" src="img/logo.png" alt="" class="">
@@ -28,6 +28,3 @@
         </div>
     </nav>
 </header>
-
-<!-- Change header style when scrolling -->
-<script src="js/scroll.js"></script>
