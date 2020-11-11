@@ -34,6 +34,7 @@
                     text-align: left;
                 }
 
+                align-items: center;
                 display: grid;
                 grid-template-columns: 1fr 1fr;
                 grid-template-rows: auto;
@@ -53,7 +54,7 @@
 
                     @include for-desktop-up {
 
-                        .form-grid-container {
+                        .form-grid-container {                            
                             display: grid;
                             column-gap: 30px;
                             grid-template-columns: 1fr 1fr;

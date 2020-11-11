@@ -671,6 +671,7 @@ section .service-container .service-item p {
 @media (min-width: 1200px) {
   .contact-section .contact-img .contact-overlay {
     height: 100vh;
+    align-items: center;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
