@@ -27,7 +27,7 @@
                 <!-- Container for the maps cards -->
                 <div>
                     <!-- Mexico contact info -->
-                    <div class="gray-text white-bg container text-center extra-info-position shadow radius-20 pb-xs">                                                
+                    <div class="gray-text white-bg container text-center extra-info-position shadow radius-20 pb-xxs">                                                
                         <h2 class="pt-xs pb-xxs">Información adicional de contácto</h2>
                         <div class="extra-info-column">
                             <div class="map-container radius-20">                                                  
@@ -48,7 +48,7 @@
                                 </div>
                                 <div class="contact-info-container">
                                     <img src="img/mail.png" alt="teléfono servicios y equipos TOPO">
-                                    <h5>customerservices@topo-int.com</h5>
+                                    <h5>doe@topo-int.com</h5>
                                 </div>
                                 <div class="contact-info-container">
                                     <img src="img/clock.png" alt="teléfono servicios y equipos TOPO">
@@ -58,7 +58,7 @@
                         </div>
                     </div>
                     <!-- USA contact info -->
-                    <div class="gray-text white-bg container text-center extra-info-position shadow radius-20 pb-xs">                                                
+                    <div class="gray-text white-bg container text-center extra-info-position shadow radius-20 pb-xxs">                                                
                         <h2 class="pt-xs pb-xs">Información adicional de contácto</h2>
                         <div class="extra-info-column">
                             <div class="map-container radius-20">                                                  
@@ -79,7 +79,7 @@
                                 </div>
                                 <div class="contact-info-container">
                                     <img src="img/mail.png" alt="teléfono servicios y equipos TOPO">
-                                    <h5>customerservices@topo-int.com</h5>
+                                    <h5>doe@topo-int.com</h5>
                                 </div>
                                 <div class="contact-info-container">
                                     <img src="img/clock.png" alt="teléfono servicios y equipos TOPO">
