@@ -141,6 +141,10 @@ main {
     padding-top: 3rem;
 }
 
+.pt-xxs {
+    padding-top: 1.5rem;
+}
+
 // padding bottom
 .pb-lg {
     padding-bottom: 15rem;
@@ -196,11 +200,11 @@ main {
     border: none;
     border-radius: 10px;
     color: $black-color;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 900;
     text-align: center;
     text-decoration: none;
-    padding: 15px 15px;
+    padding: 15px 10px;
 }
 
 .button-white:hover {

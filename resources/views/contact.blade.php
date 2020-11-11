@@ -20,7 +20,7 @@
 <body>
     @include('header')
 
-    <section id="contact-section" class="contact-section pt-lg">
+    <section id="contact-section" class="contact-section pt-m">
         <div class="contact-img radius-20">
             <div class="contact-overlay radius-20">    
                 
@@ -28,7 +28,7 @@
                 <div>
                     <!-- Mexico contact info -->
                     <div class="gray-text white-bg container text-center extra-info-position shadow radius-20 pb-xs">                                                
-                        <h2 class="pt-xs pb-xs">Información adicional de contácto</h2>
+                        <h2 class="pt-xs pb-xxs">Información adicional de contácto</h2>
                         <div class="extra-info-column">
                             <div class="map-container radius-20">                                                  
                                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1834.1830784091885!2d-102.8918168!3d23.1568326!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86830be391db3911%3A0xbe388955ea1b0ef6!2sServicios%20y%20Equipos%20Topo%20S.A.%20DE%20C.V.!5e0!3m2!1ses-419!2smx!4v1575931759306!5m2!1ses-419!2smx" 
@@ -45,10 +45,6 @@
                                 <div class="contact-info-container">
                                     <img src="img/phone.png" alt="teléfono servicios y equipos TOPO">
                                     <h5>555 555 555 555</h5>
-                                </div>
-                                <div class="contact-info-container">
-                                    <img src="img/mail.png" alt="teléfono servicios y equipos TOPO">
-                                    <h5>doe@doe.com</h5>
                                 </div>
                                 <div class="contact-info-container">
                                     <img src="img/mail.png" alt="teléfono servicios y equipos TOPO">
@@ -83,10 +79,6 @@
                                 </div>
                                 <div class="contact-info-container">
                                     <img src="img/mail.png" alt="teléfono servicios y equipos TOPO">
-                                    <h5>doe@doe.com</h5>
-                                </div>
-                                <div class="contact-info-container">
-                                    <img src="img/mail.png" alt="teléfono servicios y equipos TOPO">
                                     <h5>customerservices@topo-int.com</h5>
                                 </div>
                                 <div class="contact-info-container">
@@ -98,8 +90,8 @@
                     </div>
                 </div>
 
-                <div class="black-bg container form-position radius-20 white-text">
-                    <h2 class="pt-xs pb-xs text-center"> <span class="orange-text">Comunícate</span> con nosotros</h2>                    
+                <div class="black-bg container form-position radius-20 white-text shadow">
+                    <h2 class="pt-xs pb-xxs text-center"> <span class="orange-text">Comunícate</span> con nosotros</h2>                    
                     <div class="form-container">
                         <form class="content-center" method="POST" action="{{ route('send-message') }}">                                    
                             @csrf
@@ -128,7 +120,7 @@
                             </div>
                             <div class="form-input-container">
                                 <label for="message">Mensaje</label>
-                                <textarea required name="message" id="message" cols="30" rows="10"></textarea>
+                                <textarea required name="message" id="message" cols="30" rows="4"></textarea>
                             </div>
                             <div class="form-button-container">                                        
                                 <button type="submit" class="button-white">Enviar</button>   

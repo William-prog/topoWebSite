@@ -1,6 +1,10 @@
 // contact section
 .contact-section {
 
+    h2 {
+        font-size: 1.75rem;
+    }
+
     input:focus, select {
         outline: none !important;
         margin: 0;
@@ -61,12 +65,14 @@
                     background-color: $gray-input-color;
                     border: none;
                     color: $white-color;                                
-                    margin: 0 0 .75rem 0; 
+                    margin: 0 0 .55rem 0; 
                     padding: .75rem 0;
                     width: 100%;
                 }
                 
-              
+                label {
+                    font-size: 1.25rem;
+                }
 
                 .form-button-container {
                     margin-top: 1rem;
@@ -74,7 +80,7 @@
                     text-align: center;
 
                     button {
-                        width: 50%;
+                        width: 30%;
                     }
                 }
             }
@@ -106,8 +112,12 @@
 
                     img {
                         margin-left: 1rem;
-                        margin-right: 1.25rem;
-                        width: 45px;
+                        margin-right: 1.15rem;
+                        width: 13%;
+                    }
+
+                    h5 {
+                        font-size: .95rem;
                     }
                 }
 

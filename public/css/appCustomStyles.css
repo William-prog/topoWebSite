@@ -184,6 +184,10 @@ main {
   padding-top: 3rem;
 }
 
+.pt-xxs {
+  padding-top: 1.5rem;
+}
+
 .pb-lg {
   padding-bottom: 15rem;
 }
@@ -237,11 +241,11 @@ main {
   border: none;
   border-radius: 10px;
   color: #333;
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: 900;
   text-align: center;
   text-decoration: none;
-  padding: 15px 15px;
+  padding: 15px 10px;
 }
 
 .button-white:hover {
@@ -638,6 +642,10 @@ section .service-container .service-item p {
   }
 }
 
+.contact-section h2 {
+  font-size: 1.75rem;
+}
+
 .contact-section input:focus,
 .contact-section select {
   outline: none !important;
@@ -703,9 +711,13 @@ section .service-container .service-item p {
   background-color: #6F6D6D;
   border: none;
   color: #fff;
-  margin: 0 0 0.75rem 0;
+  margin: 0 0 0.55rem 0;
   padding: 0.75rem 0;
   width: 100%;
+}
+
+.contact-section .contact-img .container .form-container label {
+  font-size: 1.25rem;
 }
 
 .contact-section .contact-img .container .form-container .form-button-container {
@@ -715,7 +727,7 @@ section .service-container .service-item p {
 }
 
 .contact-section .contact-img .container .form-container .form-button-container button {
-  width: 50%;
+  width: 30%;
 }
 
 .contact-section .contact-img .contact-info-container {
@@ -732,8 +744,12 @@ section .service-container .service-item p {
 @media (min-width: 1200px) {
   .contact-section .contact-img .extra-info-position .contact-info-container img {
     margin-left: 1rem;
-    margin-right: 1.25rem;
-    width: 45px;
+    margin-right: 1.15rem;
+    width: 13%;
+  }
+
+  .contact-section .contact-img .extra-info-position .contact-info-container h5 {
+    font-size: 0.95rem;
   }
 
   .contact-section .contact-img .extra-info-position .extra-info-column {
