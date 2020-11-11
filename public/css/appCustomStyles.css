@@ -232,6 +232,24 @@ main {
   background-color: #333;
 }
 
+.button-white {
+  background: #E5E5E5;
+  border: none;
+  border-radius: 10px;
+  color: #333;
+  font-size: 1.5rem;
+  font-weight: 900;
+  text-align: center;
+  text-decoration: none;
+  padding: 15px 15px;
+}
+
+.button-white:hover {
+  background: #FF781F;
+  border-color: #FF781F;
+  color: #E5E5E5;
+}
+
 .button-gradient {
   background: linear-gradient(180deg, #FF781F 12.33%, #EC8F52 93.15%);
   border: none;
@@ -673,6 +691,8 @@ section .service-container .service-item p {
 @media (min-width: 1200px) {
   .contact-section .contact-img .container .form-container form .form-grid-container {
     display: grid;
+    -moz-column-gap: 30px;
+         column-gap: 30px;
     grid-template-columns: 1fr 1fr;
   }
 }
@@ -685,12 +705,17 @@ section .service-container .service-item p {
   color: #fff;
   margin: 0 0 0.75rem 0;
   padding: 0.75rem 0;
-  width: 95%;
+  width: 100%;
 }
 
 .contact-section .contact-img .container .form-container .form-button-container {
   margin-top: 1rem;
   padding-bottom: 2.5rem;
+  text-align: center;
+}
+
+.contact-section .contact-img .container .form-container .form-button-container button {
+  width: 50%;
 }
 
 .contact-section .contact-img .contact-info-container {

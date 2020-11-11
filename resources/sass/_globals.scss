@@ -191,6 +191,24 @@ main {
     background-color: $black-color;
 }
 
+.button-white {
+    background: $pale-color;
+    border: none;
+    border-radius: 10px;
+    color: $black-color;
+    font-size: 1.5rem;
+    font-weight: 900;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px 15px;
+}
+
+.button-white:hover {
+    background: $orange-color;
+    border-color: $orange-color;
+    color: $pale-color;
+}
+
 .button-gradient {
     background: linear-gradient(180deg, #FF781F 12.33%, #EC8F52 93.15%);
     border: none;

@@ -131,7 +131,7 @@
                                 <textarea required name="message" id="message" cols="30" rows="10"></textarea>
                             </div>
                             <div class="form-button-container">                                        
-                                <button type="submit" class="button-gradient">Enviar</button>   
+                                <button type="submit" class="button-white">Enviar</button>   
                             </div>
                         </form>                                                                                               
                     </div>
