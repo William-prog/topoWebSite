@@ -658,6 +658,9 @@ section .service-container .service-item p {
 }
 
 .contact-section .contact-img .container {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
   margin-left: auto;
   margin-right: auto;
   width: 90%;
@@ -667,15 +670,22 @@ section .service-container .service-item p {
   width: 85%;
 }
 
+@media (min-width: 1200px) {
+  .contact-section .contact-img .container .form-container form .form-grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
 .contact-section .contact-img .container .form-container input,
-.contact-section .contact-img .container .form-container select {
+.contact-section .contact-img .container .form-container select,
+.contact-section .contact-img .container .form-container textarea {
   background-color: #6F6D6D;
   border: none;
-  border-radius: 15px;
   color: #fff;
   margin: 0 0 0.75rem 0;
   padding: 0.75rem 0;
-  width: 100%;
+  width: 95%;
 }
 
 .contact-section .contact-img .container .form-container .form-button-container {

@@ -36,26 +36,36 @@
             }
         }
 
-        .container {            
+        .container {           
+            height: fit-content; 
             margin-left: auto;
-            margin-right: auto;
+            margin-right: auto;        
             width: 90%;            
 
             .form-container {
 
-                form {
+                form {                    
                     width: 85%;
+
+                    @include for-desktop-up {
+
+                        .form-grid-container {
+                            display: grid;
+                            grid-template-columns: 1fr 1fr;
+                        }
+                    }
                 }
 
-                input, select {
+                input, select, textarea {
                     background-color: $gray-input-color;
                     border: none;
-                    border-radius: 15px;    
                     color: $white-color;                                
                     margin: 0 0 .75rem 0; 
                     padding: .75rem 0;
-                    width: 100%;
-                }                          
+                    width: 95%;
+                }
+                
+              
 
                 .form-button-container {
                     margin-top: 1rem;
