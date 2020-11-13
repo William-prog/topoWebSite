@@ -21,7 +21,7 @@
     }
 </style>
 
-<body>
+<body class="contact-view-body">
     @include('header')
 
     <section id="contact-section" class="contact-section pt-m">
@@ -147,6 +147,8 @@
             </div>            
         </div>    
     </section>
+
+    @include('footer')
 </body>
 </html>
 

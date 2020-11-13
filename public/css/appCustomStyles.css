@@ -642,10 +642,9 @@ section .service-container .service-item p {
   }
 }
 
-body {
+.contact-view-body {
   background: linear-gradient(to bottom right, rgba(255, 120, 31, 0.85), rgba(250, 214, 166, 0.85)) no-repeat center center fixed;
   font-size: 1.5rem;
-  height: 120vh;
   line-height: 42px;
 }
 
