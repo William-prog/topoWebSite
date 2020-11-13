@@ -105,7 +105,7 @@
                                 <img src="img/map.png" alt="mapa de la república mexicana" class="pt-xs map-img">
                                 <div class="state-info">
                                     <h2>Hemos <span class="orange-text"> visitado: </span> </h2>                                                    
-                                    <div class="slide-maps state-name slide-wrapper">                                    
+                                    <div class="slide-maps state-name slide-wrapper pt-xxs pb-xxs">                                    
                                         <div class="slider-city">
                                             <div class="slider-city-text1">Aguascalientes</div>
                                             <div class="slider-city-text2">Coahuila</div>
