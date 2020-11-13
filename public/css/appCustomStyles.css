@@ -349,6 +349,45 @@ header nav a .burger-menu {
   }
 }
 
+/* The side navigation menu */
+
+.sidenav {
+  height: 100%;
+  /* 100% Full-height */
+  width: 0;
+  /* 0 width - change this with JavaScript */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Stay on top */
+  top: 0;
+  /* Stay at the top */
+  right: 0;
+  background-color: #111;
+  /* Black*/
+  overflow-x: hidden;
+  /* Disable horizontal scroll */
+  padding-top: 60px;
+  /* Place content 60px from the top */
+  transition: 0.5s;
+  /* 0.5 second transition effect to slide in the sidenav */
+  z-index: 100;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav .closebtn {
+  font-size: 90px;
+}
+
 .hero-section {
   height: auto;
 }
@@ -571,7 +610,6 @@ section .service-container .service-item p {
 .partners-section .partners-img .partners-overlay {
   background-image: linear-gradient(to bottom right, rgba(255, 120, 31, 0.85), rgba(250, 214, 166, 0.85));
   font-size: 1.5rem;
-  height: 100vh;
   line-height: 42px;
 }
 

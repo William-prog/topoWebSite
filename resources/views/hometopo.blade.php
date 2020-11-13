@@ -96,7 +96,7 @@
                 -->
             </section>
 
-            <section id="partners-section" class="partners-section pt-m pb-s text-center">
+            <section id="partners-section" class="partners-section pt-m text-center">
                 <div class="partners-container">
                     <div class="partners-img radius-20">
                         <div class="partners-overlay radius-20">

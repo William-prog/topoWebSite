@@ -1,13 +1,15 @@
 <header>
+    <!-- Mobile navigation -->
     <nav id="mobile-nav" class="flex flex-jc-sb flex-ai-c hide-desktop">
         <a href="/">
             <img id="mobile-logo" src="img/logo.png" alt="Servicios y Equipos Topo S.A. de C.V." class="logo">
         </a>
-        <a href="#">
-            <img id="mobile-menu" class="burger-menu" src="img/menu-white.png" alt="menu" class="menu">
+        <a>
+            <img id="mobile-menu" class="burger-menu" src="img/menu-white.png" onclick="openNav()" alt="menu" class="menu">
         </a>
     </nav>
 
+    <!-- Desktop navigation -->
     <nav id="desktop-nav" class="col-4 flex-jc-sb flex-ai-c flex-jc-sa hide-mobile scrolled">
         <div class="logo-desktop">
             <a href="#">
@@ -28,3 +30,15 @@
         </div>
     </nav>
 </header>
+
+<!-- Side nav for mobile version -->
+<div id="mySidenav" class="sidenav">
+    <a class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="/">Inicio</a>
+    <a onclick="closeNav()">Servicio</a>  
+    <a href="/contact">Contacto</a>
+    <a href="#">Empleos</a>
+</div>
+
+<!-- Open side navigation script -->
+<script src="js/open-side-navigation.js"></script>
