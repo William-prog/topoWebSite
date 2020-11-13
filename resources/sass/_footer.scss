@@ -3,13 +3,11 @@ footer {
     .dirt-background {
         background-image: url(/img/dirt.png);
         background-size: cover;
-        background-position: center;
         background-repeat: no-repeat;
         height: 15rem;
-        margin-top: 55rem;
+        width: 100%;
 
         @include for-desktop-up {
-            margin-top: 464px;
             width: 100%;
         }
     }
