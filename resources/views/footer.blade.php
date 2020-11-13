@@ -1,4 +1,4 @@
-<footer class="text-center pt-m">
+<footer class="text-center pt-s">
     <div class="dirt-background">
         
     </div>

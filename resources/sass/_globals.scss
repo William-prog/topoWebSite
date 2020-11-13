@@ -195,6 +195,10 @@ main {
     background-color: $black-color;
 }
 
+.black-bg-gradient {
+    background-image: linear-gradient(147deg, $black-color 0%, #434343 74%);
+}
+
 .button-white {
     background: $pale-color;
     border: none;
