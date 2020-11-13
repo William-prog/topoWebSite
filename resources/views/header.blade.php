@@ -10,7 +10,7 @@
     </nav>
 
     <!-- Desktop navigation -->
-    <nav id="desktop-nav" class="col-4 flex-jc-sb flex-ai-c flex-jc-sa hide-mobile scrolled">
+    <nav id="desktop-nav" class="col-4 flex-jc-sb flex-ai-c flex-jc-sa hide-mobile ">
         <div class="logo-desktop">
             <a href="#">
                 <img id="desktop-logo" src="img/logo.png" alt="" class="">
@@ -32,7 +32,7 @@
 </header>
 
 <!-- Side nav for mobile version -->
-<div id="mySidenav" class="sidenav">
+<div id="mySidenav" class="sidenav hide-desktop">
     <a class="closebtn" onclick="closeNav()">&times;</a>
     <a href="/">Inicio</a>
     <a onclick="closeNav()">Servicio</a>  
