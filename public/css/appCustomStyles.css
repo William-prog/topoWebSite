@@ -654,7 +654,6 @@ section .service-container .service-item p {
 
 .contact-section input:focus,
 .contact-section select {
-  outline: none !important;
   margin: 0;
   padding: 0;
 }
@@ -719,7 +718,11 @@ section .service-container .service-item p {
 }
 
 .contact-section .contact-img .container .form-container .form-button-container button {
-  width: 30%;
+  width: 100%;
+}
+
+.contact-section .contact-img .container .form-container .form-button-container button:hover {
+  cursor: pointer;
 }
 
 .contact-section .contact-img .contact-info-container {
