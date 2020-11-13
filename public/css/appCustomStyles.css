@@ -610,6 +610,10 @@ section .service-container .service-item p {
   }
 }
 
+.partners-section .partners-img .map-container {
+  height: auto;
+}
+
 @media (min-width: 1200px) {
   .partners-section .partners-img .map-container {
     position: relative;

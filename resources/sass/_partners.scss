@@ -47,9 +47,11 @@
         }
 
 
-        @include for-desktop-up {
+        .map-container {
 
-            .map-container {
+            height: auto;
+
+            @include for-desktop-up {
                 position: relative;
                 right: 0;
                 top: -13rem;
@@ -70,8 +72,10 @@
                     margin-bottom: 4rem;
                     margin-left: -5rem;
                 }
-            }            
+            }
         }
+
+        
 
         .partners-box {
             position: relative;
