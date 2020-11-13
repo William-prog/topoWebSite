@@ -1,4 +1,3 @@
-let scrollPosition = window.scrollY;
 // Desktop elements
 const navigation = document.getElementById('desktop-nav');
 const logo = document.getElementById('desktop-logo');

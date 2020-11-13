@@ -1,4 +1,12 @@
 // contact section
+body {
+    
+    background: $orange-gradient-transparent no-repeat center center fixed;
+    font-size: 1.5rem;
+    height: 120vh;
+    line-height: 42px;          
+}
+
 .contact-section {
 
     h2 {
@@ -12,21 +20,10 @@
     }
 
     .contact-img {
-        background-image: url(/img/hero-image.JPG);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: auto;
-
-        .contact-overlay {
-            background-image: $orange-gradient-transparent;
-            font-size: 1.5rem;
-            height: 120vh;
-            line-height: 42px;         
+        
+        .contact-overlay {              
             
             @include for-desktop-up {
-
-                height: 100vh;
 
                 h1 {
                     font-size: 48px;

@@ -15,7 +15,11 @@
     <title>Contácto - Servicios y Equipos Topo S.A. de C.V.</title>
 </head>
 
-
+<style>
+    body {
+        height: 100%;
+    }
+</style>
 
 <body>
     @include('header')

@@ -642,6 +642,13 @@ section .service-container .service-item p {
   }
 }
 
+body {
+  background: linear-gradient(to bottom right, rgba(255, 120, 31, 0.85), rgba(250, 214, 166, 0.85)) no-repeat center center fixed;
+  font-size: 1.5rem;
+  height: 120vh;
+  line-height: 42px;
+}
+
 .contact-section h2 {
   font-size: 1.75rem;
 }
@@ -653,24 +660,8 @@ section .service-container .service-item p {
   padding: 0;
 }
 
-.contact-section .contact-img {
-  background-image: url(/img/hero-image.JPG);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: auto;
-}
-
-.contact-section .contact-img .contact-overlay {
-  background-image: linear-gradient(to bottom right, rgba(255, 120, 31, 0.85), rgba(250, 214, 166, 0.85));
-  font-size: 1.5rem;
-  height: 120vh;
-  line-height: 42px;
-}
-
 @media (min-width: 1200px) {
   .contact-section .contact-img .contact-overlay {
-    height: 100vh;
     align-items: center;
     display: grid;
     grid-template-columns: 1fr 1fr;
