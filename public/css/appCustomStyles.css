@@ -725,6 +725,16 @@ section .service-container .service-item p {
   cursor: pointer;
 }
 
+.contact-section .contact-img .form-position {
+  margin-top: 3rem;
+}
+
+@media (min-width: 1200px) {
+  .contact-section .contact-img .form-position {
+    margin-top: 0;
+  }
+}
+
 .contact-section .contact-img .contact-info-container {
   display: flex;
   font-size: 1.2rem;

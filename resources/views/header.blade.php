@@ -21,7 +21,7 @@
             <a class="nav-anchor" href="#service-section">Servicios</a>
         </div>            
         <div>
-            <a class="nav-anchor" href="#contact-section">Contácto</a>
+            <a class="nav-anchor" href="contact" target="_blank">Contácto</a>
         </div>
         <div>
             <a class="nav-anchor" href="careers">Empleos</a>

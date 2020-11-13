@@ -87,12 +87,14 @@
             }
         }
 
-        @include for-desktop-up {
-
-            .form-position {
+        .form-position {
               
+            margin-top: 3rem;
+
+            @include for-desktop-up {
+                margin-top: 0;
             }
-        }        
+        }    
 
         .contact-info-container {
             display: flex;
