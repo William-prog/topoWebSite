@@ -71,8 +71,8 @@
                 </div>
             </section>
 
-            <section id="history-section" class="history-section text-center pt-s pb-s">
-                <div class="history-frame">                                                   
+            <section id="history-section" class="history-section pt-s pb-s">
+                <div class="history-frame text-center">                                                   
                     <img data-aos="fade-right" data-aos-duration="750" src="img/history-image.JPG" alt="" class="radius-20">                    
                     <div class="history-container radius-20">
                         <h4>Más de <span class="orange-text">25 años</span>  de experiencia en la industria minera</h4>
@@ -83,11 +83,7 @@
                     <div class="orange-square radius-20"></div>            
                 </div>
 
-                <div class="histor">
-                    <div class="img-container">
-                    <img class="img" src="https://webdevtrick.com/wp-content/uploads/1.jpg" alt="">
-                    <div class="overlay"></div>
-                </div>
+                
                 
                 <!-- 
                 <div class="history-frame mt-lg">
@@ -101,6 +97,13 @@
                 </div>
                 -->
             </section>
+
+            <div class="histor">
+                <div class="reveal-holder" data-aos="reveal-item">
+                    <div class="reveal-block right" data-aos="reveal-right"></div>
+                    <img width="50%" style="text-align: left;"  src="img/history-image.JPG" alt="">                    
+                </div>
+            </div>
 
             <section id="partners-section" class="partners-section pt-m text-center">
                 <div class="partners-container">
@@ -212,6 +215,8 @@
 <script src="js/scroll.js"></script>
 <!-- AOS fade animation library -->
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script>
-  AOS.init();
+<script>  
+    AOS.init(/*{
+        once: true
+    }*/);
 </script>
