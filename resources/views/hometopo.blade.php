@@ -82,6 +82,12 @@
                     </div>        
                     <div class="orange-square radius-20"></div>            
                 </div>
+
+                <div class="histor">
+                    <div class="img-container">
+                    <img class="img" src="https://webdevtrick.com/wp-content/uploads/1.jpg" alt="">
+                    <div class="overlay"></div>
+                </div>
                 
                 <!-- 
                 <div class="history-frame mt-lg">

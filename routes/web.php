@@ -43,3 +43,8 @@ Route::get('message-successful', function() {
 Route::get('contact', function() {
     return view('contact');
 });
+
+// Route for CSS animation test
+Route::get('t', function() {
+    return view('test');
+});

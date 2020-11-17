@@ -107,15 +107,15 @@
                             @csrf
                             <div class="form-grid-container">
                                 <div class="form-input-container">
-                                    <label for="full-name">Nombre completo:</label>
+                                    <label for="full-name">Nombre completo: <span class="orange-text">*</span></label>
                                     <input required name="full-name" id="full-name" type="text">
                                 </div>
                                 <div class="form-input-container">
                                     <label for="e-mail">Correo electrónico:</label>
-                                    <input required name="sender" id="e-mail" type="text" class="mt-xs">
+                                    <input name="sender" id="e-mail" type="text" class="mt-xs">
                                 </div>
                                 <div class="form-input-container">
-                                    <label for="subject">Asunto del mensaje:</label>
+                                    <label for="subject">Asunto del mensaje: <span class="orange-text">*</span></label>
                                     <select required name="to-contact" id="department">
                                         <option value="" disabled selected>Elige una opción</option>
                                         <option value="Solicito información">Solicito información</option>
@@ -125,7 +125,7 @@
                                     </select>
                                 </div>
                                 <div class="form-input-container">
-                                    <label for="department">Dirigido a:</label>
+                                    <label for="department">Dirigido a: <span class="orange-text">*</span></label>
                                     <select required name="to-contact" id="department">
                                         <option value="" disabled selected>Elige una opción</option>
                                         <option value="Recursos humanos">Recursos humanos</option>
@@ -135,7 +135,7 @@
                                 </div>
                             </div>
                             <div class="form-input-container">
-                                <label for="message">Mensaje:</label>
+                                <label for="message">Mensaje: <span class="orange-text">*</span></label>
                                 <textarea required name="message" id="message" cols="30" rows="4"></textarea>
                             </div>
                             <div class="form-button-container">                                        
