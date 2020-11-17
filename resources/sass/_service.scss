@@ -33,12 +33,16 @@ section {
                     margin: 0 auto;
                     text-align: center;                    
                 }
-            }            
+            }       
 
             img {                
                 padding-bottom: 5%;
                 padding-top: 13%;
-                width: 30%;                
+                width: 25%;       
+                
+                @include for-desktop-up {
+                    width: 22.5%;
+                }
             }
 
             h4 {

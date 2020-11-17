@@ -249,6 +249,7 @@ main {
   font-weight: 900;
   text-align: center;
   text-decoration: none;
+  transition: 0.5s;
   padding: 15px 10px;
 }
 
@@ -490,7 +491,13 @@ section .service-container h2 {
 section .service-container .service-item img {
   padding-bottom: 5%;
   padding-top: 13%;
-  width: 30%;
+  width: 25%;
+}
+
+@media (min-width: 1200px) {
+  section .service-container .service-item img {
+    width: 22.5%;
+  }
 }
 
 section .service-container .service-item h4 {
