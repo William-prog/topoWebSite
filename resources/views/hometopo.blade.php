@@ -103,6 +103,23 @@
                 </div>
             </section>
 
+            <section class="gallery-section pt-s pb-xxs">            
+                <div class="gallery-grid">
+                    <div class="reveal-holder" data-aos="reveal-item">
+                        <div class="reveal-block right" data-aos="reveal-right"></div>
+                        <img width="100%"  src="img/history-image.JPG" alt="">                    
+                    </div>
+                    <div data-aos="fade-down" data-aos-duration="750" class="black-bg-gradient white-text content-center gallery-text text-box">
+                        <div class="">
+                            <h4 class="pr-xxs pb-xs pl-xxs">Más de <span class="orange-text-gradient">25 años</span>  de experiencia en la industria minera</h4>
+                            <p class="pr-xxs pl-xxs">
+                                Originalmente fundada en 1987, Servicios y Equipos Topo está posicionada entre una las contratistas mineras de mayor renombre de la repúlica mexicana.
+                            </p>
+                        </div>
+                    </div>   
+                </div>
+            </section>
+
             <section id="partners-section" class="partners-section pt-m text-center">
                 <div class="partners-container">
                     <div class="partners-img radius-20">

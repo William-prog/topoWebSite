@@ -160,6 +160,7 @@ main {
 @media (min-width: 1200px) {
   main .wrapper {
     margin: 0 auto;
+    max-width: 1600px;
     width: 100%;
   }
 }
@@ -757,7 +758,7 @@ section .service-container .service-item p {
   position: absolute;
   top: 0;
   width: 100%;
-  height: 101%;
+  height: 100%;
   background: #E5E5E5;
 }
 
