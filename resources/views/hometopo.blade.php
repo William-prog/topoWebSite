@@ -82,28 +82,22 @@
                     </div>        
                     <div class="orange-square radius-20"></div>            
                 </div>
-
-                
-                
-                <!-- 
-                <div class="history-frame mt-lg">
-                    <img src="img/history-image.jpg" alt="" class="radius-20">
-                    <div class="history-container radius-20">
-                        <h4> <span class="orange-text">Excavación</span>  de túneles</h4>
-                        <p>
-                            Actualmente nos especializamos en proyectos de interior mina así como la reparación y reconstrucción de equipos
-                        </p>
-                    </div>
-                </div>
-                -->
             </section>
 
-            <div class="histor">
-                <div class="reveal-holder" data-aos="reveal-item">
-                    <div class="reveal-block right" data-aos="reveal-right"></div>
-                    <img width="100%" style="text-align: left;"  src="img/history-image.JPG" alt="">                    
+            <section class="gallery-section">            
+                <div class="gallery-grid">
+                    <div class="reveal-holder" data-aos="reveal-item">
+                        <div class="reveal-block right" data-aos="reveal-right"></div>
+                        <img width="100%" style="text-align: left;"  src="img/history-image.JPG" alt="">                    
+                    </div>
+                    <div class="black-bg-gradient white-text content-center">
+                        <h4 class="text-center pt-xs pb-xs">Más de <span class="orange-text">25 años</span>  de experiencia en la industria minera</h4>
+                        <p>
+                            Originalmente fundada en 1987, Servicios y Equipos Topo está posicionada entre una las contratistas mineras de mayor renombre de la repúlica mexicana.
+                        </p>
+                    </div>   
                 </div>
-            </div>
+            </section>
 
             <section id="partners-section" class="partners-section pt-m text-center">
                 <div class="partners-container">

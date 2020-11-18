@@ -757,6 +757,28 @@ section .service-container .service-item p {
   visibility: visible;
 }
 
+h4 {
+  font-size: 1.4rem;
+}
+
+.gallery-section {
+  margin: 0 auto;
+  width: 95%;
+}
+
+.gallery-section .gallery-grid {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 1fr 1fr;
+}
+
+@media (min-width: 1200px) {
+  .gallery-section .gallery-grid {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+  }
+}
+
 @media (min-width: 1200px) {
   .partners-section {
     margin: 0 auto;

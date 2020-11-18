@@ -1,0 +1,20 @@
+h4 {
+    font-size: 1.4rem;
+}
+
+.gallery-section {
+
+    margin: 0 auto;
+    width: 95%;
+
+    .gallery-grid {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: 1fr 1fr;
+
+        @include for-desktop-up {
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: auto;
+        }
+    }
+}
