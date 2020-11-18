@@ -94,8 +94,8 @@
                     </div>
                     <div data-aos="fade-down" data-aos-duration="750" class="black-bg-gradient white-text content-center gallery-text text-box">
                         <div class="">
-                            <h4 class=" pr-xs pb-xs pl-xs">Más de <span class="orange-text-gradient">25 años</span>  de experiencia en la industria minera</h4>
-                            <p class="pr-xs pl-xs">
+                            <h4 class="pr-xxs pb-xs pl-xxs">Más de <span class="orange-text-gradient">25 años</span>  de experiencia en la industria minera</h4>
+                            <p class="pr-xxs pl-xxs">
                                 Originalmente fundada en 1987, Servicios y Equipos Topo está posicionada entre una las contratistas mineras de mayor renombre de la repúlica mexicana.
                             </p>
                         </div>
@@ -207,10 +207,6 @@
     @include('footer')                                       
 </body>
 </html>
-<!-- Jump to section when clicking anchor -->
-<script src="js/jump-section.js"></script>
-<!-- Change header style when scrolling -->
-<script src="js/scroll.js"></script>
 <!-- AOS fade animation library -->
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>  
@@ -218,3 +214,7 @@
         once: true
     }*/);
 </script>
+<!-- Change header style when scrolling -->
+<script src="js/scroll.js"></script>
+<!-- Jump to section when clicking anchor -->
+<script src="js/jump-section.js"></script>
