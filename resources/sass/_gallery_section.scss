@@ -1,5 +1,5 @@
 h4 {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
 }
 
 .gallery-section {
@@ -13,8 +13,26 @@ h4 {
         grid-template-rows: 1fr 1fr;
 
         @include for-desktop-up {
+            align-items: center;
             grid-template-columns: 1fr 1fr;
             grid-template-rows: auto;
+        }
+
+        .gallery-text {
+
+            @include for-desktop-up {
+                height: fit-content;
+                position: relative;
+                top: 45px;
+                width: 80%;
+            }
+
+            p {
+
+                @include for-desktop-up {
+                    padding-bottom: 4rem;
+                }
+            }
         }
     }
 }
