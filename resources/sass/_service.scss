@@ -10,9 +10,9 @@ section {
         position: relative;
         width: 90%; 
 
-        @include for-desktop-up {
+        @include for-tablet-landscape-up {
             bottom: 3rem;
-            width: 80%;
+            width: 85%;
 
             .col-3 {
                 display: grid;
@@ -28,7 +28,7 @@ section {
 
         .service-item {
 
-            @include for-desktop-up {
+            @include for-tablet-landscape-up {
 
                 .service-description {
                     margin: 0 auto;
@@ -41,7 +41,7 @@ section {
                 padding-top: 13%;
                 width: 25%;       
                 
-                @include for-desktop-up {
+                @include for-tablet-landscape-up {
                     width: 22.5%;
                 }
             }

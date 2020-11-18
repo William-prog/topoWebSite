@@ -21,7 +21,7 @@
         
         .contact-overlay {              
             
-            @include for-desktop-up {
+            @include for-tablet-landscape-up {
 
                 h1 {
                     font-size: 48px;

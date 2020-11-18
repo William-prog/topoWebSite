@@ -1,6 +1,6 @@
 .partners-section { 
 
-    @include for-desktop-up {
+    @include for-tablet-landscape-up {
         margin: 0 auto;
         width: 85%;
     }
@@ -17,7 +17,7 @@
             font-size: 1.5rem;
             line-height: 42px;  
             
-            @include for-desktop-up {
+            @include for-tablet-landscape-up {
                 
                 height: 85vh;
 
@@ -42,7 +42,7 @@
             .state-name {
                 font-size: 1.5rem;
 
-                @include for-desktop-up {
+                @include for-tablet-landscape-up {
                     font-size: 1.75rem;
                     margin: 0 auto;
                     width: 80%;
@@ -55,7 +55,7 @@
 
             height: auto;
 
-            @include for-desktop-up {
+            @include for-tablet-landscape-up {
                 position: relative;
                 right: 0;
                 top: -13rem;
@@ -85,7 +85,7 @@
             position: relative;
             top: -2.5rem;
 
-            @include for-desktop-up {
+            @include for-tablet-landscape-up {
                 top: -10.5rem;
                 width: 65%;
 

@@ -7,7 +7,7 @@ h4 {
     margin: 0 auto;
     width: 100%;
 
-    @include for-desktop-up {
+    @include for-tablet-landscape-up {
         width: 85%;
     }    
 
@@ -16,7 +16,7 @@ h4 {
         grid-template-columns: auto;
         grid-template-rows: 1fr 1fr;
 
-        @include for-desktop-up {
+        @include for-tablet-landscape-up {
             align-items: center;
             grid-template-columns: 1fr 1fr;
             grid-template-rows: auto;
@@ -24,7 +24,7 @@ h4 {
 
         .gallery-text {
 
-            @include for-desktop-up {
+            @include for-tablet-landscape-up {
                 height: 85%;
                 position: relative;
                 right: 25px;
@@ -35,7 +35,7 @@ h4 {
 
         .text-box {
 
-            @include for-desktop-up {
+            @include for-tablet-landscape-up {
                 align-items: center;
                 display: grid;
                 grid-template-columns: auto;
@@ -46,7 +46,7 @@ h4 {
 
                 padding-top: 2.5rem;
 
-                @include for-desktop-up {
+                @include for-tablet-landscape-up {
                     font-size: 2.25rem;
                     text-align: left;
                     padding-top: 0;
@@ -55,7 +55,7 @@ h4 {
             
             p {
 
-                @include for-desktop-up {
+                @include for-tablet-landscape-up {
                     font-size: 1.25rem;
                     text-align: left;
                 }
