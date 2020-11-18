@@ -245,6 +245,12 @@ main {
     background-image: linear-gradient(147deg, $black-color 0%, #434343 74%);
 }
 
+.orange-text-gradient {
+    background: $orange-gradient-color;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .button-white {
     background: $pale-color;
     border: none;

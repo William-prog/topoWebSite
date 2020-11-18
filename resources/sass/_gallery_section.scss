@@ -5,7 +5,7 @@ h4 {
 .gallery-section {
 
     margin: 0 auto;
-    width: 95%;
+    width: 85%;
 
     .gallery-grid {
         display: grid;
@@ -21,16 +21,36 @@ h4 {
         .gallery-text {
 
             @include for-desktop-up {
-                height: fit-content;
+                height: 85%;
                 position: relative;
+                right: 25px;
                 top: 45px;
-                width: 80%;
+                
+            }                        
+        }
+
+        .text-box {
+
+            @include for-desktop-up {
+                align-items: center;
+                display: grid;
+                grid-template-columns: auto;
+                text-align: center;
             }
 
+            h4 {
+
+                @include for-desktop-up {
+                    font-size: 2.25rem;
+                    text-align: left;
+                }
+            }
+            
             p {
 
                 @include for-desktop-up {
-                    padding-bottom: 4rem;
+                    font-size: 1.25rem;
+                    text-align: left;
                 }
             }
         }
