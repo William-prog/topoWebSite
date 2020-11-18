@@ -8,10 +8,11 @@ section {
         color: $gray-text;
         margin: 0 auto;
         position: relative;
-        width: 95%; 
+        width: 90%; 
 
         @include for-desktop-up {
             bottom: 3rem;
+            width: 80%;
 
             .col-3 {
                 display: grid;

@@ -1,5 +1,10 @@
-.partners-section {
-    
+.partners-section { 
+
+    @include for-desktop-up {
+        margin: 0 auto;
+        width: 85%;
+    }
+
     .partners-img {
         background-image: url(/img/hero-image.JPG);
         background-position: center;

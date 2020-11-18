@@ -160,7 +160,7 @@ main {
 @media (min-width: 1200px) {
   main .wrapper {
     margin: 0 auto;
-    width: 85%;
+    width: 100%;
   }
 }
 
@@ -555,12 +555,13 @@ section .service-container {
   color: #606060;
   margin: 0 auto;
   position: relative;
-  width: 95%;
+  width: 90%;
 }
 
 @media (min-width: 1200px) {
   section .service-container {
     bottom: 3rem;
+    width: 80%;
   }
 
   section .service-container .col-3 {
@@ -709,7 +710,7 @@ section .service-container .service-item p {
 .reveal-block {
   position: absolute;
   top: 0;
-  width: 50%;
+  width: 100%;
   height: 101%;
   background: #E5E5E5;
 }
@@ -754,6 +755,13 @@ section .service-container .service-item p {
 
 [data-aos=reveal-item].aos-animate {
   visibility: visible;
+}
+
+@media (min-width: 1200px) {
+  .partners-section {
+    margin: 0 auto;
+    width: 85%;
+  }
 }
 
 .partners-section .partners-img {

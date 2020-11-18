@@ -101,7 +101,7 @@
             <div class="histor">
                 <div class="reveal-holder" data-aos="reveal-item">
                     <div class="reveal-block right" data-aos="reveal-right"></div>
-                    <img width="50%" style="text-align: left;"  src="img/history-image.JPG" alt="">                    
+                    <img width="100%" style="text-align: left;"  src="img/history-image.JPG" alt="">                    
                 </div>
             </div>
 
