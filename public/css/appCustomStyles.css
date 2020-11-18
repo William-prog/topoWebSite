@@ -439,7 +439,7 @@ header nav a {
 }
 
 header nav a .logo {
-  width: 42.5%;
+  width: 25%;
 }
 
 header nav a .burger-menu {
@@ -452,7 +452,13 @@ header nav a .burger-menu {
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 600px) {
+  header .hide-mobile {
+    display: none;
+  }
+}
+
+@media (min-width: 900px) {
   header {
     text-align: center;
     width: 100%;
@@ -460,6 +466,10 @@ header nav a .burger-menu {
 
   header .hide-desktop {
     display: none;
+  }
+
+  header .hide-mobile {
+    display: grid;
   }
 
   header nav .logo-background {

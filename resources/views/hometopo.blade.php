@@ -26,8 +26,7 @@
     @include('header')
 
     <main>
-        <section id="hero-section" class="hero-section">
-                               
+        <section id="hero-section" class="hero-section">                               
             <div class="hero-overlay">
                 <div class="title-container">                    
                     <h1 class="white-text">Servicios y equipos <span class="orange-text">mineros</span> a toda la república mexicana</h1>                
@@ -35,8 +34,7 @@
                     <a href="#" class="button-gradient mt-lg">Contácto</a>                              
                 </div>  
                 <video class="hero-video" src="video/compressed.m4v" poster="img/hero-image.JPG" autoplay muted loop width="100%" height="100%"></video>                    
-            </div>                                
-         
+            </div>                                         
         </section>
 
         <div class="wrapper">

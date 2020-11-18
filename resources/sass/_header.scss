@@ -14,7 +14,7 @@ header {
             text-decoration: none;
 
             .logo {
-                width: 42.5%;
+                width: 25%;
             }
 
             .burger-menu {
@@ -31,7 +31,13 @@ header {
         }
     }
 
-    @include for-desktop-up { 
+    @include for-tablet-portrait-up {
+        .hide-mobile {
+            display: none;
+        }
+    }
+
+    @include for-tablet-landscape-up { 
         
         // header
         
@@ -40,6 +46,10 @@ header {
         
         .hide-desktop {
             display: none;            
+        }
+
+        .hide-mobile {
+            display: grid;
         }
 
         nav {
