@@ -19,9 +19,11 @@
         <div>
             <a class="nav-anchor" href="/">Inicio</a>
         </div>
+        <!--
         <div>
             <a class="nav-anchor" href="#service-section">Servicios</a>
         </div>            
+         -->
         <div>
             <a class="nav-anchor" href="contact" target="_blank">Contácto</a>
         </div>
@@ -37,7 +39,7 @@
     <a href="/">Inicio</a>
     <a onclick="closeNav()">Servicio</a>  
     <a href="/contact">Contacto</a>
-    <a href="#">Empleos</a>
+    <a href="careers">Empleos</a>
 </div>
 
 <!-- Open side navigation script -->

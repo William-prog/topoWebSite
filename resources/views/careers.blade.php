@@ -81,11 +81,11 @@
                         <div class="reveal-block right" data-aos="reveal-right"></div>
                         <img width="100%" src="img/mine.JPG" alt="Interior mina en Servicios y Equipos Topo S.A. de C.V.">
                         <div class="position-button" data-aos="fade-down" data-aos-duration="750">
-                            <button type="submit" class="button-orange">
-                                <a href="https://www.empleo.gob.mx/32-busqueda-de-ofertas-de-empleo-en-zacatecas" target="_blank">
-                                    Ver posiciones abiertas
-                                </a>
-                            </button>   
+                            <a href="https://www.empleo.gob.mx/32-busqueda-de-ofertas-de-empleo-en-zacatecas" target="_blank">
+                                <button type="submit" class="button-orange">                                    
+                                        Ver posiciones abiertas                                    
+                                </button>   
+                            </a>
                         </div>
                     </div>                                        
                 </div>

@@ -401,6 +401,7 @@ main {
   background: #FF781F;
   border-color: #FF781F;
   color: #E5E5E5;
+  cursor: pointer;
 }
 
 /* Orange button */
@@ -423,6 +424,7 @@ main {
   background: #333;
   border-color: #FF781F;
   color: #E5E5E5;
+  cursor: pointer;
 }
 
 .button-gradient {
@@ -495,6 +497,7 @@ header nav a .burger-menu {
 
   header .hide-mobile {
     display: grid;
+    grid-template-columns: repeat(4, 1fr);
   }
 
   header nav .logo-background {
