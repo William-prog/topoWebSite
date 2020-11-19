@@ -1122,6 +1122,26 @@ h4 {
   width: 100%;
 }
 
+.careers-section .company-values {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-row-gap: 3rem;
+}
+
+.careers-section .company-values .values-container span {
+  font-size: 4rem;
+}
+
+.careers-section .company-values .values-container h3 {
+  font-size: 1.75rem;
+  padding: 25px 0;
+}
+
+.careers-section .company-values .values-container p {
+  font-size: 1.5rem;
+  padding: 0 25px;
+}
+
 footer .dirt-background {
   background-image: url(/img/dirt.png);
   background-size: cover;

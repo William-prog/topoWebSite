@@ -28,11 +28,50 @@
                     </div>
                 </div>
 
-                <div class="company-values">
-                    <h2 class="text-center">¿Qué nos hace diferentes?</h2>
+                <h2 class="text-center">¿Qué nos hace diferentes?</h2>
+                
+                <div class="company-values pt-s">                    
                     <div class="values-container text-center">
-                        <h3>Value name</h3>
                         <span class="orange-text"><i class="fas fa-bullhorn"></i></span>
+                        <div class="value-description">
+                            <h3>Comunicación</h3>            
+                            <p>Escuchar, analizar e informar</p>
+                        </div>            
+                    </div>
+                    <div class="values-container text-center">
+                        <span class="orange-text"><i class="fas fa-award"></i></span>
+                        <div class="value-description">
+                            <h3>Calidad</h3>            
+                            <p>Hacer las cosas bien a la primera, todo el tiempo</p>
+                        </div>            
+                    </div>
+                    <div class="values-container text-center">
+                        <span class="orange-text"><i class="far fa-handshake"></i></span>
+                        <div class="value-description">
+                            <h3>Confianza</h3>            
+                            <p>Hacer las cosas que dices que vas a hacer</p>
+                        </div>            
+                    </div>
+                    <div class="values-container text-center">
+                        <span class="orange-text"><i class="fas fa-running"></i></span>
+                        <div class="value-description">
+                            <h3>Respuesta inmediata</h3>            
+                            <p>Ser eficaces y certeros en nuestra labor</p>
+                        </div>            
+                    </div>
+                    <div class="values-container text-center">
+                        <span class="orange-text"><i class="far fa-hand-peace"></i></span>
+                        <div class="value-description">
+                            <h3>Respeto</h3>            
+                            <p>Trata a los demás como te gustaría ser tratado</p>
+                        </div>            
+                    </div>
+                    <div class="values-container text-center">
+                        <span class="orange-text"><i class="fas fa-flag-checkered"></i></span>
+                        <div class="value-description">
+                            <h3>Orientados a resultados</h3>            
+                            <p>Rentabilidad con eficiencia</p>
+                        </div>            
                     </div>
                 </div>
             </section>
