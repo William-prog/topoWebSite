@@ -1122,14 +1122,41 @@ h4 {
   width: 100%;
 }
 
+@media (min-width: 900px) {
+  .careers-section .careers-img-container .career-img-overlay h1 {
+    font-size: 2rem;
+    margin-bottom: 160px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .careers-section .careers-img-container .career-img-overlay h1 {
+    font-size: 3rem;
+    margin-bottom: 190px;
+  }
+}
+
 .careers-section .company-values {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-row-gap: 3rem;
 }
 
+@media (min-width: 1200px) {
+  .careers-section .company-values {
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 6rem;
+  }
+}
+
 .careers-section .company-values .values-container span {
   font-size: 4rem;
+}
+
+@media (min-width: 1200px) {
+  .careers-section .company-values .values-container span {
+    font-size: 3rem;
+  }
 }
 
 .careers-section .company-values .values-container h3 {
@@ -1137,9 +1164,47 @@ h4 {
   padding: 25px 0;
 }
 
+@media (min-width: 1200px) {
+  .careers-section .company-values .values-container h3 {
+    font-size: 1.25;
+  }
+}
+
 .careers-section .company-values .values-container p {
   font-size: 1.5rem;
   padding: 0 25px;
+}
+
+@media (min-width: 1200px) {
+  .careers-section .company-values .values-container p {
+    padding: 0 80px;
+  }
+}
+
+.careers-section .open-positions-container {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+}
+
+@media (min-width: 900px) {
+  .careers-section .open-positions-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.careers-section .open-positions-container img {
+  width: 100%;
+}
+
+.careers-section h2 {
+  font-size: 2rem;
+}
+
+@media (min-width: 1200px) {
+  .careers-section h2 {
+    font-size: 3rem;
+  }
 }
 
 footer .dirt-background {

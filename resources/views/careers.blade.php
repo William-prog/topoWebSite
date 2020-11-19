@@ -12,6 +12,7 @@
     <!-- Link tags -->
     <link rel="icon" type="image/png" href="img/favicon.png"/>
     <link rel="stylesheet" href="css/appCustomStyles.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Empleos - Servicios y Equipos Topo S.A. de C.V.</title>
 </head>
 
@@ -28,8 +29,8 @@
                     </div>
                 </div>
 
-                <h2 class="text-center">¿Qué nos hace diferentes?</h2>
-                
+                <h2 class="text-center pt-s">¿Qué nos hace diferentes?</h2>
+
                 <div class="company-values pt-s">                    
                     <div class="values-container text-center">
                         <span class="orange-text"><i class="fas fa-bullhorn"></i></span>
@@ -56,7 +57,7 @@
                         <span class="orange-text"><i class="fas fa-running"></i></span>
                         <div class="value-description">
                             <h3>Respuesta inmediata</h3>            
-                            <p>Ser eficaces y certeros en nuestra labor</p>
+                            <p>Ser eficaz y certero en tu labor</p>
                         </div>            
                     </div>
                     <div class="values-container text-center">
@@ -74,6 +75,16 @@
                         </div>            
                     </div>
                 </div>
+
+                <div class="open-positions-container pt-s">
+                    <div class="reveal-holder" data-aos="reveal-item">
+                        <div class="reveal-block right" data-aos="reveal-right"></div>
+                        <img width="100%" src="img/mine.JPG" alt="Interior mina en Servicios y Equipos Topo S.A. de C.V.">
+                    </div>                    
+                    <div class="position-title" data-aos="fade-down" data-aos-duration="750">
+                        <h3>Posiciones disponibles</h3>
+                    </div>
+                </div>
             </section>
         </div>
     </main>
@@ -81,6 +92,13 @@
     @include('footer')
 </body>
 </html>
+<!-- AOS fade animation library -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>  
+    AOS.init(/*{
+        once: true
+    }*/);
+</script>
 <!-- Change header style when scrolling -->
 <script src="js/scroll.js"></script>
 <!-- Font awesome CDN -->

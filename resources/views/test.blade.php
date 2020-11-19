@@ -71,6 +71,10 @@
         <div class="reveal-block right" data-aos="reveal-right"></div>
         <img width="50%"  src="img/history-image.JPG" alt="" class="radius-20">                    
     </div>
+    <div class="reveal-holder" data-aos="reveal-item">
+                        <div class="reveal-block right" data-aos="reveal-right"></div>
+                        <img width="50%" src="img/mine.JPG" alt="Interior mina en Servicios y Equipos Topo S.A. de C.V.">
+                    </div>  
 </body>
 </html>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
