@@ -1,0 +1,28 @@
+// Careers view
+.careers-section {
+
+    .careers-img-container {
+
+        position: relative;
+        width: 100%;
+
+        img{
+            width: 100%;
+        }
+
+        .career-img-overlay {
+            align-items: center;
+            background: $dark-overlay;
+            color: $white-color;
+            display: flex;
+            font-size: 25px;
+            height: 100%;
+            justify-content: center;
+            position: absolute;
+            right: 0;
+            text-align: center;
+            top: 0;
+            width: 100%;
+        }
+    }
+}

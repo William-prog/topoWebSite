@@ -545,7 +545,7 @@ header nav a .burger-menu {
 }
 
 .hero-section .hero-overlay {
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.5);
   font-size: 25px;
   height: 100vh;
   line-height: 42px;
@@ -1096,6 +1096,30 @@ h4 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
+}
+
+.careers-section .careers-img-container {
+  position: relative;
+  width: 100%;
+}
+
+.careers-section .careers-img-container img {
+  width: 100%;
+}
+
+.careers-section .careers-img-container .career-img-overlay {
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  display: flex;
+  font-size: 25px;
+  height: 100%;
+  justify-content: center;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 0;
+  width: 100%;
 }
 
 footer .dirt-background {
