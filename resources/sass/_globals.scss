@@ -252,6 +252,7 @@ main {
     -webkit-text-fill-color: transparent;
 }
 
+/* White button */
 .button-white {
     background: $pale-color;
     border: none;
@@ -261,12 +262,34 @@ main {
     font-weight: 900;
     text-align: center;
     text-decoration: none;
+    text-transform: uppercase;
     transition: 0.5s;
     padding: 15px 10px;
 }
 
 .button-white:hover {
     background: $orange-color;    
+    border-color: $orange-color;
+    color: $pale-color;    
+}
+
+/* Orange button */
+.button-orange {
+    background: $orange-color;
+    border: none;
+    border-radius: 10px;
+    color: $pale-color;
+    font-size: 1rem;
+    font-weight: 900;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+    padding: 15px 10px;
+}
+
+.button-orange:hover {
+    background: $black-color;    
     border-color: $orange-color;
     color: $pale-color;    
 }

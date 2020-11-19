@@ -381,6 +381,8 @@ main {
   -webkit-text-fill-color: transparent;
 }
 
+/* White button */
+
 .button-white {
   background: #E5E5E5;
   border: none;
@@ -390,12 +392,35 @@ main {
   font-weight: 900;
   text-align: center;
   text-decoration: none;
+  text-transform: uppercase;
   transition: 0.5s;
   padding: 15px 10px;
 }
 
 .button-white:hover {
   background: #FF781F;
+  border-color: #FF781F;
+  color: #E5E5E5;
+}
+
+/* Orange button */
+
+.button-orange {
+  background: #FF781F;
+  border: none;
+  border-radius: 10px;
+  color: #E5E5E5;
+  font-size: 1rem;
+  font-weight: 900;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.5s;
+  padding: 15px 10px;
+}
+
+.button-orange:hover {
+  background: #333;
   border-color: #FF781F;
   color: #E5E5E5;
 }
@@ -1185,16 +1210,22 @@ h4 {
   display: grid;
   grid-template-columns: auto;
   grid-template-rows: auto;
-}
-
-@media (min-width: 900px) {
-  .careers-section .open-positions-container {
-    grid-template-columns: 1fr 1fr;
-  }
+  text-align: center;
 }
 
 .careers-section .open-positions-container img {
   width: 100%;
+}
+
+@media (min-width: 1200px) {
+  .careers-section .open-positions-container img {
+    width: 60%;
+  }
+}
+
+.careers-section .open-positions-container .position-button {
+  bottom: 250px;
+  position: relative;
 }
 
 .careers-section h2 {
@@ -1205,6 +1236,11 @@ h4 {
   .careers-section h2 {
     font-size: 3rem;
   }
+}
+
+.careers-section a {
+  text-decoration: none;
+  color: currentColor;
 }
 
 footer .dirt-background {

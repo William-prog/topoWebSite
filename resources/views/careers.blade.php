@@ -76,14 +76,18 @@
                     </div>
                 </div>
 
-                <div class="open-positions-container pt-s">
+                <div class="open-positions-container pt-m">
                     <div class="reveal-holder" data-aos="reveal-item">
                         <div class="reveal-block right" data-aos="reveal-right"></div>
                         <img width="100%" src="img/mine.JPG" alt="Interior mina en Servicios y Equipos Topo S.A. de C.V.">
-                    </div>                    
-                    <div class="position-title" data-aos="fade-down" data-aos-duration="750">
-                        <h3>Posiciones disponibles</h3>
-                    </div>
+                        <div class="position-button" data-aos="fade-down" data-aos-duration="750">
+                            <button type="submit" class="button-orange">
+                                <a href="https://www.empleo.gob.mx/32-busqueda-de-ofertas-de-empleo-en-zacatecas" target="_blank">
+                                    Ver posiciones abiertas
+                                </a>
+                            </button>   
+                        </div>
+                    </div>                                        
                 </div>
             </section>
         </div>

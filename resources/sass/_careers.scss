@@ -83,13 +83,19 @@
         display: grid;
         grid-template-columns: auto;
         grid-template-rows: auto;
-
-        @include for-tablet-landscape-up {
-            grid-template-columns: 1fr 1fr;
-        }
+        text-align: center;
 
         img {
             width: 100%;
+
+            @include for-desktop-up {
+                width: 60%;
+            }
+        }
+
+        .position-button {
+            bottom: 250px;
+            position: relative;
         }
     }
 
@@ -99,5 +105,10 @@
         @include for-desktop-up {
             font-size: 3rem;
         }
+    }
+
+    a {
+        text-decoration: none;
+        color: currentColor;
     }
 }
