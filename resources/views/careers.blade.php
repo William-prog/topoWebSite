@@ -20,7 +20,7 @@
     @include('header')
 
     <main>
-        <div class="wrapper">
+        <div>
             <section class="careers-section">
                 <div class="careers-img-container">
                     <img src="img/team.JPG" alt="Empleados de Servicios y Equipos Topo S.A. de C.V.">
@@ -29,9 +29,9 @@
                     </div>
                 </div>
 
-                <h2 class="text-center pt-s">¿Qué nos hace diferentes?</h2>
+                <h2 class="text-center pt-s">¿Qué nos hace <span class="orange-text">diferentes</span>?</h2>
 
-                <div class="company-values pt-s">                    
+                <div class="company-values pt-s wrapper">                    
                     <div class="values-container text-center">
                         <span class="orange-text"><i class="fas fa-bullhorn"></i></span>
                         <div class="value-description">
@@ -79,15 +79,20 @@
                 <div class="open-positions-container pt-m">
                     <div class="reveal-holder" data-aos="reveal-item">
                         <div class="reveal-block right" data-aos="reveal-right"></div>
-                        <img width="100%" src="img/mine.JPG" alt="Interior mina en Servicios y Equipos Topo S.A. de C.V.">
-                        <div class="position-button" data-aos="fade-down" data-aos-duration="750">
-                            <a href="https://www.empleo.gob.mx/32-busqueda-de-ofertas-de-empleo-en-zacatecas" target="_blank">
-                                <button type="submit" class="button-orange">                                    
-                                        Ver posiciones abiertas                                    
-                                </button>   
-                            </a>
-                        </div>
+                        <img width="100%" src="img/mine.JPG" alt="Interior mina en Servicios y Equipos Topo S.A. de C.V.">                        
                     </div>                                        
+                    <div class="position-button" data-aos="fade-down" data-aos-duration="750">
+                        <h2>Únete al <span class="orange-text">reto</span></h2>
+                        <p class="pb-xs">
+                            Sé parte de una de las contratistas más sobresalientes del sector minero a nivel nacional
+                            y hagamos historia desarrollando proyectos de alto impacto
+                        </p>
+                        <a href="https://www.empleo.gob.mx/32-busqueda-de-ofertas-de-empleo-en-zacatecas" target="_blank">
+                            <button type="submit" class="button-orange">                                    
+                                    Ver posiciones abiertas                                    
+                            </button>   
+                        </a>
+                    </div>
                 </div>
             </section>
         </div>

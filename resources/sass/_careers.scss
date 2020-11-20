@@ -43,7 +43,7 @@
 
         display: grid;
         grid-template-columns: 1fr;
-        grid-row-gap: 2rem; 
+        grid-row-gap: 3rem; 
 
         @include for-tablet-landscape-up {
             grid-template-columns: 1fr 1fr;
@@ -90,18 +90,48 @@
         grid-template-rows: auto;
         text-align: center;
 
+        @include for-desktop-up {
+            grid-template-columns: 1fr 1fr;
+        }
+
         img {
             width: 100%;
 
             @include for-desktop-up {
-                width: 60%;
+                width: 100%;
             }
         }
 
         .position-button {
-            bottom: 250px;
-            position: relative;
+
+            @include for-desktop-up {
+                position: unset;
+                margin: auto auto;
+            }
+
+            h2 {        
+                padding-top: 4rem;
+        
+                @include for-desktop-up {
+                    padding-top: 0rem;
+                }
+            }
+
+            p {
+                margin: 0 auto;
+                padding-top: 3.5rem;
+                width: 50%;
+
+                @include for-desktop-up {                    
+                    width: 70%;
+                }
+            }            
         }
+    }    
+
+    a {
+        text-decoration: none;
+        color: currentColor;
     }
 
     h2 {
@@ -110,10 +140,5 @@
         @include for-desktop-up {
             font-size: 3rem;
         }
-    }
-
-    a {
-        text-decoration: none;
-        color: currentColor;
     }
 }

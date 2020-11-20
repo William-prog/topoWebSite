@@ -8,7 +8,7 @@ h4 {
     width: 100%;
 
     @include for-tablet-landscape-up {
-        width: 85%;
+        width: 100%;
     }    
 
     .gallery-grid {
@@ -25,10 +25,8 @@ h4 {
         .gallery-text {
 
             @include for-tablet-landscape-up {
-                height: 85%;
-                position: relative;
-                right: 25px;
-                top: 45px;
+                
+                
                 
             }                        
         }
@@ -42,21 +40,17 @@ h4 {
                 text-align: center;
             }
 
-            h4 {
-
-                padding-top: 2.5rem;
-
-                @include for-tablet-landscape-up {
-                    font-size: 2.25rem;
-                    text-align: left;
-                    padding-top: 0;
+            h2 {
+                font-size: 2rem;
+        
+                @include for-desktop-up {
+                    font-size: 2.5rem;
                 }
             }
             
             p {
 
                 @include for-tablet-landscape-up {
-                    font-size: 1.25rem;
                     text-align: left;
                 }
             }

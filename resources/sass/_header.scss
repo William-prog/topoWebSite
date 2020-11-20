@@ -12,6 +12,7 @@ header {
         a {
             color: $black-color;
             text-decoration: none;
+            text-transform: uppercase;
 
             .logo {
                 width: 25%;
@@ -50,7 +51,7 @@ header {
 
         .hide-mobile {
             display: grid;
-            grid-template-columns: repeat(4, 1fr);
+            /*grid-template-columns: repeat(4, 1fr);*/
         }
 
         nav {
