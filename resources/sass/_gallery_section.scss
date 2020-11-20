@@ -49,11 +49,13 @@ h4 {
             }
             
             p {
+                margin: 0 auto;
+                width: 50%;
 
-                @include for-tablet-landscape-up {
-                    text-align: left;
+                @include for-desktop-up {    
+                    width: 70%;
                 }
-            }
+            }  
         }
     }
 }

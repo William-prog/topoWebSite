@@ -28,7 +28,7 @@
             <a class="nav-anchor" href="contact" target="_blank">Contácto</a>
         </div>
         <div>
-            <a class="nav-anchor" href="careers">Empleos</a>
+            <a class="nav-anchor" href="careers" target="_blank">Empleos</a>
         </div>
     </nav>
 </header>
@@ -36,10 +36,9 @@
 <!-- Side nav for mobile version -->
 <div id="mySidenav" class="sidenav hide-desktop">
     <a class="closebtn" onclick="closeNav()">&times;</a>
-    <a href="/">Inicio</a>
-    <a onclick="closeNav()">Servicio</a>  
-    <a href="/contact">Contacto</a>
-    <a href="careers">Empleos</a>
+    <a href="/">Inicio</a>    
+    <a href="/contact" target="_blank">Contacto</a>
+    <a href="/careers" target="_blank">Empleos</a>
 </div>
 
 <!-- Open side navigation script -->

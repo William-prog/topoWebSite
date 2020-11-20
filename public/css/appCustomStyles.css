@@ -891,17 +891,20 @@ h4 {
   }
 }
 
-@media (min-width: 900px) {
+.gallery-section .gallery-grid .text-box p {
+  margin: 0 auto;
+  width: 50%;
+}
+
+@media (min-width: 1200px) {
   .gallery-section .gallery-grid .text-box p {
-    text-align: left;
+    width: 70%;
   }
 }
 
-@media (min-width: 900px) {
-  .partners-section {
-    margin: 0 auto;
-    width: 85%;
-  }
+.partners-section {
+  margin: 0 auto;
+  width: 90%;
 }
 
 .partners-section .partners-img {
