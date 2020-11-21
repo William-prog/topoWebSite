@@ -1,11 +1,11 @@
 .partners-section { 
 
     margin: 0 auto;
-    width: 90%;
+    width: 100%;
 
     @include for-tablet-landscape-up {
         
-        
+        width: 100%;
     }
 
     .partners-img {

@@ -37,7 +37,7 @@
         @include for-desktop-up {
     
             .title-container {               
-                max-width: 580px;
+                max-width: 925px;
                 align-items: center;
                 justify-content: center;
                 margin: 0 auto;
@@ -50,6 +50,7 @@
         }
     
         h1 {
+            font-size: 2.5rem;
             padding: 10% 1%;
 
             @include for-desktop-up { 

@@ -30,8 +30,8 @@
             <div class="hero-overlay">
                 <div class="title-container">                    
                     <h1 class="white-text">Servicios y equipos <span class="orange-text">mineros</span> a toda la república mexicana</h1>                
-                    <a href="#" class="button-gradient service-button mt-lg">Servicios</a>
-                    <a href="#" class="button-gradient mt-lg">Contácto</a>                              
+                    <a href="#" class="button-white service-button mt-lg">Saber más de nosotros</a>
+                    <a href="#" class="button-orange mt-lg">Deseo ponerme en contácto</a>                              
                 </div>  
                 <video class="hero-video" src="video/compressed.m4v" poster="img/hero-image.JPG" autoplay muted loop width="100%" height="100%"></video>                    
             </div>                                         
@@ -40,7 +40,7 @@
         <div class="">
             <section id="service-section" class="service-section text-center wrapper">
                 <div class="service-container pb-xxs">
-                    <h2 class="hi">
+                    <h2 class="hi pb-xs">
                         Nuestros servicios
                     </h2>
                     <div class="col-3">
@@ -88,11 +88,11 @@
                 <div class="gallery-grid">
                     <div class="reveal-holder" data-aos="reveal-item">
                         <div class="reveal-block right" data-aos="reveal-right"></div>
-                        <img width="100%"  src="img/history-image.JPG" alt="">                    
+                        <img width="100%"  src="img/topo interior mina.JPG" alt="Servicios y Equipos Topo S.A. de C.V. interior mina">                    
                     </div>
                     <div data-aos="fade-down" data-aos-duration="750" class="gallery-text text-box">
                         <div class="">
-                            <h2 class="pr-xxs pb-xs pl-xxs text-center">Más de <span class="orange-text">25 años</span>  de experiencia en la industria minera</h2>
+                            <h2 class="pr-xxs pb-xs pl-xxs text-center">Más de <span class="orange-text">30 años</span>  de experiencia en la industria minera</h2>
                             <p class="pr-xxs pl-xxs">
                                 Originalmente fundada en 1987, Servicios y Equipos Topo está posicionada entre una las contratistas mineras de mayor renombre de la repúlica mexicana.
                             </p>
@@ -113,7 +113,7 @@
                     </div>  
                     <div class="reveal-holder" data-aos="reveal-item">
                         <div class="reveal-block right" data-aos="reveal-right"></div>
-                        <img width="100%"  src="img/history-image.JPG" alt="">                    
+                        <img width="100%"  src="img/topo maquinaria en mina.JPG" alt="Servicios y Equipos Topo S.A. de C.V. maquinaria en interior mina">                    
                     </div>                     
                 </div>
             </section>
