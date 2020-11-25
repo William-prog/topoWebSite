@@ -30,8 +30,10 @@
             <div class="hero-overlay">
                 <div class="title-container">                    
                     <h1 class="white-text">Servicios y equipos <span class="orange-text">mineros</span> a toda la república mexicana</h1>                
-                    <a href="#" class="button-white service-button mt-lg">Saber más de nosotros</a>
-                    <a href="#" class="button-orange mt-lg">Deseo ponerme en contácto</a>                              
+                    <div class="call-to-action-container">
+                        <a href="#" class="button-white service-button mt-xxs">Saber más de nosotros</a>
+                        <a href="#" class="button-orange mt-xxs">Deseo ponerme en contácto</a>                              
+                    </div>
                 </div>  
                 <video class="hero-video" src="video/compressed.m4v" poster="img/hero-image.JPG" autoplay muted loop width="100%" height="100%"></video>                    
             </div>                                         

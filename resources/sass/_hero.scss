@@ -17,6 +17,22 @@
 
         .title-container {
             padding-top: 6.5rem;
+
+            .call-to-action-container {
+                display: grid;
+                grid-template-columns: auto;
+                grid-template-rows: 1fr 1fr;   
+                margin: 0 auto;             
+                width: 75%;
+
+                @include for-tablet-portrait-up {
+                    display: initial;
+                }
+
+                a {
+                    height: fit-content;
+                }
+            }
         }
 
         video {

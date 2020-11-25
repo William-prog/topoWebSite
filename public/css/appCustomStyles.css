@@ -231,6 +231,10 @@ main {
   margin-top: 3rem;
 }
 
+.mt-xxs {
+  margin-top: 1.5rem;
+}
+
 .mr-lg {
   margin-right: 15rem;
 }
@@ -595,6 +599,26 @@ header nav a .burger-menu {
 
 .hero-section .hero-overlay .title-container {
   padding-top: 6.5rem;
+}
+
+.hero-section .hero-overlay .title-container .call-to-action-container {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 1fr 1fr;
+  margin: 0 auto;
+  width: 75%;
+}
+
+@media (min-width: 600px) {
+  .hero-section .hero-overlay .title-container .call-to-action-container {
+    display: initial;
+  }
+}
+
+.hero-section .hero-overlay .title-container .call-to-action-container a {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
 }
 
 .hero-section .hero-overlay video {
