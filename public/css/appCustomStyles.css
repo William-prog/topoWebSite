@@ -1062,7 +1062,7 @@ h4 {
   width: 85%;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 600px) {
   .contact-section .contact-img .container .form-container form .form-grid-container {
     display: grid;
     -moz-column-gap: 30px;

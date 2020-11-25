@@ -48,7 +48,7 @@
                 form {                    
                     width: 85%;
 
-                    @include for-desktop-up {
+                    @include for-tablet-portrait-up {
 
                         .form-grid-container {                            
                             display: grid;
