@@ -104,7 +104,7 @@
             </section>
 
             <section class="gallery-section pt-s pb-xs">            
-                <div class="gallery-grid">
+                <div class="gallery-grid grid-reverse">
                     <div data-aos="fade-down" data-aos-duration="750" class="gallery-text text-box">
                         <div class="">
                             <h2 class="pr-xxs pb-xs pl-xxs text-center">Más de <span class="orange-text">25 años</span>  de experiencia en la industria minera</h2>
@@ -115,7 +115,7 @@
                     </div>  
                     <div class="reveal-holder" data-aos="reveal-item">
                         <div class="reveal-block right" data-aos="reveal-right"></div>
-                        <img width="100%"  src="img/topo maquinaria en mina.JPG" alt="Servicios y Equipos Topo S.A. de C.V. maquinaria en interior mina">                    
+                        <img width="100%"  src="img/topo-worker.JPG" alt="Servicios y Equipos Topo S.A. de C.V. maquinaria en interior mina">                    
                     </div>                     
                 </div>
             </section>
@@ -125,7 +125,7 @@
                     <div class="partners-img radius-20">
                         <div class="partners-overlay radius-20">
                             <h1 class=" white-text pt-xs pb-xs">Clientes y socios</h1>                                
-                            <div  data-aos="fade-down" data-aos-duration="750" class="black-bg container map-container radius-20  white-text">                                                                
+                            <div  data-aos="fade-down" data-aos-duration="750" class="black-bg-gradient shadow container map-container radius-20  white-text">                                                                
                                 <img src="img/map.png" alt="mapa de la república mexicana" class="pt-xs map-img">
                                 <div class="state-info">
                                     <h2>Hemos <span class="orange-text"> visitado: </span> </h2>                                                    
@@ -137,7 +137,7 @@
                                             <div class="slider-city-text4">D.F.</div>
                                             <div class="slider-city-text5">Guanajuato</div>
                                             <div class="slider-city-text6">Hidalgo</div>
-                                            <div class="slider-city-text7">S.L.P.</div>
+                                            <div class="slider-city-text7">San Luis Potosí</div>
                                             <div class="slider-city-text8">Zacatecas</div>
                                         </div>
                                     </div>

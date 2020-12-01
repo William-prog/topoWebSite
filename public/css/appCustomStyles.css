@@ -653,12 +653,15 @@ header nav a .burger-menu {
 }
 
 .hero-section .hero-overlay h1 {
-  font-size: 2.5rem;
+  font-size: 2rem;
+  margin: 0 auto;
   padding: 10% 1%;
+  width: 90%;
 }
 
 @media (min-width: 1200px) {
   .hero-section .hero-overlay h1 {
+    font-size: 2.5;
     line-height: 1.5;
     padding: 20% 5% 7% 5%;
   }
@@ -897,14 +900,16 @@ h4 {
   }
 }
 
-.gallery-section .gallery-grid {
+.gallery-section .gallery-grid,
+.gallery-section .reverse-galley-grid {
   display: grid;
   grid-template-columns: auto;
   grid-template-rows: 1fr 1fr;
 }
 
 @media (min-width: 900px) {
-  .gallery-section .gallery-grid {
+  .gallery-section .gallery-grid,
+  .gallery-section .reverse-galley-grid {
     align-items: center;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
@@ -912,7 +917,8 @@ h4 {
 }
 
 @media (min-width: 900px) {
-  .gallery-section .gallery-grid .text-box {
+  .gallery-section .gallery-grid .text-box,
+  .gallery-section .reverse-galley-grid .text-box {
     align-items: center;
     display: grid;
     grid-template-columns: auto;
@@ -920,23 +926,27 @@ h4 {
   }
 }
 
-.gallery-section .gallery-grid .text-box h2 {
+.gallery-section .gallery-grid .text-box h2,
+.gallery-section .reverse-galley-grid .text-box h2 {
   font-size: 2rem;
 }
 
 @media (min-width: 1200px) {
-  .gallery-section .gallery-grid .text-box h2 {
+  .gallery-section .gallery-grid .text-box h2,
+  .gallery-section .reverse-galley-grid .text-box h2 {
     font-size: 2.5rem;
   }
 }
 
-.gallery-section .gallery-grid .text-box p {
+.gallery-section .gallery-grid .text-box p,
+.gallery-section .reverse-galley-grid .text-box p {
   margin: 0 auto;
   width: 50%;
 }
 
 @media (min-width: 1200px) {
-  .gallery-section .gallery-grid .text-box p {
+  .gallery-section .gallery-grid .text-box p,
+  .gallery-section .reverse-galley-grid .text-box p {
     width: 70%;
   }
 }
@@ -996,8 +1006,7 @@ h4 {
 @media (min-width: 900px) {
   .partners-section .partners-img .container .state-name {
     font-size: 1.75rem;
-    margin: 0 auto;
-    width: 70%;
+    width: 100%;
   }
 }
 
@@ -1412,6 +1421,7 @@ footer .footer-elements .social img {
 }
 
 .slider-city {
+  font-size: 40px;
   height: 50px;
   overflow: hidden;
 }
