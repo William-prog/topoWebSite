@@ -23,7 +23,7 @@
         <div>
             <section class="careers-section">
                 <div class="careers-img-container">
-                    <img src="img/team.JPG" alt="Empleados de Servicios y Equipos Topo S.A. de C.V.">
+                    <img src="img/team.jpg" alt="Empleados de Servicios y Equipos Topo S.A. de C.V.">
                     <div class="career-img-overlay">
                         <h1>Forma parte del equipo <span class="orange-text">Topo</span></h1>
                     </div>
@@ -110,5 +110,3 @@
 </script>
 <!-- Change header style when scrolling -->
 <script src="js/scroll.js"></script>
-<!-- Font awesome CDN -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js" integrity="sha256-KzZiKy0DWYsnwMF+X1DvQngQ2/FxF7MF3Ff72XcpuPs=" crossorigin="anonymous"></script>

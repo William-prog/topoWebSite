@@ -35,7 +35,7 @@
                         <a href="#" class="button-orange mt-xxs">Deseo ponerme en contácto</a>                              
                     </div>
                 </div>  
-                <video class="hero-video" src="video/compressed.m4v" poster="img/hero-image.JPG" autoplay muted loop width="100%" height="100%"></video>                    
+                <video class="hero-video" src="video/compressed.m4v" autoplay muted loop width="100%" height="100%"></video>                    
             </div>                                         
         </section>
 
@@ -70,21 +70,6 @@
                     </div>
                 </div>
             </section>
-
-            <!-- 
-            <section id="history-section" class="history-section pt-s pb-s">
-                <div class="history-frame text-center">                                                   
-                    <img data-aos="fade-right" data-aos-duration="750" src="img/history-image.JPG" alt="" class="radius-20">                    
-                    <div class="history-container radius-20">
-                        <h4>Más de <span class="orange-text">25 años</span>  de experiencia en la industria minera</h4>
-                        <p>
-                            Originalmente fundada en 1987, Servicios y Equipos Topo está posicionada entre una las contratistas mineras de mayor renombre de la repúlica mexicana.
-                        </p>
-                    </div>        
-                    <div class="orange-square radius-20"></div>            
-                </div>
-            </section>
-            -->
 
             <section class="gallery-section pt-s pb-xxs">            
                 <div class="gallery-grid">
