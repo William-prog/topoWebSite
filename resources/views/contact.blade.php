@@ -48,19 +48,19 @@
                                 <div class="extra-contact">
                                     <h5></h5>
                                     <div class="contact-info-container">
-                                        <img src="img/phone.png" alt="teléfono servicios y equipos TOPO">
+                                        <i class="fas fa-phone-square-alt"></i>  
                                         <h5>492 134 0253</h5>                                    
                                     </div>
                                     <div class="contact-info-container">
-                                        <img src="img/mail.png" alt="teléfono servicios y equipos TOPO">
+                                        <i class="fas fa-envelope"></i>
                                         <h5>doe@topo-int.com</h5>
                                     </div>
                                     <div class="contact-info-container">
-                                        <img src="img/pin.png" alt="teléfono servicios y equipos TOPO">
+                                        <i class="fas fa-map-marked-alt"></i>
                                         <h5>Carretera de Valdecañas</h5>                        
                                     </div>
                                     <div class="contact-info-container">
-                                        <img src="img/clock.png" alt="teléfono servicios y equipos TOPO">
+                                        <i class="far fa-clock"></i>
                                         <h5>Lun-Vie: 08:00am-06:00pm</h5>                        
                                     </div>
                                 </div>
@@ -84,15 +84,15 @@
                                     <div class="extra-contact">
                                         <h5></h5>
                                         <div class="contact-info-container">
-                                            <img src="img/phone.png" alt="teléfono servicios y equipos TOPO">
+                                            <i class="fas fa-phone-square-alt"></i>                                            
                                             <h5>+1 505 424 0908</h5>
                                         </div>
                                         <div class="contact-info-container">
-                                            <img src="img/mail.png" alt="teléfono servicios y equipos TOPO">
+                                            <i class="fas fa-envelope"></i>
                                             <h5>doe@topo-int.com</h5>
                                         </div>
                                         <div class="contact-info-container">
-                                            <img src="img/pin.png" alt="teléfono servicios y equipos TOPO">
+                                            <i class="fas fa-map-marked-alt"></i>
                                             <h5>Rodeo Ln STE D4, Santa Fe</h5>                        
                                         </div>
                                     </div>

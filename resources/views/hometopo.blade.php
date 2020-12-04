@@ -150,12 +150,7 @@
                                             <a href="https://www.coeur.com/" target="_blank">
                                                 <img src="img/partners/coeurmining-logo.png"  alt="" />
                                             </a>                                            
-                                        </div>        
-                                        <div class="slide">
-                                            <a href="https://gencomineservice.com/" target="_blanks">
-                                                <img src="img/partners/genco-logo.png" alt="" />
-                                            </a>                                            
-                                        </div>
+                                        </div>    
                                         <div class="slide">
                                             <a href="https://www.micon-drilling.de/MD/en/index.php">
                                                 <img src="img/partners/micon-logo.png" width="195px" alt="" />
@@ -179,11 +174,6 @@
                                         <div class="slide">
                                             <a href="https://www.coeur.com/" target="_blank">
                                                 <img src="img/partners/coeurmining-logo.png"  alt="" />
-                                            </a>
-                                        </div>
-                                        <div class="slide">
-                                            <a href="https://gencomineservice.com/" target="_blanks">
-                                                <img src="img/partners/genco-logo.png" alt="" />
                                             </a>
                                         </div>
                                         <div class="slide">
