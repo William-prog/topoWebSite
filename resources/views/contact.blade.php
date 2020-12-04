@@ -153,6 +153,5 @@
     @include('footer')
 </body>
 </html>
-
 <!-- Change header style based on page title -->
 <script src="js/change-header-style.js"></script>

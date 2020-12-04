@@ -199,13 +199,6 @@
     @include('footer')                                       
 </body>
 </html>
-<!-- AOS fade animation library -->
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script>  
-    AOS.init(/*{
-        once: true
-    }*/);
-</script>
 <!-- Change header style when scrolling -->
 <script src="js/scroll.js"></script>
 <!-- Jump to section when clicking anchor -->
