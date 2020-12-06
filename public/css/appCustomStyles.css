@@ -1242,7 +1242,7 @@ h4 {
 }
 
 footer .dirt-background {
-  background-image: url(/img/dirt.png);
+  background-image: url(/img/dirt.webp);
   background-size: cover;
   background-repeat: no-repeat;
   height: 15rem;
@@ -1288,7 +1288,7 @@ footer .footer-elements .social img {
   }
 
   100% {
-    transform: translateX(calc(-250px * 6));
+    transform: translateX(calc(-227px * 5));
   }
 }
 
@@ -1298,7 +1298,7 @@ footer .footer-elements .social img {
   }
 
   100% {
-    transform: translateX(calc(-250px * 6));
+    transform: translateX(calc(-227px * 5));
   }
 }
 
@@ -1311,10 +1311,10 @@ footer .footer-elements .social img {
 }
 
 .slider .slide-track {
-  -webkit-animation: scroll 38s linear infinite;
-          animation: scroll 38s linear infinite;
+  -webkit-animation: scroll 17.5s linear infinite;
+          animation: scroll 17.5s linear infinite;
   display: flex;
-  width: calc(250px * 12);
+  width: calc(240px * 8);
 }
 
 .slider .slide {
@@ -1347,25 +1347,23 @@ footer .footer-elements .social img {
 }
 
 .slider-city-text1 {
-  -webkit-animation: slide 9.5s linear infinite;
-          animation: slide 9.5s linear infinite;
+  -webkit-animation: slide 10s infinite;
+          animation: slide 10s infinite;
 }
 
 @-webkit-keyframes slide {
+  /*
+  0% {margin-top:-300px;}
+  33% {margin-top:-200px;}
+  66% {margin-top:-100px;}
+  100% {margin-top:0px;}
+  */
   0% {
-    margin-top: -900px;
-  }
-
-  5% {
-    margin-top: -900px;
+    margin-top: -800px;
   }
 
   10% {
-    margin-top: -800px;
-  }
-
-  15% {
-    margin-top: -800px;
+    margin-top: -700px;
   }
 
   20% {
@@ -1373,7 +1371,7 @@ footer .footer-elements .social img {
   }
 
   25% {
-    margin-top: -700px;
+    margin-top: -600px;
   }
 
   30% {
@@ -1381,7 +1379,7 @@ footer .footer-elements .social img {
   }
 
   35% {
-    margin-top: -600px;
+    margin-top: -500px;
   }
 
   40% {
@@ -1389,7 +1387,7 @@ footer .footer-elements .social img {
   }
 
   45% {
-    margin-top: -500px;
+    margin-top: -400px;
   }
 
   50% {
@@ -1397,7 +1395,7 @@ footer .footer-elements .social img {
   }
 
   55% {
-    margin-top: -400px;
+    margin-top: -300px;
   }
 
   60% {
@@ -1405,7 +1403,7 @@ footer .footer-elements .social img {
   }
 
   65% {
-    margin-top: -300px;
+    margin-top: -200px;
   }
 
   70% {
@@ -1413,22 +1411,14 @@ footer .footer-elements .social img {
   }
 
   75% {
-    margin-top: -200px;
+    margin-top: -100px;
   }
 
   80% {
     margin-top: -100px;
   }
 
-  85% {
-    margin-top: -100px;
-  }
-
   90% {
-    margin-top: 0px;
-  }
-
-  95% {
     margin-top: 0px;
   }
 
@@ -1438,20 +1428,18 @@ footer .footer-elements .social img {
 }
 
 @keyframes slide {
+  /*
+  0% {margin-top:-300px;}
+  33% {margin-top:-200px;}
+  66% {margin-top:-100px;}
+  100% {margin-top:0px;}
+  */
   0% {
-    margin-top: -900px;
-  }
-
-  5% {
-    margin-top: -900px;
+    margin-top: -800px;
   }
 
   10% {
-    margin-top: -800px;
-  }
-
-  15% {
-    margin-top: -800px;
+    margin-top: -700px;
   }
 
   20% {
@@ -1459,7 +1447,7 @@ footer .footer-elements .social img {
   }
 
   25% {
-    margin-top: -700px;
+    margin-top: -600px;
   }
 
   30% {
@@ -1467,7 +1455,7 @@ footer .footer-elements .social img {
   }
 
   35% {
-    margin-top: -600px;
+    margin-top: -500px;
   }
 
   40% {
@@ -1475,7 +1463,7 @@ footer .footer-elements .social img {
   }
 
   45% {
-    margin-top: -500px;
+    margin-top: -400px;
   }
 
   50% {
@@ -1483,7 +1471,7 @@ footer .footer-elements .social img {
   }
 
   55% {
-    margin-top: -400px;
+    margin-top: -300px;
   }
 
   60% {
@@ -1491,7 +1479,7 @@ footer .footer-elements .social img {
   }
 
   65% {
-    margin-top: -300px;
+    margin-top: -200px;
   }
 
   70% {
@@ -1499,14 +1487,10 @@ footer .footer-elements .social img {
   }
 
   75% {
-    margin-top: -200px;
-  }
-
-  80% {
     margin-top: -100px;
   }
 
-  85% {
+  80% {
     margin-top: -100px;
   }
 
@@ -1514,32 +1498,8 @@ footer .footer-elements .social img {
     margin-top: 0px;
   }
 
-  95% {
-    margin-top: 0px;
-  }
-
   100% {
     margin-top: 0px;
   }
 }
-
-/*
-0% {}
-12.5% {}
-25% {}
-37.5% {}
-50% {}
-62.5% {}
-75% {}
-87.5% {}
-100% {}
-
-  0% {margin-top:-300px;}
-  5% {margin-top:-200px;}
-  33% {margin-top:-200px;}
-  38% {margin-top:-100px;}
-  66% {margin-top:-100px;}
-  71% {margin-top:0px;}
-  100% {margin-top:0px;}
-*/
 

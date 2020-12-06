@@ -47,21 +47,21 @@
                     </h2>
                     <div class="col-3">
                         <div class="service-item">                
-                            <img src="img/icon-bolts.png" alt="">
+                            <img src="img/icon-bolts.svg" alt="Topo services section nuts and bolts icon">
                             <div class="service-description">
                                 <h4>Venta de refacciones</h4>
                                 <p>Contamos con un almacén preparado con todo tipo de herramientas listas para ser instaladas</p>
                             </div>
                         </div>
                         <div class="service-item">                
-                            <img src="img/icon-fix.png" alt="">
+                            <img src="img/icon-fix.svg" alt="Topo services section fixing icon">
                             <div class="service-description">
                                 <h4>Reparación de equipos</h4>
                                 <p>Nuestro taller está equipado con cabina de pintura, soldadura y diagnóstico de daños para mantener a tu operable</p>
                             </div>
                         </div>
                         <div class="service-item">                
-                            <img src="img/icon-engineer.png" alt="">
+                            <img src="img/icon-engineer.svg" alt="Topo services section engineer icon">
                             <div class="service-description">
                                 <h4>Mano de obra minera</h4>
                                 <p>Nuestro personal es altamente capacitado para hacer realidad proyectos subterraneos y de contrucción</p>
@@ -75,8 +75,8 @@
                 <div class="gallery-grid">
                     <div class="reveal-holder" data-aos="reveal-item">
                         <div class="reveal-block right" data-aos="reveal-right"></div>
-                        <img width="100%"  src="img/topo interior mina.JPG" alt="Servicios y Equipos Topo S.A. de C.V. interior mina">                    
-                    </div>
+                        <img width="100%"  src="img/topo-interior-mina.webp" alt="Servicios y Equipos Topo S.A. de C.V. interior mina">                    
+                    </div>                    
                     <div data-aos="fade-down" data-aos-duration="750" class="gallery-text text-box">
                         <div class="">
                             <h2 class="pr-xxs pb-xs pl-xxs text-center">Más de <span class="orange-text">30 años</span>  de experiencia en la industria minera</h2>
@@ -100,7 +100,7 @@
                     </div>  
                     <div class="reveal-holder" data-aos="reveal-item">
                         <div class="reveal-block right" data-aos="reveal-right"></div>
-                        <img width="100%"  src="img/topo-worker.JPG" alt="Servicios y Equipos Topo S.A. de C.V. maquinaria en interior mina">                    
+                        <img width="100%"  src="img/topo-worker.webp" alt="Servicios y Equipos Topo S.A. de C.V. maquinaria en interior mina">                    
                     </div>                     
                 </div>
             </section>
@@ -111,7 +111,7 @@
                         <div class="partners-overlay radius-20">
                             <h1 class=" white-text pt-xs pb-xs">Clientes y socios</h1>                                
                             <div  data-aos="fade-down" data-aos-duration="750" class="black-bg-gradient shadow container map-container radius-20  white-text">                                                                
-                                <img src="img/map.png" alt="mapa de la república mexicana" class="pt-xs map-img">
+                                <img src="img/map.webp" alt="mapa de la república mexicana" class="pt-xs map-img">
                                 <div class="state-info">
                                     <h2>Hemos <span class="orange-text"> visitado: </span> </h2>                                                    
                                     <div class="slide-maps state-name slide-wrapper pt-xxs pb-xxs">                                    
@@ -134,56 +134,56 @@
                                 <div class="slider">
                                     <div class="slide-track">
                                         <div class="slide">
-                                            <img src="img/partners/penoles-logo.png"  alt="peñoles" alt="" />
+                                            <img src="img/partners/penoles-logo.webp"  alt="peñoles" alt="" />
                                         </div>
                                         <div class="slide">
                                             <a href="http://www.fresnilloplc.com/" target="_blank">
-                                                <img src="img/partners/minerafresnillo-logo.png" alt="" />
+                                                <img src="img/partners/minerafresnillo-logo.webp" alt="" />
                                             </a>                                            
                                         </div>
                                         <div class="slide">
                                             <a href="https://www.therobbinscompany.com/es/" target="_blank">
-                                                <img src="img/partners/robbins-logo.png"  alt="" />
+                                                <img src="img/partners/robbins-logo.webp"  alt="" />
                                             </a>                                            
                                         </div>
                                         <div class="slide">
                                             <a href="https://www.coeur.com/" target="_blank">
-                                                <img src="img/partners/coeurmining-logo.png"  alt="" />
+                                                <img src="img/partners/coeurmining-logo.webp"  alt="" />
                                             </a>                                            
                                         </div>    
                                         <div class="slide">
                                             <a href="https://www.micon-drilling.de/MD/en/index.php">
-                                                <img src="img/partners/micon-logo.png" width="195px" alt="" />
+                                                <img src="img/partners/micon-logo.webp" width="195px" alt="" />
                                             </a>                                            
                                         </div>
                                         <div class="slide">
                                             <a href="https://www.penoles.com.mx/" target="_blank">
-                                                <img src="img/partners/penoles-logo.png" alt="peñoles" alt="" />
+                                                <img src="img/partners/penoles-logo.webp" alt="peñoles" alt="" />
                                             </a>                                            
                                         </div>
                                         <div class="slide">
                                             <a href="http://www.fresnilloplc.com/" target="_blank">
-                                                <img src="img/partners/minerafresnillo-logo.png" alt="" />
+                                                <img src="img/partners/minerafresnillo-logo.webp" alt="" />
                                             </a>
                                         </div>
                                         <div class="slide">
                                             <a href="https://www.therobbinscompany.com/es/" target="_blank">
-                                                <img src="img/partners/robbins-logo.png"  alt="" />
+                                                <img src="img/partners/robbins-logo.webp"  alt="" />
                                             </a>  
                                         </div>
                                         <div class="slide">
                                             <a href="https://www.coeur.com/" target="_blank">
-                                                <img src="img/partners/coeurmining-logo.png"  alt="" />
+                                                <img src="img/partners/coeurmining-logo.webp"  alt="" />
                                             </a>
                                         </div>
                                         <div class="slide">
                                             <a href="https://www.micon-drilling.de/MD/en/index.php">
-                                                <img src="img/partners/micon-logo.png" width="195px" alt="" />
+                                                <img src="img/partners/micon-logo.webp" width="195px" alt="" />
                                             </a>
                                         </div>  
                                         <div class="slide">
                                             <a href="https://www.penoles.com.mx/" target="_blank">
-                                                <img src="img/partners/penoles-logo.png" alt="peñoles" alt="" />
+                                                <img src="img/partners/penoles-logo.webp" alt="peñoles" alt="" />
                                             </a>                                            
                                         </div>     
                                     </div>

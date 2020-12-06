@@ -22,48 +22,33 @@
   box-sizing: border-box;
 }
 .slider-city-text1 {
-  animation: slide 9.5s linear infinite;
+  animation: slide 10s infinite;
 }
 
 @keyframes slide {
-  0% {margin-top:-900px;}
-  5% {margin-top:-900px;}
-  10% {margin-top:-800px;}
-  15% {margin-top:-800px;}
-  20% {margin-top:-700px;}
-  25% {margin-top:-700px;}
-  30% {margin-top:-600px;}
-  35% {margin-top:-600px;}
-  40% {margin-top:-500px;}
-  45% {margin-top:-500px;}
-  50% {margin-top:-400px;}
-  55% {margin-top:-400px;}
-  60% {margin-top:-300px;}
-  65% {margin-top:-300px;}
-  70% {margin-top:-200px;}
-  75% {margin-top:-200px;}
-  80% {margin-top:-100px;}
-  85% {margin-top:-100px;}
-  90% {margin-top:-0px;}  
-  95% {margin-top:0px;}
-  100% {margin-top:0px;}
-}
-/*
-0% {}
-12.5% {}
-25% {}
-37.5% {}
-50% {}
-62.5% {}
-75% {}
-87.5% {}
-100% {}
-
+  /*
   0% {margin-top:-300px;}
-  5% {margin-top:-200px;}
   33% {margin-top:-200px;}
-  38% {margin-top:-100px;}
   66% {margin-top:-100px;}
-  71% {margin-top:0px;}
   100% {margin-top:0px;}
-*/
+  */
+  0% {margin-top:-800px;}
+  10% {margin-top:-700px;}
+  20% {margin-top:-700px;}
+  25% {margin-top:-600px;}
+  30% {margin-top:-600px;}
+  35% {margin-top:-500px;}
+  40% {margin-top:-500px;}
+  45% {margin-top:-400px;}
+  50% {margin-top:-400px;}
+  55% {margin-top:-300px;}
+  60% {margin-top:-300px;}
+  65% {margin-top:-200px;}
+  70% {margin-top:-200px;}
+  75% {margin-top:-100px;}
+  80% {margin-top:-100px;}
+  90% {margin-top:0px;}
+  100% {margin-top:0px;}
+  
+  
+}
