@@ -1,25 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-156772003-2"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-    
-      gtag('config', 'UA-156772003-2');
-    </script>
+    <!-- Link tags -->    
+    <link media="screen" rel="stylesheet" href="css/appCustomStyles.css">    
+    <link rel="icon" type="image/png" href="img/favicon.png"/>
     <!-- Meta tags -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#FF781F" />
     <meta name="description" content="Servicios y equipos de mineria con más de 30 años de experiencia. Reparación y mantenimiento, contamos con cabina de pintura, shotblast, mano de obra minera.">
-    <meta http-equiv="ScreenOrientation" content="autoRotate:disabled">
-    <!-- Link tags -->
-    <link rel="icon" type="image/png" href="img/favicon.png"/>
-    <link rel="stylesheet" href="css/appCustomStyles.css">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <meta http-equiv="ScreenOrientation" content="autoRotate:disabled">    
     <title>Servicios y Equipos TOPO S.A. de C.V.</title>
 </head>
 <body>
@@ -137,17 +127,17 @@
                                             <img src="img/partners/penoles-logo.webp"  alt="peñoles" alt="" />
                                         </div>
                                         <div class="slide">
-                                            <a href="http://www.fresnilloplc.com/" target="_blank">
+                                            <a href="http://www.fresnilloplc.com/" target="noopener">
                                                 <img src="img/partners/minerafresnillo-logo.webp" alt="" />
                                             </a>                                            
                                         </div>
                                         <div class="slide">
-                                            <a href="https://www.therobbinscompany.com/es/" target="_blank">
+                                            <a href="https://www.therobbinscompany.com/es/" target="noopener">
                                                 <img src="img/partners/robbins-logo.webp"  alt="" />
                                             </a>                                            
                                         </div>
                                         <div class="slide">
-                                            <a href="https://www.coeur.com/" target="_blank">
+                                            <a href="https://www.coeur.com/" target="noopener">
                                                 <img src="img/partners/coeurmining-logo.webp"  alt="" />
                                             </a>                                            
                                         </div>    
@@ -157,22 +147,22 @@
                                             </a>                                            
                                         </div>
                                         <div class="slide">
-                                            <a href="https://www.penoles.com.mx/" target="_blank">
+                                            <a href="https://www.penoles.com.mx/" target="noopener">
                                                 <img src="img/partners/penoles-logo.webp" alt="peñoles" alt="" />
                                             </a>                                            
                                         </div>
                                         <div class="slide">
-                                            <a href="http://www.fresnilloplc.com/" target="_blank">
+                                            <a href="http://www.fresnilloplc.com/" target="noopener">
                                                 <img src="img/partners/minerafresnillo-logo.webp" alt="" />
                                             </a>
                                         </div>
                                         <div class="slide">
-                                            <a href="https://www.therobbinscompany.com/es/" target="_blank">
+                                            <a href="https://www.therobbinscompany.com/es/" target="noopener">
                                                 <img src="img/partners/robbins-logo.webp"  alt="" />
                                             </a>  
                                         </div>
                                         <div class="slide">
-                                            <a href="https://www.coeur.com/" target="_blank">
+                                            <a href="https://www.coeur.com/" target="noopener">
                                                 <img src="img/partners/coeurmining-logo.webp"  alt="" />
                                             </a>
                                         </div>
@@ -182,7 +172,7 @@
                                             </a>
                                         </div>  
                                         <div class="slide">
-                                            <a href="https://www.penoles.com.mx/" target="_blank">
+                                            <a href="https://www.penoles.com.mx/" target="noopener">
                                                 <img src="img/partners/penoles-logo.webp" alt="peñoles" alt="" />
                                             </a>                                            
                                         </div>     
@@ -200,6 +190,17 @@
 </body>
 </html>
 <!-- Change header style when scrolling -->
-<script src="js/scroll.js"></script>
+<script async src="js/scroll.js" defer></script>
 <!-- Jump to section when clicking anchor -->
-<script src="js/jump-section.js"></script>
+<script async src="js/jump-section.js" defer></script>
+<!-- Aos style library -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-156772003-2" defer></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-156772003-2');
+</script>

@@ -867,14 +867,6 @@ h4 {
   }
 }
 
-.partners-section .partners-img {
-  background-image: url(/img/hero-image.JPG);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: auto;
-}
-
 .partners-section .partners-img .partners-overlay {
   background-image: linear-gradient(to bottom right, rgba(255, 120, 31, 0.85), rgba(250, 214, 166, 0.85));
   font-size: 1.5rem;
