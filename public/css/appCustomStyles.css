@@ -189,6 +189,10 @@ main {
   text-align: center;
 }
 
+.text-left {
+  text-align: left;
+}
+
 .flex {
   display: flex;
 }
@@ -821,38 +825,60 @@ h4 {
   }
 }
 
+.gallery-section .gallery-grid .text-box,
+.gallery-section .reverse-galley-grid .text-box {
+  color: #fff;
+  height: 100%;
+}
+
 @media (min-width: 900px) {
   .gallery-section .gallery-grid .text-box,
   .gallery-section .reverse-galley-grid .text-box {
     align-items: center;
-    display: grid;
-    grid-template-columns: auto;
-    text-align: center;
+    display: flex;
+    text-align: left;
   }
 }
 
 .gallery-section .gallery-grid .text-box h2,
 .gallery-section .reverse-galley-grid .text-box h2 {
   font-size: 2rem;
+  padding: 2rem;
+}
+
+.gallery-section .gallery-grid .text-box .goal-container,
+.gallery-section .reverse-galley-grid .text-box .goal-container {
+  margin: 0 auto;
+  width: 85%;
+}
+
+.gallery-section .gallery-grid .text-box .goal-container p,
+.gallery-section .reverse-galley-grid .text-box .goal-container p {
+  margin: 0 auto;
 }
 
 @media (min-width: 1200px) {
-  .gallery-section .gallery-grid .text-box h2,
-  .gallery-section .reverse-galley-grid .text-box h2 {
-    font-size: 2.5rem;
+  .gallery-section .gallery-grid .text-box .goal-container p,
+  .gallery-section .reverse-galley-grid .text-box .goal-container p {
+    width: 70%;
   }
 }
 
-.gallery-section .gallery-grid .text-box p,
-.gallery-section .reverse-galley-grid .text-box p {
-  margin: 0 auto;
-  width: 50%;
+.gallery-section .gallery-grid .text-box .goal-container svg,
+.gallery-section .reverse-galley-grid .text-box .goal-container svg {
+  font-size: 2rem;
+  padding-right: 1rem;
 }
 
-@media (min-width: 1200px) {
-  .gallery-section .gallery-grid .text-box p,
-  .gallery-section .reverse-galley-grid .text-box p {
-    width: 70%;
+.gallery-section .gallery-grid .text-box .goal-container:nth-child(3),
+.gallery-section .reverse-galley-grid .text-box .goal-container:nth-child(3) {
+  padding-bottom: 2rem;
+}
+
+@media (min-width: 900px) {
+  .gallery-section .gallery-grid .text-box .goal-container:nth-child(3),
+  .gallery-section .reverse-galley-grid .text-box .goal-container:nth-child(3) {
+    padding-bottom: 0rem;
   }
 }
 

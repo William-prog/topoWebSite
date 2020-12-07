@@ -32,27 +32,47 @@ h4 {
 
         .text-box {
 
+            color: $white-color;
+            height: 100%;
+
             @include for-tablet-landscape-up {
                 align-items: center;
-                display: grid;
-                grid-template-columns: auto;
-                text-align: center;
+                display: flex;                
+                text-align: left;
             }
 
             h2 {
                 font-size: 2rem;
+                padding: 2rem;
         
                 @include for-desktop-up {
-                    font-size: 2.5rem;
+                    
                 }
             }
-            
-            p {
-                margin: 0 auto;
-                width: 50%;
 
-                @include for-desktop-up {    
-                    width: 70%;
+            .goal-container {
+                margin: 0 auto;
+                width: 85%;
+
+                p {
+                    margin: 0 auto;
+    
+                    @include for-desktop-up {    
+                        width: 70%;
+                    }
+                }  
+    
+                svg {
+                    font-size: 2rem;
+                    padding-right: 1rem;
+                }
+            }    
+            
+            .goal-container:nth-child(3) {
+                padding-bottom: 2rem;
+
+                @include for-tablet-landscape-up {
+                    padding-bottom: 0rem;
                 }
             }  
         }

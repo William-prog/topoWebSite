@@ -10,7 +10,7 @@
     <meta name="theme-color" content="#FF781F" />
     <meta name="description" content="Servicios y equipos de mineria con más de 30 años de experiencia. Reparación y mantenimiento, contamos con cabina de pintura, shotblast, mano de obra minera.">
     <meta http-equiv="ScreenOrientation" content="autoRotate:disabled">    
-    <title>Servicios y Equipos TOPO S.A. de C.V.</title>
+    <title>Contratista minera | Servicios y Equipos TOPO S.A. de C.V.</title>
 </head>
 <body>
     @include('header')
@@ -21,8 +21,8 @@
                 <div class="title-container">                    
                     <h1 class="white-text">Servicios y equipos <span class="orange-text">mineros</span> a toda la república mexicana</h1>                
                     <div class="call-to-action-container">
-                        <a href="#" class="button-white service-button mt-xxs">Saber más de nosotros</a>
-                        <a href="#" class="button-orange mt-xxs">Deseo ponerme en contácto</a>                              
+                        <a href="#" class="button-white service-button mt-xxs">Empleos disponibles</a>
+                        <a href="#" class="button-orange mt-xxs">Información de contácto</a>                              
                     </div>
                 </div>  
                 <video class="hero-video" src="video/compressed.m4v" autoplay muted loop width="100%" height="100%"></video>                    
@@ -67,12 +67,27 @@
                         <div class="reveal-block right" data-aos="reveal-right"></div>
                         <img width="100%"  src="img/topo-interior-mina.webp" alt="Servicios y Equipos Topo S.A. de C.V. interior mina">                    
                     </div>                    
-                    <div data-aos="fade-down" data-aos-duration="750" class="gallery-text text-box">
+                    <div data-aos="fade-down" data-aos-duration="750" class="gallery-text text-box black-bg-gradient">                        
+                        <h2 class="pr-xxs pl-xxs">Más de <span class="orange-text">30 años</span>  de experiencia en la industria minera</h2>
                         <div class="">
-                            <h2 class="pr-xxs pb-xs pl-xxs text-center">Más de <span class="orange-text">30 años</span>  de experiencia en la industria minera</h2>
-                            <p class="pr-xxs pl-xxs">
-                                Originalmente fundada en 1987, Servicios y Equipos Topo está posicionada entre una las contratistas mineras de mayor renombre de la repúlica mexicana.
-                            </p>
+                            <div class="text-left flex goal-container">
+                                <i class="fas fa-flag"></i>
+                                <p>
+                                    Topo Machinery Inc. se formó en 1985 para representar a "The Robbins Company" in México
+                                </p>
+                            </div>
+                            <div class="text-left flex pt-xxs goal-container">
+                                <i class="fas fa-warehouse"></i>
+                                <p>
+                                    En el año 2003 se funda Servicios y Equipos Topo S.A. de C.V. para dar mantenimiento y servicio técnico a maquinaria minera
+                                </p>
+                            </div>
+                            <div class="text-left flex pt-xxs goal-container">
+                                <i class="fas fa-hard-hat"></i>
+                                <p>
+                                    Originalmente fundada en 1987, Servicios y Equipos Topo está posicionada entre una las contratistas mineras de mayor renombre de la repúlica mexicana.                                
+                                </p>
+                            </div>
                         </div>
                     </div>   
                 </div>
@@ -80,11 +95,11 @@
 
             <section class="gallery-section pt-s pb-xs">            
                 <div class="gallery-grid grid-reverse">
-                    <div data-aos="fade-down" data-aos-duration="750" class="gallery-text text-box">
+                    <div data-aos="fade-down" data-aos-duration="750" class="gallery-text text-box black-bg-gradient">
                         <div class="">
-                            <h2 class="pr-xxs pb-xs pl-xxs text-center">Más de <span class="orange-text">25 años</span>  de experiencia en la industria minera</h2>
+                            <h2 class="pr-xxs pb-xs pl-xxs text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam, deserunt? <span class="orange-text">25 años</span>  Lorem ipsum dolor sit.</h2>
                             <p class="pr-xxs pl-xxs">
-                                Originalmente fundada en 1987, Servicios y Equipos Topo está posicionada entre una las contratistas mineras de mayor renombre de la repúlica mexicana.
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, minus nulla rerum voluptatum possimus esse?
                             </p>
                         </div>
                     </div>  
@@ -124,56 +139,56 @@
                                 <div class="slider">
                                     <div class="slide-track">
                                         <div class="slide">
-                                            <img src="img/partners/penoles-logo.webp"  alt="peñoles" alt="" />
+                                            <img src="img/partners/penoles-logo.webp"  alt="peñoles" alt="logo de Peñoes" />
                                         </div>
                                         <div class="slide">
                                             <a href="http://www.fresnilloplc.com/" target="noopener">
-                                                <img src="img/partners/minerafresnillo-logo.webp" alt="" />
+                                                <img src="img/partners/minerafresnillo-logo.webp" alt="logo de Fresnillo PLC" />
                                             </a>                                            
                                         </div>
                                         <div class="slide">
                                             <a href="https://www.therobbinscompany.com/es/" target="noopener">
-                                                <img src="img/partners/robbins-logo.webp"  alt="" />
+                                                <img src="img/partners/robbins-logo.webp"  alt="logo de logo de The Robbins Company" />
                                             </a>                                            
                                         </div>
                                         <div class="slide">
                                             <a href="https://www.coeur.com/" target="noopener">
-                                                <img src="img/partners/coeurmining-logo.webp"  alt="" />
+                                                <img src="img/partners/coeurmining-logo.webp"  alt="logo de Coeur Mining" />
                                             </a>                                            
                                         </div>    
                                         <div class="slide">
-                                            <a href="https://www.micon-drilling.de/MD/en/index.php">
-                                                <img src="img/partners/micon-logo.webp" width="195px" alt="" />
+                                            <a href="https://www.micon-drilling.de/MD/en/index.php" target="noopener">
+                                                <img src="img/partners/micon-logo.webp" width="195px" alt="Logo de Micon Drilling" />
                                             </a>                                            
                                         </div>
                                         <div class="slide">
                                             <a href="https://www.penoles.com.mx/" target="noopener">
-                                                <img src="img/partners/penoles-logo.webp" alt="peñoles" alt="" />
+                                                <img src="img/partners/penoles-logo.webp" alt="peñoles" alt="logo de Peñoles" />
                                             </a>                                            
                                         </div>
                                         <div class="slide">
                                             <a href="http://www.fresnilloplc.com/" target="noopener">
-                                                <img src="img/partners/minerafresnillo-logo.webp" alt="" />
+                                                <img src="img/partners/minerafresnillo-logo.webp" alt="logo de Fresnillo PLC" />
                                             </a>
                                         </div>
                                         <div class="slide">
                                             <a href="https://www.therobbinscompany.com/es/" target="noopener">
-                                                <img src="img/partners/robbins-logo.webp"  alt="" />
+                                                <img src="img/partners/robbins-logo.webp"  alt="logo de The Robbins Company" />
                                             </a>  
                                         </div>
                                         <div class="slide">
                                             <a href="https://www.coeur.com/" target="noopener">
-                                                <img src="img/partners/coeurmining-logo.webp"  alt="" />
+                                                <img src="img/partners/coeurmining-logo.webp"  alt="logo de Coeur mining" />
                                             </a>
                                         </div>
                                         <div class="slide">
                                             <a href="https://www.micon-drilling.de/MD/en/index.php">
-                                                <img src="img/partners/micon-logo.webp" width="195px" alt="" />
+                                                <img src="img/partners/micon-logo.webp" width="195px" alt="logo de Micon Drilling" />
                                             </a>
                                         </div>  
                                         <div class="slide">
                                             <a href="https://www.penoles.com.mx/" target="noopener">
-                                                <img src="img/partners/penoles-logo.webp" alt="peñoles" alt="" />
+                                                <img src="img/partners/penoles-logo.webp" alt="peñoles" alt="logo de Peñoles" />
                                             </a>                                            
                                         </div>     
                                     </div>
