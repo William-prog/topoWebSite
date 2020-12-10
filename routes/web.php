@@ -3,6 +3,8 @@
 use Illuminate\Support\Facades\Route;
 use RealRashid\SweetAlert\Facades\Alert;
 use Illuminate\Mail\Mailable;
+use Illuminate\Support\Facades\Artisan;
+
 
 
 /*
@@ -31,7 +33,7 @@ Route::get('careers', function () {
 });
 
 // Sends e-mail message from contact form to recipient
-Route::get('send-message', 'LandingController@sendMessage')->name('send-message');
+Route::get('send', 'LandingController@sendMessage')->name('send-message');
 
 // Contact form message has been sent successfuly
 Route::get('message-successful', function() {
@@ -45,7 +47,11 @@ Route::get('contact', function() {
     return view('contact');
 });
 
-// Route for CSS animation test
-Route::get('t', function() {
-    return view('test');
+// Clear cache
+Route::get('cache', function() {
+
+    $configCache = Artisan::call('config:cache');
+    $clearCache = Artisan::call('cache:clear');
+    
+    return 'cache cleared';
 });

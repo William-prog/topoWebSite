@@ -93,10 +93,9 @@ class LandingController extends Controller
     */
     public function sendMessage(Request $request) {
         
-        Mail::to('contacto@serviciosyequipostopo.com.mx')                
+        Mail::to('contacto2020@gmail.com')                
                 ->send(new ContactFormMessage('sdf', 'sdf'));
 
-                Alert::alert('Title', 'Message', 'Type');
 
         return view('message_successful');
     }
