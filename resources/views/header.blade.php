@@ -12,12 +12,12 @@
     <!-- Desktop navigation -->
     <nav id="desktop-nav" class="col-4 flex-jc-sb flex-ai-c flex-jc-sa hide-mobile">
         <div class="logo-desktop">
-            <a href="#">
+            <a href="https://serviciosyequipostopo.com.mx/">
                 <img id="desktop-logo" src="img/logo.png" alt="" class="">
             </a>
         </div>
         <div>
-            <a class="nav-anchor" href="/">Inicio</a>
+            <a class="nav-anchor" href="https://serviciosyequipostopo.com.mx/">Inicio</a>
         </div>
         <!--
         <div>
@@ -25,10 +25,10 @@
         </div>            
          -->
         <div>
-            <a class="nav-anchor" href="contact" target="_blank">Contácto</a>
+            <a class="nav-anchor" href="https://serviciosyequipostopo.com.mx/contact" target="_blank">Contácto</a>
         </div>
         <div>
-            <a class="nav-anchor" href="careers" target="_blank">Empleos</a>
+            <a class="nav-anchor" href="https://serviciosyequipostopo.com.mx/careers" target="_blank">Empleos</a>
         </div>
     </nav>
 </header>
@@ -36,9 +36,9 @@
 <!-- Side nav for mobile version -->
 <div id="mySidenav" class="sidenav hide-desktop">
     <a class="closebtn" onclick="closeNav()">&times;</a>
-    <a href="/">Inicio</a>    
-    <a href="/contact" target="_blank">Contacto</a>
-    <a href="/careers" target="_blank">Empleos</a>
+    <a href="https://serviciosyequipostopo.com.mx/">Inicio</a>    
+    <a href="https://serviciosyequipostopo.com.mx/contact" target="noopener">Contacto</a>
+    <a href="https://serviciosyequipostopo.com.mx/careers" target="noopener">Empleos</a>
 </div>
 
 <!-- Open side navigation script -->

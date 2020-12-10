@@ -835,14 +835,15 @@ h4 {
   .gallery-section .gallery-grid .text-box,
   .gallery-section .reverse-galley-grid .text-box {
     align-items: center;
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 62%;
     text-align: left;
   }
 }
 
 .gallery-section .gallery-grid .text-box h2,
 .gallery-section .reverse-galley-grid .text-box h2 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   padding: 2rem;
 }
 

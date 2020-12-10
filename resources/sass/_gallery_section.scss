@@ -37,12 +37,13 @@ h4 {
 
             @include for-tablet-landscape-up {
                 align-items: center;
-                display: flex;                
+                display: grid;                
+                grid-template-columns: 1fr 62%;
                 text-align: left;
             }
 
             h2 {
-                font-size: 2rem;
+                font-size: 1.5rem;
                 padding: 2rem;
         
                 @include for-desktop-up {
