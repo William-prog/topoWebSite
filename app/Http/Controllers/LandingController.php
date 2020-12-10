@@ -92,12 +92,9 @@ class LandingController extends Controller
     * Sends e-mail message from contact form to recipient
     */
     public function sendMessage(Request $request) {
-
-        $customSender = $request->input('sender');
-        $customSubject = $request->input('subject');
         
-        Mail::to($customSender)                
-                ->send(new ContactFormMessage($customSender, $customSubject));
+        Mail::to('contacto@serviciosyequipostopo.com.mx')                
+                ->send(new ContactFormMessage('sdf', 'sdf'));
 
                 Alert::alert('Title', 'Message', 'Type');
 

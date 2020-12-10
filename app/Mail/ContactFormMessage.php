@@ -31,8 +31,8 @@ class ContactFormMessage extends Mailable
      */
     public function build()
     {
-        return $this->from('sist3m4s.it@topo-int.com', "Servicios y Equipos Topo")
-                    ->subject($this->subject)
+        return $this->from('topowebsite2020@gmail.com', "Servicios y Equipos Topo")
+                    ->subject('This subject')
                     ->markdown('emails.message_contact_form')
                     ->with('data', $this->data);
     }

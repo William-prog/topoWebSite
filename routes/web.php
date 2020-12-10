@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use RealRashid\SweetAlert\Facades\Alert;
+use Illuminate\Mail\Mailable;
 
 
 /*
@@ -30,7 +31,7 @@ Route::get('careers', function () {
 });
 
 // Sends e-mail message from contact form to recipient
-Route::post('send-message', 'LandingController@sendMessage')->name('send-message');
+Route::get('send-message', 'LandingController@sendMessage')->name('send-message');
 
 // Contact form message has been sent successfuly
 Route::get('message-successful', function() {
