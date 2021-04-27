@@ -100,9 +100,8 @@
 
         .contact-info-container {
 
-            @include for-phone-only {
                 margin-left: 7%;
-            }
+            
 
             text-align: left;
             display: grid;

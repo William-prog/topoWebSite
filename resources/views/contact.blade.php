@@ -61,7 +61,8 @@
                                     </div>
                                     <div class="contact-info-container">
                                         <i class="far fa-clock"></i>
-                                        <h5>Lun-Vie: 08:00am-06:00pm</h5>                        
+                                        <h5>Lun-Vie 08:00am-06:00pm</h5>                        
+                                        <h5>Sab 08:00am-02:00pm</h5>
                                     </div>
                                 </div>
                             </div>
@@ -81,20 +82,23 @@
                                             allowfullscreen="true">
                                         </iframe>
                                     </div>
-                                    <div class="extra-contact">
-                                        <h5></h5>
+                                    <div class="extra-contact">                                        
+                                        <!-- 
                                         <div class="contact-info-container">
                                             <i class="fas fa-phone-square-alt"></i>                                            
                                             <h5>+1 505 424 0908</h5>
                                         </div>
+                                        -->
                                         <div class="contact-info-container">
                                             <i class="fas fa-envelope"></i>
-                                            <h5>doe@topo-int.com</h5>
+                                            <h5>TopoSF@topomachinery.com</h5>
                                         </div>
+                                        <!-- 
                                         <div class="contact-info-container">
                                             <i class="fas fa-map-marked-alt"></i>
                                             <h5>Rodeo Ln STE D4, Santa Fe</h5>                        
                                         </div>
+                                        -->
                                     </div>
                                 </div>
                             </div>
@@ -112,11 +116,11 @@
                                         <input required name="full-name" id="full-name" type="text">
                                     </div>
                                     <div class="form-input-container">
-                                        <label for="e-mail">Correo electrónico:</label>
+                                        <label for="e-mail">Correo electrónico: <span class="orange-text">*</span></label>
                                         <input name="sender" id="e-mail" type="text" class="mt-xs">
                                     </div>
                                     <div class="form-input-container">
-                                        <label for="subject">Asunto del mensaje: <span class="orange-text">*</span></label>
+                                        <label for="subject">Asunto: <span class="orange-text">*</span></label>
                                         <select required name="to-contact" id="department">
                                             <option value="" disabled selected>Elige una opción</option>
                                             <option value="Solicito información">Solicito información</option>

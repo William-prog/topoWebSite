@@ -602,7 +602,7 @@ header nav a .burger-menu {
 }
 
 .hero-section .hero-overlay .title-container {
-  padding-top: 6.5rem;
+  padding-top: 25%;
 }
 
 .hero-section .hero-overlay .title-container .call-to-action-container {
@@ -659,7 +659,7 @@ header nav a .burger-menu {
 .hero-section .hero-overlay h1 {
   font-size: 2rem;
   margin: 0 auto;
-  padding: 10% 1%;
+  padding: 3% 1%;
   width: 90%;
 }
 
@@ -1070,16 +1070,11 @@ h4 {
 }
 
 .contact-section .contact-img .contact-info-container {
+  margin-left: 7%;
   text-align: left;
   display: grid;
   font-size: 1.2rem;
   grid-template-columns: 15% 1fr;
-}
-
-@media (max-width: 599px) {
-  .contact-section .contact-img .contact-info-container {
-    margin-left: 7%;
-  }
 }
 
 .contact-section .contact-img .contact-info-container svg {

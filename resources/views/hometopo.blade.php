@@ -47,7 +47,7 @@
                             <img src="img/icon-fix.svg" alt="Topo services section fixing icon">
                             <div class="service-description">
                                 <h4>Reparación de equipos</h4>
-                                <p>Nuestro taller está equipado con cabina de pintura, soldadura y diagnóstico de daños para mantener a tu operable</p>
+                                <p>Nuestro taller cuenta con cabina de shot blast, cabina de pintura y diagnóstico de daños para equipo utilitario de interior mina</p>
                             </div>
                         </div>
                         <div class="service-item">                
@@ -114,7 +114,8 @@
                 <div class="partners-container">
                     <div class="partners-img radius-20">
                         <div class="partners-overlay radius-20">
-                            <h1 class=" white-text pt-xs pb-xs">Clientes y socios</h1>                                
+                            <h1 class=" white-text pt-xs pb-xs">Representantes</h1>  
+                            <!--                              
                             <div  data-aos="fade-down" data-aos-duration="750" class="black-bg-gradient shadow container map-container radius-20  white-text">                                                                
                                 <img src="img/map.webp" alt="mapa de la república mexicana" class="pt-xs map-img">
                                 <div class="state-info">
@@ -133,11 +134,36 @@
                                     </div>
                                 </div>
                             </div>
+                             -->
 
                             <div data-aos="fade-right" data-aos-duration="750" class="gray-text white-bg container mt-s radius-20 partners-box shadow">                    
+                                <!--
                                 <h2 class="pt-xs pb-xs">Socios</h2>
-                                <div class="slider">
-                                    <div class="slide-track">
+                                 -->
+                                 <style>
+                                    .two-column {
+                                        align-items: end;
+                                        display: grid;
+                                        grid-template-columns: 1fr 1fr;                                        
+                                    }
+
+                                    .slide {
+                                        padding-top: 80px;
+                                    }
+                                 </style>
+                                <div class="">
+                                    <div class="two-column">
+                                        <div class="slide">
+                                            <a href="https://www.therobbinscompany.com/es/" target="noopener">
+                                                <img src="img/partners/robbins-logo.webp"  alt="logo de logo de The Robbins Company" />
+                                            </a>                                            
+                                        </div>
+                                        <div class="slide">
+                                            <a href="https://www.micon-drilling.de/MD/en/index.php" target="noopener">
+                                                <img src="img/partners/micon-logo.webp" width="195px" alt="Logo de Micon Drilling" />
+                                            </a>                                            
+                                        </div>
+                                        <!-- 
                                         <div class="slide">
                                             <img src="img/partners/penoles-logo.webp"  alt="peñoles" alt="logo de Peñoes" />
                                         </div>
@@ -146,21 +172,12 @@
                                                 <img src="img/partners/minerafresnillo-logo.webp" alt="logo de Fresnillo PLC" />
                                             </a>                                            
                                         </div>
-                                        <div class="slide">
-                                            <a href="https://www.therobbinscompany.com/es/" target="noopener">
-                                                <img src="img/partners/robbins-logo.webp"  alt="logo de logo de The Robbins Company" />
-                                            </a>                                            
-                                        </div>
+                                        
                                         <div class="slide">
                                             <a href="https://www.coeur.com/" target="noopener">
                                                 <img src="img/partners/coeurmining-logo.webp"  alt="logo de Coeur Mining" />
                                             </a>                                            
-                                        </div>    
-                                        <div class="slide">
-                                            <a href="https://www.micon-drilling.de/MD/en/index.php" target="noopener">
-                                                <img src="img/partners/micon-logo.webp" width="195px" alt="Logo de Micon Drilling" />
-                                            </a>                                            
-                                        </div>
+                                        </div>                                            
                                         <div class="slide">
                                             <a href="https://www.penoles.com.mx/" target="noopener">
                                                 <img src="img/partners/penoles-logo.webp" alt="peñoles" alt="logo de Peñoles" />
@@ -190,7 +207,8 @@
                                             <a href="https://www.penoles.com.mx/" target="noopener">
                                                 <img src="img/partners/penoles-logo.webp" alt="peñoles" alt="logo de Peñoles" />
                                             </a>                                            
-                                        </div>     
+                                        </div>  
+                                        -->   
                                     </div>
                                 </div>
                             </div>

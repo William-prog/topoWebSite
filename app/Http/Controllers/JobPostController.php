@@ -2,14 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Landing;
-use App\Mail\ContactFormMessage;
+use App\JobPost;
 use Illuminate\Http\Request;
-use App\Mail\MessageRecieved;
-use Illuminate\Support\Facades\Mail;
-use RealRashid\SweetAlert\Facades\Alert;
 
-class LandingController extends Controller
+class JobPostController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -19,7 +15,6 @@ class LandingController extends Controller
     public function index()
     {
         //
-        return 'hello';
     }
 
     /**
@@ -46,10 +41,10 @@ class LandingController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Landing  $landing
+     * @param  \App\JobPost  $jobPost
      * @return \Illuminate\Http\Response
      */
-    public function show(Landing $landing)
+    public function show(JobPost $jobPost)
     {
         //
     }
@@ -57,10 +52,10 @@ class LandingController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Landing  $landing
+     * @param  \App\JobPost  $jobPost
      * @return \Illuminate\Http\Response
      */
-    public function edit(Landing $landing)
+    public function edit(JobPost $jobPost)
     {
         //
     }
@@ -69,10 +64,10 @@ class LandingController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Landing  $landing
+     * @param  \App\JobPost  $jobPost
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Landing $landing)
+    public function update(Request $request, JobPost $jobPost)
     {
         //
     }
@@ -80,23 +75,11 @@ class LandingController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Landing  $landing
+     * @param  \App\JobPost  $jobPost
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Landing $landing)
+    public function destroy(JobPost $jobPost)
     {
         //
-    }
-
-    /*
-    * Sends e-mail message from contact form to recipient
-    */
-    public function sendMessage(Request $request) {
-        
-        Mail::to('dummy@topo-int.com')                
-                ->send(new ContactFormMessage('sdf', 'sdf'));
-
-
-        return view('message_successful');
     }
 }

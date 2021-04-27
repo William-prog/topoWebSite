@@ -20,9 +20,13 @@ use Illuminate\Support\Facades\Artisan;
 
 Auth::routes();
 
-Route::get('/', function () {
-    return view('hometopo');
+Route::get('/', function() {
+    return view('job_posts');
 });
+
+// Route::get('/', function () {
+//     return view('hometopo');
+// });
 
 Route::get('/homes', function () {
     return view('welcome');
@@ -55,3 +59,5 @@ Route::get('cache', function() {
     
     return 'cache cleared';
 });
+
+Route::get('/home', 'HomeController@index')->name('home');
