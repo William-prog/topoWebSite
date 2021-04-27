@@ -15,6 +15,10 @@ class CreateJobPostsTable extends Migration
     {
         Schema::create('job_posts', function (Blueprint $table) {
             $table->id();
+            $table->String('job_title');
+            $table->String('job_responsabilities')->nullable();
+            $table->String('job_experience')->nullable();
+            $table->String('job_education')->nullable();
             $table->timestamps();
         });
     }

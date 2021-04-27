@@ -35,7 +35,14 @@ class JobPostController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $newJobPost = new JobPost;
+        
+        $newJobPost->job_title = $request->input('job-title');
+        $newJobPost->job_responsabilities = $request->input('job-responsabilities-json');
+        $newJobPost->job_experience = $request->input('job-experience');
+        $newJobPost->job_education = $request->input('job-education');
+
+        $newJobPost->save();
     }
 
     /**

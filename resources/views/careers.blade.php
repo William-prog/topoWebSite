@@ -25,7 +25,7 @@
                 <div class="careers-img-container">
                     <img src="img/team.jpg" alt="Empleados de Servicios y Equipos Topo S.A. de C.V.">
                     <div class="career-img-overlay">
-                        <h1>Forma parte del equipo <span class="orange-text">Topo</span></h1>
+                        <h1>Forma parte del equipo <span class="orange-text">TOPO</span></h1>
                     </div>
                 </div>
 

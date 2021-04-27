@@ -18,10 +18,10 @@ use Illuminate\Support\Facades\Artisan;
 |
 */
 
-Auth::routes();
+//Auth::routes();
 
 Route::get('/', function() {
-    return view('job_posts');
+    return view('job_posts_panel');
 });
 
 // Route::get('/', function () {
@@ -61,3 +61,6 @@ Route::get('cache', function() {
 });
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+// Job post related routes
+Route::post('/create-job-post', 'JobPostController@store');
