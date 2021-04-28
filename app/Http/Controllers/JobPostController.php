@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\JobPost;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\App;
 
 class JobPostController extends Controller
 {
@@ -14,7 +15,10 @@ class JobPostController extends Controller
      */
     public function index()
     {
-        //
+        $existingJobPosts = JobPost::all();
+        App::setLocale('es');
+
+        return view("job_posts")->with(["existingJobPosts" => $existingJobPosts]);
     }
 
     /**
@@ -56,16 +60,17 @@ class JobPostController extends Controller
      * Display the specified resource.
      *
      * @param  \App\JobPost  $jobPost
-     * @return \Illuminate\Http\Response
+     * @param  \Illuminate\Http\Request  $request
      */
-    public function show(JobPost $jobPost)
+    public function show(JobPost $jobPost, Request $request)
     {
-        //
+        return $jobPost->where('id', $request->jobPostId)->get();        
     }
 
     /**
      * Show the form for editing the specified resource.
      *
+     * @param  \App\JobPost  $jobPost
      * @param  \App\JobPost  $jobPost
      * @return \Illuminate\Http\Response
      */
@@ -95,5 +100,9 @@ class JobPostController extends Controller
     public function destroy(JobPost $jobPost)
     {
         //
+    }
+
+    public function test() {
+        return "async call, mother fucker";
     }
 }

@@ -62,5 +62,14 @@ Route::get('cache', function() {
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-// Job post related routes
+/*
+|------------------------
+| Job post relates routes
+|------------------------
+*/
+// Query all of the existing job posts
+Route::get('/index-job-posts', 'JobPostController@index');
+// Create job post and store it to the data base
 Route::post('/create-job-post', 'JobPostController@store');
+
+Route::get('/async/{jobPostId}', 'JobPostController@show');
