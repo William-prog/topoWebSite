@@ -37,6 +37,13 @@ class JobPostController extends Controller
     {
         $newJobPost = new JobPost;
         
+        $validateData = $request->validate([
+            'job-title' =>                  'required|string|max:255',
+            'job-responsabilities-json' =>  'required|json',
+            'job-experience' =>             'required|string',
+            'job-education' =>              'required|string',
+        ]);
+
         $newJobPost->job_title = $request->input('job-title');
         $newJobPost->job_responsabilities = $request->input('job-responsabilities-json');
         $newJobPost->job_experience = $request->input('job-experience');

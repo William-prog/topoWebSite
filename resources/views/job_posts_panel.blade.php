@@ -85,6 +85,9 @@
                                         <ul class="list-group">
                                             <input name="job-title" placeholder="Ej: Operador de TBM" type="text" class="form-control" id="job_title" maxlength="65" aria-describedby="emailHelp">
                                         </ul>
+                                        @if ($errors->any())
+                                            <h1>La regaste</h1>
+                                        @endif
                                     </div>
                                 </div>
                                 <div class="row pt-3 pb-3">
@@ -102,7 +105,7 @@
                                             </li>
                                         </ul>                                                                                
                                     </div>
-                                    <input type="text" class="form-control" id="job-responsabilities-json">
+                                    <input type="text" class="form-control" id="job-responsabilities-json" name="job-responsabilities-json">
                                 </div>
                                 <div class="row pt-3 pb-3">
                                     <h5 class="card-title"><i class="fas fa-business-time"></i> Experiencia:</h5>

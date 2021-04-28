@@ -10,7 +10,7 @@ function addTextField() {
     listContainer.appendChild(proxyElement);    
 }
 
-function removeItem(buttonElementId) {    
+function removeItem(buttonElementId) {
     // return the closets 'div' element whose parent node is an 'li'
     var selectedElement = buttonElementId.closest('li > div');
 
@@ -35,7 +35,7 @@ function collectJobResponsabilities() {
 
 function submitForm() {
     var jobPostForm = document.getElementById('job-post-form');
-    //jobPostForm.submit();
+    jobPostForm.submit();
 }
 
 function parseToJson(responsabilities) {
