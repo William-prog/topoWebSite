@@ -5,6 +5,9 @@ namespace App\Http\Controllers;
 use App\JobPost;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\App;
+use Illuminate\Support\Facades\Mail;
+use App\Mail\JobApplication;
+
 
 class JobPostController extends Controller
 {
@@ -54,6 +57,8 @@ class JobPostController extends Controller
         $newJobPost->job_education = $request->input('job-education');
 
         $newJobPost->save();
+
+        return redirect('index-job-posts');
     }
 
     /**
@@ -102,7 +107,23 @@ class JobPostController extends Controller
         //
     }
 
-    public function test() {
-        return "async call, mother fucker";
+    /**
+     * Send automated e-mail to the HR department
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @return \Illuminate\Http\Response
+     */
+    public function sendMail(Request $request) {
+        $jobTitle = '$request->job_title';
+        $senderName = $request->input('sender_name');
+        $senderEmail = $request->input('sender_email');
+        $senderNumber = $request->input('sender_number');
+
+        var_dump($jobTitle,
+        $senderName,
+        $senderEmail,
+        $senderNumber);
+
+        Mail::send(new JobApplication($jobTitle, $senderName, $senderEmail, $senderNumber));
     }
 }

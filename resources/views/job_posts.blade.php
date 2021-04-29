@@ -94,7 +94,17 @@
                     <div class="card text-white bg-dark mb-3" style="max-width: 100%;">
                         <div class="card-header">
                             <div class="row text-center">
-                                <h3 id="job_title" class="text-center">{ Nombre del puesto }</h3>
+                                <h3 id="job_title" name="job_title" class="text-center">
+                                    <div class="spinner-grow text-warning" role="status">
+                                        <span class="visually-hidden">Loading...</span>
+                                    </div>
+                                    <div class="spinner-grow text-warning" role="status">
+                                        <span class="visually-hidden">Loading...</span>
+                                    </div>
+                                    <div class="spinner-grow text-warning" role="status">
+                                        <span class="visually-hidden">Loading...</span>
+                                    </div>
+                                </h3>
                             </div>
                         </div>
                         <div class="card-body">
@@ -112,7 +122,17 @@
                                 <h5 class="card-title"><i class="fas fa-business-time"></i> Experiencia:</h5>
                                 <div class="container">
                                     <ul class="list-group">
-                                        <li id="job_experience" class="list-group-item dark-list-group">2 años o más</li>
+                                        <li id="job_experience" class="list-group-item dark-list-group">
+                                            <div class="spinner-grow text-warning" role="status">
+                                                <span class="visually-hidden">Loading...</span>
+                                            </div>
+                                            <div class="spinner-grow text-warning" role="status">
+                                                <span class="visually-hidden">Loading...</span>
+                                            </div>
+                                            <div class="spinner-grow text-warning" role="status">
+                                                <span class="visually-hidden">Loading...</span>
+                                            </div>
+                                        </li>
                                     </ul>
                                 </div>
                             </div>
@@ -120,7 +140,17 @@
                                 <h5 class="card-title"><i class="fas fa-user-graduate"></i> Educación:</h5>
                                 <div class="container">
                                     <ul class="list-group">
-                                        <li id="job_education" class="list-group-item dark-list-group">Preparatoria terminada</li>
+                                        <li id="job_education" class="list-group-item dark-list-group">
+                                            <div class="spinner-grow text-warning" role="status">
+                                                <span class="visually-hidden">Loading...</span>
+                                            </div>
+                                            <div class="spinner-grow text-warning" role="status">
+                                                <span class="visually-hidden">Loading...</span>
+                                            </div>
+                                            <div class="spinner-grow text-warning" role="status">
+                                                <span class="visually-hidden">Loading...</span>
+                                            </div>
+                                        </li>
                                     </ul>
                                 </div>
                             </div>
@@ -147,29 +177,30 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <form>
+                    <form method="get" action="/send" role="form">
+                        @csrf
                         <div class="mb-3">
                             <label for="recipient-name" class="col-form-label">Nombre completo:</label>
-                            <input type="text" class="form-control" id="recipient-name">
+                            <input type="text" class="form-control" id="recipient-name" name="sender_name">
                         </div>
                         <div class="mb-3">
                             <label for="recipient-mail" class="col-form-label">Correo electrónico:</label>
-                            <input type="text" class="form-control" id="recipient-mail">
+                            <input type="text" class="form-control" id="recipient-mail" name="sender_email">
                         </div>
                         <div class="mb-3">
                             <label for="recipient-phone" class="col-form-label">Número telefónico:</label>
-                            <input type="text" class="form-control" id="recipient-phone">
+                            <input type="text" class="form-control" id="recipient-phone" name="sender_number">
                         </div>
                         <div class="mb-3">
                             <i class="far fa-file-pdf"></i>
                             <label for="recipient-cv" class="col-form-label">Curriculum (en PDF):</label>
                             <input type="file" accept=".pdf" class="form-control" id="recipient-cv">
                         </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal"><i class="fas fa-times"></i> Cancelar</button>
+                            <button type="submit" class="btn btn-warning"><i class="fas fa-mail-bulk"></i> Enviar</button>
+                        </div>
                     </form>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal"><i class="fas fa-times"></i> Cancelar</button>
-                    <button type="button" class="btn btn-warning"><i class="fas fa-mail-bulk"></i> Enviar</button>
                 </div>
             </div>
         </div>

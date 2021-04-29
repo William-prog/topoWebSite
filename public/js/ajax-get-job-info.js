@@ -15,7 +15,7 @@ function makeRequest(jobPostId) {
         }
     };
 
-    httpRequest.open('GET', '/async/' + jobPostId, true);
+    httpRequest.open('GET', '/get-job-post/' + jobPostId, true);
     httpRequest.send();
 }
 
@@ -25,4 +25,6 @@ function setValuesToFormFields(jobValuesArray) {
     var jobEducationField = document.getElementById('job_education');
 
     jobTitleField.innerHTML = jobValuesArray['job_title'];
+    jobExperienceField.innerHTML = jobValuesArray['job_experience'];
+    jobEducationField.innerHTML = jobValuesArray['job_education'];
 }

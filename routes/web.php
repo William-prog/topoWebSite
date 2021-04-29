@@ -71,5 +71,7 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/index-job-posts', 'JobPostController@index');
 // Create job post and store it to the data base
 Route::post('/create-job-post', 'JobPostController@store');
-
-Route::get('/async/{jobPostId}', 'JobPostController@show');
+// Query a particular job post by making an xmlhttp request to the JobPost controller
+Route::get('/get-job-post/{jobPostId}', 'JobPostController@show');
+// Send an automated e-amil whenever a user applies to a open role
+Route::get('/send', 'JobPostController@sendMail');

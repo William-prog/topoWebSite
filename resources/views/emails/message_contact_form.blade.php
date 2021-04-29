@@ -1,9 +1,13 @@
 @component('mail::message')
 # Introduction
 
-The body of your message.<br>
-This is the passed variable{{ $data ?? '' }}
+Working on the job post module for the website.<br>
+El aspirante {{ $senderName }} 
+se ha postulado para la vacante de {{$jobTitle}}
+Contácto:
+Correo: {{ $senderEmail }}
+Número: {{ $senderNumber }}
 
-Thanks,<br>
+Thanks, software and IT department<br>
 {{ config('app.name') }}
 @endcomponent
