@@ -2,7 +2,7 @@
 {{-- Header --}}
 @slot('header')
 @component('mail::header', ['url' => config('app.url')])
-<img src="{{asset('img/logo2.png')}}" width="25%">
+<img src="{{asset('img/logo.png')}}" width="5%">
 @endcomponent
 @endslot
 
@@ -21,7 +21,7 @@
 {{-- Footer --}}
 @slot('footer')
 @component('mail::footer')
-© {{ date('Y') }} Servicios y Equipos Topo S.A. de C.V.. @lang('All rights reserved.')
+© {{ date('Y') }} Servicios y Equipos TOPO S.A. de C.V.. @lang('Todos los derechos reservados.')
 @endcomponent
 @endslot
 @endcomponent

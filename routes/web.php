@@ -74,4 +74,4 @@ Route::post('/create-job-post', 'JobPostController@store');
 // Query a particular job post by making an xmlhttp request to the JobPost controller
 Route::get('/get-job-post/{jobPostId}', 'JobPostController@show');
 // Send an automated e-amil whenever a user applies to a open role
-Route::get('/send', 'JobPostController@sendMail');
+Route::post('/send', 'JobPostController@sendMail');

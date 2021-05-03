@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Mail;
 use App\Mail\JobApplication;
+use Illuminate\Support\Facades\Storage;
 
 
 class JobPostController extends Controller
@@ -43,7 +44,7 @@ class JobPostController extends Controller
     public function store(Request $request)
     {
         $newJobPost = new JobPost;
-        
+
         $validateData = $request->validate([
             'job-title' =>                  'required|string|max:255',
             'job-responsabilities-json' =>  'required|json',
@@ -69,7 +70,7 @@ class JobPostController extends Controller
      */
     public function show(JobPost $jobPost, Request $request)
     {
-        return $jobPost->where('id', $request->jobPostId)->get();        
+        return $jobPost->where('id', $request->jobPostId)->get();
     }
 
     /**
@@ -113,17 +114,20 @@ class JobPostController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function sendMail(Request $request) {
-        $jobTitle = '$request->job_title';
+    public function sendMail(Request $request)
+    {
+        $jobTitle = $request->input('modal-job-title-field');
         $senderName = $request->input('sender_name');
         $senderEmail = $request->input('sender_email');
         $senderNumber = $request->input('sender_number');
+        $senderCV = (string) $senderName . ' | ' . $jobTitle;
 
-        var_dump($jobTitle,
-        $senderName,
-        $senderEmail,
-        $senderNumber);
+        $cvPath = $request->sender_cv->storeAs('/', $senderCV, 'google');
 
-        Mail::send(new JobApplication($jobTitle, $senderName, $senderEmail, $senderNumber));
+        $driveDocumentPath =  Storage::cloud()->url($cvPath);
+
+        Mail::send(new JobApplication($jobTitle, $senderName, $senderEmail, $senderNumber, $driveDocumentPath));
+
+        return "The message has been sent";
     }
 }

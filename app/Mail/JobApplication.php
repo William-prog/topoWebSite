@@ -13,6 +13,7 @@ class JobApplication extends Mailable
     public $senderName;
     public $senderEmail;
     public $senderNumber;
+    public $cvPath;
 
     use Queueable, SerializesModels;
 
@@ -21,12 +22,13 @@ class JobApplication extends Mailable
      *
      * @return void
      */
-    public function __construct($jobTitle, $senderName, $senderEmail, $senderNumber)
+    public function __construct($jobTitle, $senderName, $senderEmail, $senderNumber, $cvPath)
     {
         $this->jobTitle = $jobTitle;
-        $this->senderEmail = $senderName;
+        $this->senderName = $senderName;
         $this->senderEmail = $senderEmail;
         $this->senderNumber = $senderNumber;
+        $this->cvPath = $cvPath;
     }
 
     /**
@@ -36,7 +38,7 @@ class JobApplication extends Mailable
      */
     public function build()
     {
-        return $this->from('sist3m4s.it@topo-int.com', "Servicios y Equipos Topo")
+        return $this->from('sist3m4s.it@topo-int.com', "Bolsa de trabajo | Servicios y Equipos TOPO S.A.  de C.V.")
                     ->to('dummy@topo-int.com')
                     ->subject('Aplicación de trabajo')   
                     ->markdown('emails.message_contact_form');

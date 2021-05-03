@@ -36,22 +36,32 @@
         background-color: #212529;
         color: #fff;
     }
+
+    .job-post-card {
+        cursor: pointer;
+        transition: .2s;
+    }
+
+    .job-post-card:hover {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        width: 67% !important;
+    }
 </style>
 
 <body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Navbar</a>
+            <a class="navbar-brand" href="#">Test navigation</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    <a class="nav-link" href="#">Features</a>
-                    <a class="nav-link" href="#">Pricing</a>
-                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    <a class="nav-link active" aria-current="page" href="#">--</a>
+                    <a class="nav-link" href="#">-</a>
+                    <a class="nav-link" href="#">-</a>
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">-</a>
                 </div>
             </div>
         </div>
@@ -64,7 +74,7 @@
                     <!-- Job post starts here -->
                     {{ setlocale(LC_ALL, 'Spanish_Mexican') }}
                     @foreach ($existingJobPosts as $record)
-                    <div class="card text-white bg-dark mb-3" style="max-width: 65%;">
+                    <div onclick="makeRequest({{ $record->id }});" class="card text-white bg-dark mb-3 job-post-card" style="width: 65%;">
                         <div class="card-header">
                             <div class="row">
                                 <div class="col-1">
@@ -85,8 +95,8 @@
                     </div>
                     @endforeach
                 </div>
-
-                <p id="demo"></p>
+                <!-- -->
+                <p class="invisible" id="demo"></p>
             </div>
             <!-- Job post description -->
             <div class="col pb-5 pt-5 sticky-top">
@@ -95,13 +105,7 @@
                         <div class="card-header">
                             <div class="row text-center">
                                 <h3 id="job_title" name="job_title" class="text-center">
-                                    <div class="spinner-grow text-warning" role="status">
-                                        <span class="visually-hidden">Loading...</span>
-                                    </div>
-                                    <div class="spinner-grow text-warning" role="status">
-                                        <span class="visually-hidden">Loading...</span>
-                                    </div>
-                                    <div class="spinner-grow text-warning" role="status">
+                                    <div class="spinner-border text-warning" role="status">
                                         <span class="visually-hidden">Loading...</span>
                                     </div>
                                 </h3>
@@ -123,14 +127,10 @@
                                 <div class="container">
                                     <ul class="list-group">
                                         <li id="job_experience" class="list-group-item dark-list-group">
-                                            <div class="spinner-grow text-warning" role="status">
-                                                <span class="visually-hidden">Loading...</span>
-                                            </div>
-                                            <div class="spinner-grow text-warning" role="status">
-                                                <span class="visually-hidden">Loading...</span>
-                                            </div>
-                                            <div class="spinner-grow text-warning" role="status">
-                                                <span class="visually-hidden">Loading...</span>
+                                            <div id="spinner-element">
+                                                <div class="spinner-border text-warning" role="status">
+                                                    <span class="visually-hidden">Loading...</span>
+                                                </div>
                                             </div>
                                         </li>
                                     </ul>
@@ -141,13 +141,7 @@
                                 <div class="container">
                                     <ul class="list-group">
                                         <li id="job_education" class="list-group-item dark-list-group">
-                                            <div class="spinner-grow text-warning" role="status">
-                                                <span class="visually-hidden">Loading...</span>
-                                            </div>
-                                            <div class="spinner-grow text-warning" role="status">
-                                                <span class="visually-hidden">Loading...</span>
-                                            </div>
-                                            <div class="spinner-grow text-warning" role="status">
+                                            <div class="spinner-border text-warning" role="status">
                                                 <span class="visually-hidden">Loading...</span>
                                             </div>
                                         </li>
@@ -177,11 +171,12 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <form method="get" action="/send" role="form">
+                    <form method="post" action="/send" role="form" enctype="multipart/form-data">
                         @csrf
                         <div class="mb-3">
                             <label for="recipient-name" class="col-form-label">Nombre completo:</label>
                             <input type="text" class="form-control" id="recipient-name" name="sender_name">
+                            <input type="text" name="modal-job-title-field" class="visually-hidden" id="modal-job-title">
                         </div>
                         <div class="mb-3">
                             <label for="recipient-mail" class="col-form-label">Correo electrónico:</label>
@@ -194,7 +189,7 @@
                         <div class="mb-3">
                             <i class="far fa-file-pdf"></i>
                             <label for="recipient-cv" class="col-form-label">Curriculum (en PDF):</label>
-                            <input type="file" accept=".pdf" class="form-control" id="recipient-cv">
+                            <input type="file" accept=".pdf" class="form-control" id="recipient-cv" name="sender_cv">
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-danger" data-bs-dismiss="modal"><i class="fas fa-times"></i> Cancelar</button>
