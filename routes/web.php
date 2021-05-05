@@ -75,3 +75,5 @@ Route::post('/create-job-post', 'JobPostController@store');
 Route::get('/get-job-post/{jobPostId}', 'JobPostController@show');
 // Send an automated e-amil whenever a user applies to a open role
 Route::post('/send', 'JobPostController@sendMail');
+
+// Show this view for successfully sent essages 

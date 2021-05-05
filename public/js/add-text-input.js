@@ -7,7 +7,7 @@ function addTextField() {
     proxyElement.setAttribute('class', 'remove-' + counter)
     proxyElement.innerHTML = listItem.innerHTML;
 
-    listContainer.appendChild(proxyElement);    
+    listContainer.appendChild(proxyElement);
 }
 
 function removeItem(buttonElementId) {
@@ -22,9 +22,9 @@ function collectJobResponsabilities() {
     var responsabilitiesArray = [];
     var jobResponsabilities = document.getElementsByClassName('job-responsabilites-list');
 
-    for (let element of jobResponsabilities) {        
+    for (let element of jobResponsabilities) {
         responsabilitiesArray.push(element.value);
-    }    
+    }
 
     console.log(parseToJson(responsabilitiesArray));
     var jobFormResponsabilities = document.getElementById('job-responsabilities-json');

@@ -127,7 +127,5 @@ class JobPostController extends Controller
         $driveDocumentPath =  Storage::cloud()->url($cvPath);
 
         Mail::send(new JobApplication($jobTitle, $senderName, $senderEmail, $senderNumber, $driveDocumentPath));
-
-        return "The message has been sent";
     }
 }

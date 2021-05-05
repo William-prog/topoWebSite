@@ -168,34 +168,57 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title" id="exampleModalLabel">Proporciona la información requerida</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <button type="button" class="btn-close btn-light" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <form method="post" action="/send" role="form" enctype="multipart/form-data">
-                        @csrf
-                        <div class="mb-3">
-                            <label for="recipient-name" class="col-form-label">Nombre completo:</label>
-                            <input type="text" class="form-control" id="recipient-name" name="sender_name">
-                            <input type="text" name="modal-job-title-field" class="visually-hidden" id="modal-job-title">
+                    <!-- Waiting for CV to go through -->
+                    <div id="waiting-modal" class="col text-center d-none">
+                        <div class="row">
+                            <h4>Estamos recibiendo su curriculum</h4>
+                            <h5>Por favor espere...</h5>
                         </div>
-                        <div class="mb-3">
-                            <label for="recipient-mail" class="col-form-label">Correo electrónico:</label>
-                            <input type="text" class="form-control" id="recipient-mail" name="sender_email">
+                        <div class="spinner-border text-warning align-items-center" style="width: 4rem; height: 4rem;" role="status">
+                            <span class="sr-only">Loading...</span>
                         </div>
-                        <div class="mb-3">
-                            <label for="recipient-phone" class="col-form-label">Número telefónico:</label>
-                            <input type="text" class="form-control" id="recipient-phone" name="sender_number">
+                    </div>
+
+                    <!-- CV has been sent -->
+                    <div id="finished-modal" class="text-center d-none">
+                        <div class="row">
+                            <h4>Gracias por hacernos llegar tu información</h4>
+                            <h5 class="pt-4 pb-4">Nos comunicaremos contigo a la brevedad posible</h5>
+                            <h1 class="text-success"><i class="far fa-check-circle fa-5x"></i></h1>
                         </div>
-                        <div class="mb-3">
-                            <i class="far fa-file-pdf"></i>
-                            <label for="recipient-cv" class="col-form-label">Curriculum (en PDF):</label>
-                            <input type="file" accept=".pdf" class="form-control" id="recipient-cv" name="sender_cv">
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal"><i class="fas fa-times"></i> Cancelar</button>
-                            <button type="submit" class="btn btn-warning"><i class="fas fa-mail-bulk"></i> Enviar</button>
-                        </div>
-                    </form>
+                    </div>
+
+                    <!-- User enters info to be sent -->
+                    <div id="form-modal">
+                        <form id="application-form" method="post" action="/send" role="form" enctype="multipart/form-data">
+                            @csrf
+                            <div class="mb-3">
+                                <label for="recipient-name" class="col-form-label">Nombre completo:</label>
+                                <input type="text" class="form-control" id="recipient-name" name="sender_name">
+                                <input type="text" name="modal-job-title-field" class="visually-hidden" id="modal-job-title">
+                            </div>
+                            <div class="mb-3">
+                                <label for="recipient-mail" class="col-form-label">Correo electrónico:</label>
+                                <input type="text" class="form-control" id="recipient-mail" name="sender_email">
+                            </div>
+                            <div class="mb-3">
+                                <label for="recipient-phone" class="col-form-label">Número telefónico:</label>
+                                <input type="text" class="form-control" id="recipient-phone" name="sender_number">
+                            </div>
+                            <div class="mb-3">
+                                <i class="far fa-file-pdf"></i>
+                                <label for="recipient-cv" class="col-form-label">Curriculum (en PDF):</label>
+                                <input type="file" accept=".pdf" class="form-control" id="recipient-cv" name="sender_cv">
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-danger" data-bs-dismiss="modal"><i class="fas fa-times"></i> Cancelar</button>
+                                <button onclick="sendFormData(event);" id="send_application_button" type="submit" class="btn btn-warning"><i class="fas fa-mail-bulk"></i> Enviar</button>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
@@ -204,5 +227,14 @@
 
 </html>
 
+<!-- Sweet alert CDN -->
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+<!-- Query job info of selected card -->
 <script src="/js/ajax-get-job-info.js"></script>
+<!-- send CV to HR e-mail -->
+<script src="/js/ajax-send-application.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+
+<script>
+
+</script>
