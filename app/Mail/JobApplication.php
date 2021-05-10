@@ -38,9 +38,12 @@ class JobApplication extends Mailable
      */
     public function build()
     {
+        /*
         return $this->from('sist3m4s.it@topo-int.com', "Bolsa de trabajo | Servicios y Equipos TOPO S.A.  de C.V.")
                     ->to('dummy@topo-int.com')
                     ->subject('Aplicación de trabajo')   
                     ->markdown('emails.message_contact_form');
+        */
+        return $this->markdown('emails.message_contact_form');
     }
 }

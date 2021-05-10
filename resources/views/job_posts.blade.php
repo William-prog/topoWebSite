@@ -8,45 +8,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     <link media="screen" rel="stylesheet" href="css/appCustomStyles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/job-post-styles.css">
     <title>Vacantes disponibles</title>
 </head>
-
-<style>
-    body {
-        background-color: #333333;
-        color: #fff;
-        height: 100%;
-    }
-
-    input {
-        background-color: #333 !important;
-        color: #fff !important;
-    }
-
-    .dark-list-group {
-        background-color: #333;
-        color: #fff;
-    }
-
-    .modal {
-        color: #333;
-    }
-
-    .modal-content {
-        background-color: #212529;
-        color: #fff;
-    }
-
-    .job-post-card {
-        cursor: pointer;
-        transition: .2s;
-    }
-
-    .job-post-card:hover {
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-        width: 67% !important;
-    }
-</style>
 
 <body>
     <!-- Navbar -->
@@ -99,7 +63,7 @@
                 <p class="invisible" id="demo"></p>
             </div>
             <!-- Job post description -->
-            <div class="col pb-5 pt-5 sticky-top">
+            <div class="col pb-5 pt-5 sticky-form">
                 <div class="row">
                     <div class="card text-white bg-dark mb-3" style="max-width: 100%;">
                         <div class="card-header">
@@ -115,37 +79,45 @@
                             <div class="row pt-3 pb-3">
                                 <h5 class="card-title"><i class="fas fa-tasks"></i> Responsabilidades y requerimientos:</h5>
                                 <div class="container">
-                                    <ul class="list-group">
-                                        <li class="list-group-item dark-list-group"><i class="fas fa-caret-right"></i> Desarrollar sistemas a la medida para automatizar procesos y reducir costos</li>
-                                        <li class="list-group-item dark-list-group"><i class="fas fa-caret-right"></i> Dar mantenimiento correctivo y preventivo a equipo de cómputo</li>
-                                        <li class="list-group-item dark-list-group"><i class="fas fa-caret-right"></i> Implementar procesos</li>
+                                    <ul class="list-group" id="responsability-list-container">
+                                        <!-- <li class="list-group-item dark-list-group"><i class="fas fa-caret-right"></i> Desarrollar sistemas a la medida para automatizar procesos y reducir costos</li> -->
                                     </ul>
                                 </div>
                             </div>
                             <div class="row pt-3 pb-3">
-                                <h5 class="card-title"><i class="fas fa-business-time"></i> Experiencia:</h5>
-                                <div class="container">
-                                    <ul class="list-group">
-                                        <li id="job_experience" class="list-group-item dark-list-group">
-                                            <div id="spinner-element">
-                                                <div class="spinner-border text-warning" role="status">
-                                                    <span class="visually-hidden">Loading...</span>
-                                                </div>
-                                            </div>
-                                        </li>
-                                    </ul>
+                                <div class="col">
+                                    <div class="col">
+                                        <h5 class="card-title"><i class="fas fa-business-time"></i> Experiencia:</h5>
+                                    </div>
+                                    <div class="col">
+                                        <div>
+                                            <ul class="list-group">
+                                                <li id="job_experience" class="list-group-item dark-list-group">
+                                                    <div id="spinner-element">
+                                                        <div class="spinner-border text-warning" role="status">
+                                                            <span class="visually-hidden">Loading...</span>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="row pt-3 pb-3">
-                                <h5 class="card-title"><i class="fas fa-user-graduate"></i> Educación:</h5>
-                                <div class="container">
-                                    <ul class="list-group">
-                                        <li id="job_education" class="list-group-item dark-list-group">
-                                            <div class="spinner-border text-warning" role="status">
-                                                <span class="visually-hidden">Loading...</span>
-                                            </div>
-                                        </li>
-                                    </ul>
+                                <div class="col">
+                                    <div class="col">
+                                        <h5 class="card-title"><i class="fas fa-user-graduate"></i> Educación:</h5>
+                                    </div>
+                                    <div class="col">
+                                        <div>
+                                            <ul class="list-group">
+                                                <li id="job_education" class="list-group-item dark-list-group">
+                                                    <div class="spinner-border text-warning" role="status">
+                                                        <span class="visually-hidden">Loading...</span>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                             <div class="row pt-3 pb-3">
@@ -211,7 +183,7 @@
                             <div class="mb-3">
                                 <i class="far fa-file-pdf"></i>
                                 <label for="recipient-cv" class="col-form-label">Curriculum (en PDF):</label>
-                                <input type="file" accept=".pdf" class="form-control" id="recipient-cv" name="sender_cv">
+                                <input lang="es" type="file" accept=".pdf" class="form-control" id="recipient-cv" name="sender_cv">
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-danger" data-bs-dismiss="modal"><i class="fas fa-times"></i> Cancelar</button>
@@ -234,7 +206,3 @@
 <!-- send CV to HR e-mail -->
 <script src="/js/ajax-send-application.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
-
-<script>
-
-</script>

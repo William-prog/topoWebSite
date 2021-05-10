@@ -1,12 +1,8 @@
 @component('mail::message')
-# Reporte enviado (esto es una prueba)
+# Apreciable usuario; <span>&#128119;</span>
 
-La alerta de reportes IPER ha sido enviada
+Hemos recibido su solicitud, agradecemos su preferencia y nos estaremos poniendo en contácto a la brevedad posible
 
-@component('mail::button')
-Ver reporte
-@endcomponent
-
-Gracias,<br>
-{{ config('app.name') }}
+Este es un correo automatizado, dpto. de software y TI<br>
+Servicios y Equipos TOPO S.A. de C.V.
 @endcomponent

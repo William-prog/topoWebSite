@@ -11,6 +11,9 @@ function sendFormData(e) {
     httpRequest.onreadystatechange = function () {
         if (this.readyState == 4 && this.status == 200) {
             console.log("Making request");
+            // change modal content after the request is finished
+            hideModalContent(waitingModalContent);
+            displayModalContent(formModalContent);
             launchAlert();
         }
     };
@@ -35,7 +38,7 @@ function launchAlert() {
 }
 
 function displayModalContent(elementToDisplay) {
-    elementToDisplay.classList.remove('d-none');    
+    elementToDisplay.classList.remove('d-none');
 }
 
 function hideModalContent(elementToHide) {

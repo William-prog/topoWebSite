@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Mail;
 use App\Mail\JobApplication;
+use App\Mail\RecievedConfirmation;
 use Illuminate\Support\Facades\Storage;
 
 
@@ -19,7 +20,8 @@ class JobPostController extends Controller
      */
     public function index()
     {
-        $existingJobPosts = JobPost::all();
+        // Get job post from most recent to oldest
+        $existingJobPosts = JobPost::orderBy('created_at', 'desc')->get();
         App::setLocale('es');
 
         return view("job_posts")->with(["existingJobPosts" => $existingJobPosts]);
@@ -101,11 +103,27 @@ class JobPostController extends Controller
      * Remove the specified resource from storage.
      *
      * @param  \App\JobPost  $jobPost
+     * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function destroy(JobPost $jobPost)
+    public function destroy(JobPost $jobPost, Request $request)
     {
-        //
+        $jobPost = $jobPost->find($request->jobPostId);
+        
+        // $jobPost->delete();
+        return $jobPost;
+    }
+
+    /**
+     * Display a listing of the resource on the job post panel view.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function showJobPostPanel() 
+    {
+        $existingJobPosts = JobPost::orderBy('created_at', 'desc')->get();
+
+        return view("job_posts_panel")->with(["existingJobPosts" => $existingJobPosts]);
     }
 
     /**
@@ -126,6 +144,14 @@ class JobPostController extends Controller
 
         $driveDocumentPath =  Storage::cloud()->url($cvPath);
 
-        Mail::send(new JobApplication($jobTitle, $senderName, $senderEmail, $senderNumber, $driveDocumentPath));
-    }
+        Mail::to($request->input('sender_email'))
+                ->send(new JobApplication($jobTitle, 
+                                          $senderName, 
+                                          $senderEmail,
+                                          $senderNumber, 
+                                          $driveDocumentPath));
+
+        Mail::to($request->input('sender_email'))
+                ->send(new RecievedConfirmation());
+    }    
 }

@@ -67,6 +67,8 @@ Route::get('/home', 'HomeController@index')->name('home');
 | Job post relates routes
 |------------------------
 */
+// Display job post panel with all of the available jobs
+Route::get('/job-post-panel', 'JobPostController@showJobPostPanel');
 // Query all of the existing job posts
 Route::get('/index-job-posts', 'JobPostController@index');
 // Create job post and store it to the data base
@@ -75,5 +77,5 @@ Route::post('/create-job-post', 'JobPostController@store');
 Route::get('/get-job-post/{jobPostId}', 'JobPostController@show');
 // Send an automated e-amil whenever a user applies to a open role
 Route::post('/send', 'JobPostController@sendMail');
-
-// Show this view for successfully sent essages 
+// Delete selected job post
+Route::get('/delete/{jobPostId}', 'JobPostController@destroy');

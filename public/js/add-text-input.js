@@ -11,13 +11,18 @@ function addTextField() {
 }
 
 function removeItem(buttonElementId) {
-    // return the closets 'div' element whose parent node is an 'li'
-    var selectedElement = buttonElementId.closest('li > div');
+    
 
-    selectedElement.remove();
+    if (listContainer.childElementCount > 1) {
+        // return the closets 'div' element whose parent node is an 'li'
+        var selectedElement = buttonElementId.closest('li > div');
+        selectedElement.remove();
+    } else {
+        launchAlert();
+    }
 }
 
-//job-responsabilites-list
+// job-responsabilites-list
 function collectJobResponsabilities() {
     var responsabilitiesArray = [];
     var jobResponsabilities = document.getElementsByClassName('job-responsabilites-list');
@@ -26,7 +31,6 @@ function collectJobResponsabilities() {
         responsabilitiesArray.push(element.value);
     }
 
-    console.log(parseToJson(responsabilitiesArray));
     var jobFormResponsabilities = document.getElementById('job-responsabilities-json');
     jobFormResponsabilities.value = parseToJson(responsabilitiesArray);
 
@@ -40,4 +44,12 @@ function submitForm() {
 
 function parseToJson(responsabilities) {
     return JSON.stringify(responsabilities);
+}
+
+function launchAlert() {
+    Swal.fire(
+        'Atención',
+        'Debe de existir por lo menos una responsabilidad o requerimiento',
+        'warning'
+    )
 }

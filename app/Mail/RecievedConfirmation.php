@@ -7,7 +7,7 @@ use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
 
-class MessageRecieved extends Mailable
+class RecievedConfirmation extends Mailable
 {
     use Queueable, SerializesModels;
 
@@ -27,9 +27,8 @@ class MessageRecieved extends Mailable
      * @return $this
      */
     public function build()
-    {        
-        return $this->from('sist3m4s.it@topo-int.com', "Bolsa de trabajo | Servicios y Equipos TOPO S.A.  de C.V.")
-                    ->subject('Aplicación de trabajo')
-                    ->markdown('emails.message'); 
+    {
+        //return $this->view('view.name');
+        return $this->markdown('emails.message');
     }
 }
