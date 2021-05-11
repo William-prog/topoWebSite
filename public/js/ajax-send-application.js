@@ -8,6 +8,9 @@ function sendFormData(e) {
 
     httpRequest = new XMLHttpRequest();
 
+    console.log(formData);
+    httpRequest.open('POST', '/send', true);
+
     httpRequest.onreadystatechange = function () {
         if (this.readyState == 4 && this.status == 200) {
             console.log("Making request");
@@ -17,9 +20,7 @@ function sendFormData(e) {
             launchAlert();
         }
     };
-
-    console.log(formData);
-    httpRequest.open('POST', '/send');
+    
     httpRequest.send(formData);
 
     // change modal content while the request is done

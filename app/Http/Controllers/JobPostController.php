@@ -109,7 +109,7 @@ class JobPostController extends Controller
     public function destroy(JobPost $jobPost, Request $request)
     {
         $jobPost = $jobPost->find($request->jobPostId);
-        
+
         // $jobPost->delete();
         return $jobPost;
     }
@@ -119,7 +119,7 @@ class JobPostController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function showJobPostPanel() 
+    public function showJobPostPanel()
     {
         $existingJobPosts = JobPost::orderBy('created_at', 'desc')->get();
 
@@ -134,6 +134,7 @@ class JobPostController extends Controller
      */
     public function sendMail(Request $request)
     {
+        /*
         $jobTitle = $request->input('modal-job-title-field');
         $senderName = $request->input('sender_name');
         $senderEmail = $request->input('sender_email');
@@ -150,8 +151,8 @@ class JobPostController extends Controller
                                           $senderEmail,
                                           $senderNumber, 
                                           $driveDocumentPath));
-
+*/
         Mail::to($request->input('sender_email'))
-                ->send(new RecievedConfirmation());
-    }    
+            ->send(new RecievedConfirmation());
+    }
 }
