@@ -21,7 +21,7 @@ use Illuminate\Support\Facades\Artisan;
 //Auth::routes();
 
 Route::get('/', function() {
-    return view('job_posts_panel');
+    return view('hometopo');
 });
 
 // Route::get('/', function () {

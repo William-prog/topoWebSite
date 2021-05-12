@@ -17,7 +17,15 @@ function sendFormData(e) {
             // change modal content after the request is finished
             hideModalContent(waitingModalContent);
             displayModalContent(formModalContent);
-            launchAlert();
+            launchSuccessAlert();
+        }
+
+        if (this.status != 200) {
+            console.log("Handling error");
+            // change modal content after the request is finished
+            hideModalContent(waitingModalContent);
+            displayModalContent(formModalContent);
+            launchErrorAlert();
         }
     };
     
@@ -30,11 +38,19 @@ function sendFormData(e) {
     e.preventDefault();
 }
 
-function launchAlert() {
+function launchSuccessAlert() {
     Swal.fire(
         'Hemos recibido su aplicación para la vacante',
         'Por favor revise su bandeja de entrada',
         'success'
+    )
+}
+
+function launchErrorAlert() {
+    Swal.fire(
+        'Hubo un error al recibir su información',
+        'Recargue la página e intente de nuevo',
+        'error'
     )
 }
 
