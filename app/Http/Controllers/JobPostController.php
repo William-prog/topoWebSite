@@ -134,7 +134,6 @@ class JobPostController extends Controller
      */
     public function sendMail(Request $request)
     {
-        /*
         $jobTitle = $request->input('modal-job-title-field');
         $senderName = $request->input('sender_name');
         $senderEmail = $request->input('sender_email');
@@ -145,14 +144,19 @@ class JobPostController extends Controller
 
         $driveDocumentPath =  Storage::cloud()->url($cvPath);
 
-        Mail::to($request->input('sender_email'))
-                ->send(new JobApplication($jobTitle, 
-                                          $senderName, 
-                                          $senderEmail,
-                                          $senderNumber, 
-                                          $driveDocumentPath));
-*/
+        Mail::to('dummy@topo-int.com')
+            ->send(new JobApplication(
+                $jobTitle,
+                $senderName,
+                $senderEmail,
+                $senderNumber,
+                $driveDocumentPath
+            ));
+
+
         Mail::to($request->input('sender_email'))
             ->send(new RecievedConfirmation());
+
+        return "it was sent";
     }
 }

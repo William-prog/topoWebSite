@@ -9,6 +9,8 @@ function sendFormData(e) {
     httpRequest = new XMLHttpRequest();
 
     console.log(formData);
+
+    
     httpRequest.open('POST', '/send', true);
 
     httpRequest.onreadystatechange = function () {

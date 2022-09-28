@@ -39,9 +39,20 @@ function setValuesToFormFields(jobValuesArray) {
     jobTitleModalField.value = jobValuesArray['job_title'];
     jobExperienceField.innerHTML = jobValuesArray['job_experience'];
     jobEducationField.innerHTML = jobValuesArray['job_education'];
+
+
+    document.getElementById('images').innerHTML = '';
+
+    let images = document.getElementById("images");
+
+    let newimg = document.createElement("img");
+    newimg.setAttribute("src", "img/Soli/"+jobValuesArray['job_title']+".JPG");
+    newimg.setAttribute("style", "margin: auto; width: 100%; border-radius: 2%;");
+    images.appendChild(newimg);
+
 }
 
-function addResponsabilities(responsabilityList) {    
+function addResponsabilities(responsabilityList) {
     responsabilityList = JSON.parse(responsabilityList);
     responsabilityContiner.innerHTML = '';
 

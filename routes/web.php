@@ -36,6 +36,10 @@ Route::get('careers', function () {
     return view('careers');
 });
 
+Route::get('services', function () {
+    return view('servicios');
+});
+
 // Sends e-mail message from contact form to recipient
 Route::get('send', 'LandingController@sendMessage')->name('send-message');
 

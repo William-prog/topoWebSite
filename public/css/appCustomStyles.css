@@ -1,4 +1,6 @@
-@import url(https://fonts.googleapis.com/css2?family=Roboto&display=swap);.scrolled {
+@import url(https://fonts.googleapis.com/css2?family=Roboto&display=swap);
+
+.scrolled {
   background-color: #F5F5F5;
   box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
 }
@@ -460,7 +462,10 @@ main {
 }
 
 header nav {
-  background-color: rgba(255, 255, 255, 0);
+  /* background-color: rgba(255, 255, 255, 0); */
+  background: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(0.7px);
+  -webkit-backdrop-filter: blur(0.7px);
   border: none;
   transition: all 0.75s ease-in-out;
   padding: 10px;
@@ -588,11 +593,11 @@ header nav a .burger-menu {
 }
 
 .hero-section .hero-overlay {
-  background-color: rgba(0, 0, 0, 0.5);
+  /* background-color: rgba(0, 0, 0, 0.5);
   font-size: 25px;
   height: 100vh;
   line-height: 42px;
-  text-align: center;
+  text-align: center; */
 }
 
 @media (min-width: 1200px) {
@@ -602,7 +607,7 @@ header nav a .burger-menu {
 }
 
 .hero-section .hero-overlay .title-container {
-  padding-top: 25%;
+  padding-top: 6.5rem;
 }
 
 .hero-section .hero-overlay .title-container .call-to-action-container {
@@ -628,7 +633,7 @@ header nav a .burger-menu {
 .hero-section .hero-overlay video {
   height: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   position: absolute;
   right: 0;
   top: 0;
@@ -644,7 +649,7 @@ header nav a .burger-menu {
 
 @media (min-width: 1200px) {
   .hero-section .hero-overlay .title-container {
-    max-width: 925px;
+    width: 1500px !important;
     align-items: center;
     justify-content: center;
     margin: 0 auto;
@@ -657,17 +662,17 @@ header nav a .burger-menu {
 }
 
 .hero-section .hero-overlay h1 {
-  font-size: 2rem;
+  /* font-size: 2rem;
   margin: 0 auto;
-  padding: 3% 1%;
-  width: 90%;
+  padding: 10% 1%;
+  width: 90%; */
 }
 
 @media (min-width: 1200px) {
   .hero-section .hero-overlay h1 {
-    font-size: 2.5;
+    /* font-size: 2.5;
     line-height: 1.5;
-    padding: 20% 5% 7% 5%;
+    padding: 20% 5% 7% 5%; */
   }
 }
 
@@ -719,6 +724,7 @@ section .service-container .service-item img {
     width: 10%;
   }
 }
+
 
 @media (min-width: 900px) {
   section .service-container .service-item img {
@@ -817,6 +823,7 @@ h4 {
 }
 
 @media (min-width: 900px) {
+
   .gallery-section .gallery-grid,
   .gallery-section .reverse-galley-grid {
     align-items: center;
@@ -832,18 +839,18 @@ h4 {
 }
 
 @media (min-width: 900px) {
+
   .gallery-section .gallery-grid .text-box,
   .gallery-section .reverse-galley-grid .text-box {
     align-items: center;
-    display: grid;
-    grid-template-columns: 1fr 62%;
+    display: flex;
     text-align: left;
   }
 }
 
 .gallery-section .gallery-grid .text-box h2,
 .gallery-section .reverse-galley-grid .text-box h2 {
-  font-size: 1.5rem;
+  font-size: 2rem;
   padding: 2rem;
 }
 
@@ -859,6 +866,7 @@ h4 {
 }
 
 @media (min-width: 1200px) {
+
   .gallery-section .gallery-grid .text-box .goal-container p,
   .gallery-section .reverse-galley-grid .text-box .goal-container p {
     width: 70%;
@@ -877,6 +885,7 @@ h4 {
 }
 
 @media (min-width: 900px) {
+
   .gallery-section .gallery-grid .text-box .goal-container:nth-child(3),
   .gallery-section .reverse-galley-grid .text-box .goal-container:nth-child(3) {
     padding-bottom: 0rem;
@@ -1023,7 +1032,7 @@ h4 {
   .contact-section .contact-img .container .form-container form .form-grid-container {
     display: grid;
     -moz-column-gap: 30px;
-         column-gap: 30px;
+    column-gap: 30px;
     grid-template-columns: 1fr 1fr;
   }
 }
@@ -1070,11 +1079,16 @@ h4 {
 }
 
 .contact-section .contact-img .contact-info-container {
-  margin-left: 7%;
   text-align: left;
   display: grid;
   font-size: 1.2rem;
   grid-template-columns: 15% 1fr;
+}
+
+@media (max-width: 599px) {
+  .contact-section .contact-img .contact-info-container {
+    margin-left: 7%;
+  }
 }
 
 .contact-section .contact-img .contact-info-container svg {
@@ -1326,7 +1340,7 @@ footer .footer-elements .social img {
 
 .slider .slide-track {
   -webkit-animation: scroll 17.5s linear infinite;
-          animation: scroll 17.5s linear infinite;
+  animation: scroll 17.5s linear infinite;
   display: flex;
   width: calc(240px * 8);
 }
@@ -1362,10 +1376,11 @@ footer .footer-elements .social img {
 
 .slider-city-text1 {
   -webkit-animation: slide 10s infinite;
-          animation: slide 10s infinite;
+  animation: slide 10s infinite;
 }
 
 @-webkit-keyframes slide {
+
   /*
   0% {margin-top:-300px;}
   33% {margin-top:-200px;}
@@ -1442,6 +1457,7 @@ footer .footer-elements .social img {
 }
 
 @keyframes slide {
+
   /*
   0% {margin-top:-300px;}
   33% {margin-top:-200px;}
@@ -1516,4 +1532,3 @@ footer .footer-elements .social img {
     margin-top: 0px;
   }
 }
-

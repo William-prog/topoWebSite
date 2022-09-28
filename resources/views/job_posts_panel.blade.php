@@ -1,15 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     @include('job_market_styles')
     <title>Vacantes disponibles</title>
 </head>
-
 <body>
     <!-- Navbar -->
     @include('job_market_header')
-
     <!-- Main content -->
     <div class="container">
         <div class="row">
@@ -51,7 +48,7 @@
                                                 <div id="list-text-item" class="remove-1">
                                                     <div class="d-flex d-flex align-items-center mb-3 mt-3">
                                                         <button type="button" onclick="removeItem(this);" id="remove-1" class="btn btn-danger"><i class="fas fa-minus"></i></button>
-                                                        <input placeholder="Ej: Mantenimiento preventivo a cortadores de TBM" type="text" class="form-control job-responsabilites-list" maxlength="65" aria-describedby="emailHelp">
+                                                        <input placeholder="Ej: Mantenimiento preventivo a cortadores de TBM" type="text" class="form-control job-responsabilites-list" aria-describedby="emailHelp">
                                                     </div>
                                                 </div>
                                             </li>
@@ -100,7 +97,6 @@
                     </div>
                 </div>
             </div>
-
             <div class="col pb-5 pt-5">
                 <div class="row text-center pb-3">
                     <h3>Vacantes activas</h3>
@@ -138,7 +134,6 @@
         </div>
     </div>
 </body>
-
 </html>
 <!-- Sweet alert CDN -->
 <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
